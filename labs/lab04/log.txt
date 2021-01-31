@@ -1,0 +1,489 @@
+++++Sending log for date at Thu Jan 28 21:52:59 EST 2021 ++++
+ Thu Jan 28 21:52:59 EST 2021 
+----end----
+
+++++Sending log for ifconfig at Thu Jan 28 21:53:39 EST 2021 ++++
+ eth0      Link encap:Ethernet  HWaddr 08:00:27:f0:84:95  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fef0:8495/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:175 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:249 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:27992 (27.9 KB)  TX bytes:27880 (27.8 KB)
+
+eth1      Link encap:Ethernet  HWaddr 08:00:27:53:73:15  
+          inet addr:192.168.56.101  Bcast:192.168.56.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fe53:7315/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:37 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:60 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:5619 (5.6 KB)  TX bytes:9947 (9.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:226 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:226 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:23059 (23.0 KB)  TX bytes:23059 (23.0 KB) 
+----end----
+
+++++Sending log for netstat at Thu Jan 28 21:53:48 EST 2021 ++++
+ Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 10.0.2.15:38807         10.0.2.2:4444           ESTABLISHED
+tcp        0      0 10.0.2.15:38806         10.0.2.2:4444           TIME_WAIT  
+tcp        0      0 10.0.2.15:38805         10.0.2.2:4444           TIME_WAIT  
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  23     [ ]         DGRAM                    9060     /dev/log
+unix  3      [ ]         STREAM     CONNECTED     15526    @/tmp/dbus-0nsnydueHX
+unix  2      [ ]         DGRAM                    14439    
+unix  3      [ ]         STREAM     CONNECTED     14230    
+unix  3      [ ]         STREAM     CONNECTED     13765    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15929    
+unix  3      [ ]         STREAM     CONNECTED     19537    
+unix  3      [ ]         STREAM     CONNECTED     15251    
+unix  3      [ ]         STREAM     CONNECTED     14666    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     15575    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14095    
+unix  3      [ ]         STREAM     CONNECTED     15528    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14164    
+unix  3      [ ]         STREAM     CONNECTED     16535    
+unix  3      [ ]         STREAM     CONNECTED     16312    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14768    
+unix  3      [ ]         STREAM     CONNECTED     14229    
+unix  3      [ ]         STREAM     CONNECTED     14016    
+unix  3      [ ]         STREAM     CONNECTED     16660    
+unix  3      [ ]         STREAM     CONNECTED     15850    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14159    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15525    
+unix  3      [ ]         STREAM     CONNECTED     14784    
+unix  3      [ ]         STREAM     CONNECTED     14297    
+unix  3      [ ]         STREAM     CONNECTED     15585    
+unix  3      [ ]         STREAM     CONNECTED     17287    
+unix  3      [ ]         STREAM     CONNECTED     16601    
+unix  3      [ ]         STREAM     CONNECTED     15486    
+unix  3      [ ]         STREAM     CONNECTED     14289    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14074    
+unix  3      [ ]         STREAM     CONNECTED     17285    
+unix  3      [ ]         STREAM     CONNECTED     17045    
+unix  3      [ ]         STREAM     CONNECTED     15589    
+unix  3      [ ]         STREAM     CONNECTED     16554    /run/user/1000/keyring-TeILF4/pkcs11
+unix  3      [ ]         STREAM     CONNECTED     15562    
+unix  3      [ ]         STREAM     CONNECTED     15500    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     15953    
+unix  3      [ ]         STREAM     CONNECTED     14167    
+unix  3      [ ]         STREAM     CONNECTED     11154    
+unix  3      [ ]         STREAM     CONNECTED     14291    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14124    
+unix  3      [ ]         STREAM     CONNECTED     17050    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     15586    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     17284    @/tmp/dbus-0nsnydueHX
+unix  2      [ ]         STREAM     CONNECTED     17092    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     14992    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     15545    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13660    
+unix  3      [ ]         STREAM     CONNECTED     16594    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     15823    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13768    
+unix  3      [ ]         STREAM     CONNECTED     14075    
+unix  3      [ ]         STREAM     CONNECTED     14165    
+unix  3      [ ]         STREAM     CONNECTED     9687     
+unix  3      [ ]         STREAM     CONNECTED     15968    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14993    
+unix  3      [ ]         STREAM     CONNECTED     14101    
+unix  3      [ ]         STREAM     CONNECTED     16346    
+unix  3      [ ]         STREAM     CONNECTED     14079    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     16627    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     16589    
+unix  3      [ ]         STREAM     CONNECTED     14053    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     13517    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     9707     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16716    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     14102    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     14082    
+unix  3      [ ]         STREAM     CONNECTED     16611    
+unix  3      [ ]         STREAM     CONNECTED     16365    
+unix  3      [ ]         STREAM     CONNECTED     15914    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13344    
+unix  2      [ ]         STREAM     CONNECTED     17099    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     17040    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     16631    
+unix  3      [ ]         STREAM     CONNECTED     15843    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13764    
+unix  3      [ ]         STREAM     CONNECTED     16711    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     15954    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14070    
+unix  3      [ ]         STREAM     CONNECTED     13424    
+unix  3      [ ]         STREAM     CONNECTED     16360    
+unix  3      [ ]         STREAM     CONNECTED     15920    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14320    
+unix  3      [ ]         STREAM     CONNECTED     12155    
+unix  3      [ ]         STREAM     CONNECTED     14081    
+unix  3      [ ]         STREAM     CONNECTED     16632    
+unix  3      [ ]         STREAM     CONNECTED     14391    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     13512    
+unix  3      [ ]         STREAM     CONNECTED     9706     
+unix  3      [ ]         STREAM     CONNECTED     14084    
+unix  3      [ ]         STREAM     CONNECTED     16373    @/dbus-vfs-daemon/socket-s1iPghRK
+unix  3      [ ]         STREAM     CONNECTED     16221    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14725    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14390    
+unix  3      [ ]         STREAM     CONNECTED     13634    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13341    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16709    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13559    
+unix  3      [ ]         STREAM     CONNECTED     13513    @/tmp/dbus-5QOhaKkumx
+unix  2      [ ]         DGRAM                    9703     
+unix  3      [ ]         STREAM     CONNECTED     9107     
+unix  3      [ ]         STREAM     CONNECTED     17039    
+unix  3      [ ]         STREAM     CONNECTED     16612    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16576    
+unix  3      [ ]         STREAM     CONNECTED     15919    
+unix  3      [ ]         STREAM     CONNECTED     15561    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     14340    @/tmp/dbus-5QOhaKkumx
+unix  2      [ ]         DGRAM                    13557    
+unix  3      [ ]         STREAM     CONNECTED     14126    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19542    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     16707    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14250    
+unix  3      [ ]         STREAM     CONNECTED     17056    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13968    
+unix  3      [ ]         STREAM     CONNECTED     13859    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13710    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13653    
+unix  3      [ ]         STREAM     CONNECTED     15224    
+unix  3      [ ]         STREAM     CONNECTED     9183     
+unix  3      [ ]         STREAM     CONNECTED     14150    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     13497    
+unix  3      [ ]         STREAM     CONNECTED     13854    
+unix  3      [ ]         STREAM     CONNECTED     14110    
+unix  3      [ ]         STREAM     CONNECTED     14251    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14078    
+unix  3      [ ]         STREAM     CONNECTED     13705    @/tmp/dbus-0nsnydueHX
+unix  2      [ ]         DGRAM                    10814    
+unix  3      [ ]         STREAM     CONNECTED     14916    
+unix  2      [ ]         DGRAM                    9181     
+unix  3      [ ]         STREAM     CONNECTED     17060    
+unix  3      [ ]         STREAM     CONNECTED     14456    
+unix  3      [ ]         STREAM     CONNECTED     14040    @/com/ubuntu/upstart-session/1000/1759
+unix  3      [ ]         STREAM     CONNECTED     13708    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13698    
+unix  2      [ ]         DGRAM                    11163    
+unix  3      [ ]         STREAM     CONNECTED     13498    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     8966     
+unix  3      [ ]         STREAM     CONNECTED     14033    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     13856    
+unix  3      [ ]         STREAM     CONNECTED     16663    @john-com.canonical.Unity.Scope.applications.T262112012179
+unix  3      [ ]         STREAM     CONNECTED     14452    
+unix  3      [ ]         STREAM     CONNECTED     13720    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13462    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     8668     @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     13502    
+unix  2      [ ]         DGRAM                    9714     
+unix  3      [ ]         STREAM     CONNECTED     17063    
+unix  2      [ ]         DGRAM                    14459    
+unix  3      [ ]         STREAM     CONNECTED     13707    
+unix  3      [ ]         STREAM     CONNECTED     13029    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11111    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15006    @/tmp/.ICE-unix/1992
+unix  3      [ ]         STREAM     CONNECTED     9688     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16572    @john-com.canonical.Unity.Master.Scope.applications.T258131832608
+unix  3      [ ]         STREAM     CONNECTED     14119    
+unix  3      [ ]         STREAM     CONNECTED     13467    @/com/ubuntu/upstart-session/1000/1759
+unix  3      [ ]         STREAM     CONNECTED     10961    
+unix  3      [ ]         STREAM     CONNECTED     14147    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14038    
+unix  3      [ ]         STREAM     CONNECTED     13505    
+unix  3      [ ]         STREAM     CONNECTED     14968    
+unix  2      [ ]         DGRAM                    9680     
+unix  3      [ ]         STREAM     CONNECTED     14191    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13834    
+unix  3      [ ]         STREAM     CONNECTED     13766    @/tmp/dbus-5QOhaKkumx
+unix  2      [ ]         DGRAM                    11107    
+unix  3      [ ]         DGRAM                    8716     
+unix  3      [ ]         STREAM     CONNECTED     16720    
+unix  3      [ ]         STREAM     CONNECTED     14192    
+unix  3      [ ]         STREAM     CONNECTED     13827    
+unix  3      [ ]         STREAM     CONNECTED     13762    
+unix  3      [ ]         STREAM     CONNECTED     12242    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14039    
+unix  3      [ ]         STREAM     CONNECTED     13906    
+unix  3      [ ]         STREAM     CONNECTED     16705    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     13630    
+unix  3      [ ]         STREAM     CONNECTED     13429    
+unix  3      [ ]         STREAM     CONNECTED     8884     
+unix  3      [ ]         STREAM     CONNECTED     16013    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14393    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13349    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13332    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13028    
+unix  3      [ ]         STREAM     CONNECTED     14156    
+unix  2      [ ]         DGRAM                    15809    
+unix  3      [ ]         STREAM     CONNECTED     13633    
+unix  3      [ ]         STREAM     CONNECTED     8950     
+unix  3      [ ]         STREAM     CONNECTED     19438    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14225    
+unix  3      [ ]         STREAM     CONNECTED     13652    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13522    
+unix  3      [ ]         STREAM     CONNECTED     15901    
+unix  3      [ ]         STREAM     CONNECTED     13461    
+unix  3      [ ]         STREAM     CONNECTED     13366    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     8883     
+unix  3      [ ]         STREAM     CONNECTED     14155    
+unix  3      [ ]         STREAM     CONNECTED     16011    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     15822    
+unix  3      [ ]         STREAM     CONNECTED     15099    
+unix  3      [ ]         STREAM     CONNECTED     13353    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     12167    
+unix  3      [ ]         STREAM     CONNECTED     13592    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     10884    
+unix  3      [ ]         STREAM     CONNECTED     15849    
+unix  2      [ ]         STREAM     CONNECTED     16655    
+unix  3      [ ]         STREAM     CONNECTED     16343    
+unix  3      [ ]         STREAM     CONNECTED     14228    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     15503    
+unix  3      [ ]         STREAM     CONNECTED     14786    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13627    
+unix  3      [ ]         STREAM     CONNECTED     13591    
+unix  3      [ ]         STREAM     CONNECTED     13430    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14153    
+unix  3      [ ]         STREAM     CONNECTED     17071    
+unix  3      [ ]         STREAM     CONNECTED     15877    @/tmp/dbus-5QOhaKkumx
+unix  2      [ ]         DGRAM                    9131     
+unix  3      [ ]         STREAM     CONNECTED     15876    
+unix  2      [ ]         DGRAM                    17166    
+unix  3      [ ]         STREAM     CONNECTED     16645    @john-com.canonical.Unity.Scope.files.T259769694529
+unix  3      [ ]         STREAM     CONNECTED     13523    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13492    @/tmp/dbus-5QOhaKkumx
+unix  2      [ ]         DGRAM                    10813    
+unix  3      [ ]         STREAM     CONNECTED     19538    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     17041    
+unix  3      [ ]         STREAM     CONNECTED     15044    
+unix  3      [ ]         STREAM     CONNECTED     14738    
+unix  3      [ ]         STREAM     CONNECTED     13345    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16354    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14173    
+unix  3      [ ]         STREAM     CONNECTED     13356    
+unix  3      [ ]         STREAM     CONNECTED     8886     
+unix  3      [ ]         STREAM     CONNECTED     16339    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14190    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14148    
+unix  2      [ ]         DGRAM                    10868    
+unix  3      [ ]         STREAM     CONNECTED     10885    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15781    
+unix  3      [ ]         STREAM     CONNECTED     16662    
+unix  3      [ ]         STREAM     CONNECTED     15252    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14188    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14822    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     14019    
+unix  3      [ ]         STREAM     CONNECTED     19540    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14246    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     15504    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15574    
+unix  3      [ ]         STREAM     CONNECTED     15560    
+unix  3      [ ]         STREAM     CONNECTED     15563    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14096    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     16590    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     16317    
+unix  3      [ ]         STREAM     CONNECTED     14282    
+unix  3      [ ]         STREAM     CONNECTED     14076    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14163    
+unix  2      [ ]         DGRAM                    15462    
+unix  3      [ ]         STREAM     CONNECTED     13711    
+unix  3      [ ]         STREAM     CONNECTED     16593    
+unix  3      [ ]         STREAM     CONNECTED     14821    
+unix  3      [ ]         STREAM     CONNECTED     14769    /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     14231    /run/user/1000/keyring-TeILF4/pkcs11
+unix  3      [ ]         STREAM     CONNECTED     9300     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16014    
+unix  3      [ ]         STREAM     CONNECTED     17288    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     17055    
+unix  3      [ ]         STREAM     CONNECTED     14991    
+unix  3      [ ]         STREAM     CONNECTED     14166    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14283    
+unix  3      [ ]         STREAM     CONNECTED     14077    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     16664    @john-com.canonical.Unity.Scope.scopes.T262117515892
+unix  3      [ ]         STREAM     CONNECTED     15487    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     17286    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     17049    
+unix  3      [ ]         STREAM     CONNECTED     14639    
+unix  3      [ ]         STREAM     CONNECTED     15590    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     16012    
+unix  3      [ ]         STREAM     CONNECTED     15544    
+unix  3      [ ]         STREAM     CONNECTED     14298    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     15930    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16344    @/dbus-vfs-daemon/socket-mTTG8WEG
+unix  3      [ ]         STREAM     CONNECTED     14071    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14189    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     17283    
+unix  3      [ ]         STREAM     CONNECTED     15967    
+unix  3      [ ]         STREAM     CONNECTED     15869    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     17046    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14766    
+unix  3      [ ]         STREAM     CONNECTED     13661    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16553    
+unix  3      [ ]         STREAM     CONNECTED     15499    
+unix  3      [ ]         STREAM     CONNECTED     14737    /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     14120    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     9299     
+unix  3      [ ]         STREAM     CONNECTED     16719    
+unix  2      [ ]         STREAM     CONNECTED     14248    
+unix  3      [ ]         STREAM     CONNECTED     14125    
+unix  3      [ ]         STREAM     CONNECTED     16704    
+unix  3      [ ]         STREAM     CONNECTED     16366    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     15913    
+unix  2      [ ]         DGRAM                    15821    
+unix  3      [ ]         STREAM     CONNECTED     14694    
+unix  3      [ ]         STREAM     CONNECTED     13340    
+unix  3      [ ]         STREAM     CONNECTED     15902    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     16626    
+unix  3      [ ]         STREAM     CONNECTED     13632    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     13516    
+unix  3      [ ]         STREAM     CONNECTED     16715    
+unix  3      [ ]         STREAM     CONNECTED     15868    
+unix  3      [ ]         STREAM     CONNECTED     13425    
+unix  3      [ ]         STREAM     CONNECTED     16361    @/dbus-vfs-daemon/socket-xOZOyxzp
+unix  3      [ ]         STREAM     CONNECTED     14701    
+unix  3      [ ]         STREAM     CONNECTED     14321    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     19539    
+unix  3      [ ]         STREAM     CONNECTED     16630    
+unix  3      [ ]         STREAM     CONNECTED     14020    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     9713     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14083    
+unix  3      [ ]         STREAM     CONNECTED     16583    @john-com.canonical.Unity.Master.Scope.files.T258137222767
+unix  3      [ ]         STREAM     CONNECTED     16220    
+unix  3      [ ]         STREAM     CONNECTED     11874    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16710    
+unix  3      [ ]         STREAM     CONNECTED     14270    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13560    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     9519     
+unix  3      [ ]         STREAM     CONNECTED     19541    
+unix  3      [ ]         STREAM     CONNECTED     13639    
+unix  3      [ ]         STREAM     CONNECTED     9535     @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     14168    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16372    
+unix  3      [ ]         STREAM     CONNECTED     16318    @/dbus-vfs-daemon/socket-IrxfAIhl
+unix  3      [ ]         STREAM     CONNECTED     14695    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14306    
+unix  3      [ ]         STREAM     CONNECTED     11852    
+unix  3      [ ]         STREAM     CONNECTED     14174    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13969    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16708    
+unix  3      [ ]         STREAM     CONNECTED     13640    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     16706    
+unix  3      [ ]         STREAM     CONNECTED     16633    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     9712     
+unix  3      [ ]         STREAM     CONNECTED     16347    @/dbus-vfs-daemon/socket-ipZkHaDL
+unix  3      [ ]         STREAM     CONNECTED     13865    @/tmp/dbus-5QOhaKkumx
+unix  2      [ ]         DGRAM                    11979    
+unix  3      [ ]         STREAM     CONNECTED     14242    
+unix  3      [ ]         STREAM     CONNECTED     13858    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     11110    
+unix  3      [ ]         STREAM     CONNECTED     14578    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13709    
+unix  3      [ ]         STREAM     CONNECTED     10316    /var/run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    8717     
+unix  3      [ ]         STREAM     CONNECTED     15527    
+unix  3      [ ]         STREAM     CONNECTED     14052    
+unix  3      [ ]         STREAM     CONNECTED     14032    
+unix  3      [ ]         STREAM     CONNECTED     13857    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13466    
+unix  3      [ ]         STREAM     CONNECTED     10315    
+unix  3      [ ]         STREAM     CONNECTED     14917    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     17061    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14453    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14117    
+unix  3      [ ]         STREAM     CONNECTED     13654    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     11031    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     8951     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13510    @/com/ubuntu/upstart-session/1000/1759
+unix  3      [ ]         STREAM     CONNECTED     9184     
+unix  3      [ ]         STREAM     CONNECTED     14193    @/tmp/dbus-5qpelkFv
+unix  2      [ ]         DGRAM                    12240    
+unix  3      [ ]         STREAM     CONNECTED     9725     
+unix  3      [ ]         STREAM     CONNECTED     14017    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     16571    
+unix  3      [ ]         STREAM     CONNECTED     13508    @/com/ubuntu/upstart-session/1000/1759
+unix  3      [ ]         STREAM     CONNECTED     9207     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11179    
+unix  2      [ ]         STREAM     CONNECTED     9297     
+unix  3      [ ]         STREAM     CONNECTED     8657     
+unix  3      [ ]         STREAM     CONNECTED     14969    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     11155    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14735    
+unix  3      [ ]         STREAM     CONNECTED     12241    
+unix  3      [ ]         STREAM     CONNECTED     9726     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     9206     
+unix  3      [ ]         STREAM     CONNECTED     14050    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13907    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    9891     
+unix  3      [ ]         STREAM     CONNECTED     13509    @/com/ubuntu/upstart-session/1000/1759
+unix  3      [ ]         STREAM     CONNECTED     8967     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15040    
+unix  3      [ ]         STREAM     CONNECTED     17064    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15842    
+unix  3      [ ]         STREAM     CONNECTED     11189    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     10962    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16311    
+unix  3      [ ]         STREAM     CONNECTED     14392    
+unix  3      [ ]         STREAM     CONNECTED     9108     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16338    
+unix  3      [ ]         STREAM     CONNECTED     13491    
+unix  3      [ ]         STREAM     CONNECTED     16644    
+unix  2      [ ]         STREAM     CONNECTED     17164    
+unix  3      [ ]         STREAM     CONNECTED     16356    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13496    
+unix  3      [ ]         STREAM     CONNECTED     16010    
+unix  3      [ ]         STREAM     CONNECTED     15225    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14408    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13348    
+unix  2      [ ]         DGRAM                    9838     
+unix  3      [ ]         STREAM     CONNECTED     14157    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     15804    
+unix  3      [ ]         STREAM     CONNECTED     19437    
+unix  3      [ ]         STREAM     CONNECTED     14187    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     11030    
+unix  3      [ ]         STREAM     CONNECTED     9189     
+unix  2      [ ]         DGRAM                    17182    
+unix  3      [ ]         STREAM     CONNECTED     16353    
+unix  3      [ ]         STREAM     CONNECTED     13357    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14154    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     17042    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15200    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     14407    
+unix  3      [ ]         STREAM     CONNECTED     13331    
+unix  3      [ ]         STREAM     CONNECTED     12168    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     17076    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16602    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14158    
+unix  3      [ ]         STREAM     CONNECTED     13649    
+unix  3      [ ]         STREAM     CONNECTED     15805    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15041    @/tmp/dbus-0nsnydueHX
+unix  3      [ ]         STREAM     CONNECTED     12156    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16536    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     14739    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13352    
+unix  3      [ ]         STREAM     CONNECTED     14186    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     13631    
+unix  3      [ ]         STREAM     CONNECTED     14172    
+unix  3      [ ]         STREAM     CONNECTED     14175    @/tmp/dbus-5QOhaKkumx
+unix  3      [ ]         STREAM     CONNECTED     9190     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15782    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     16015    @/tmp/dbus-5qpelkFv
+unix  3      [ ]         STREAM     CONNECTED     14152    
+unix  3      [ ]         STREAM     CONNECTED     15045    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     14854    @/tmp/.ICE-unix/1992
+unix  3      [ ]         STREAM     CONNECTED     16355    
+unix  3      [ ]         STREAM     CONNECTED     13769    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13365    
+unix  3      [ ]         STREAM     CONNECTED     9005     @/com/ubuntu/upstart 
+----end----
+
+Attempting to send file /bin/bash at Thu Jan 28 21:54:28 EST 2021
+Attempting to send file /bin/false at Thu Jan 28 21:55:46 EST 2021
+                                                                        
