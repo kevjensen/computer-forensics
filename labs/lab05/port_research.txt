@@ -1,0 +1,5 @@
+Port 21: PID = 944; Program = ftpd; UID = root; listening on port 21 for any ftp traffic per TCP protocol, so it's basically just waiting for ftp to be invoked
+Port 22: PID = 905; Program = sshd; UID = root; commanded to listen on port 22, although this is common on startup for Linux machines and ssh is the standard protocol used on port 22
+Port 53: PID = 1040; Program = dnsmasq; UID = nobody; this provides DNS services to a small network, probably used with NFS to move stuff around on the local network
+Port 631: PID = 703; Program = cups-browsed; UID = root; used for browsing the bounjour broadcasts of shared, remote CUPS printers
+Port 5353: PID = 475; Program = avahi-daemon; UID = avahi; this facilitates service discovery on a local network and finds printers/files being shared

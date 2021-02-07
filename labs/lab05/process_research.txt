@@ -1,0 +1,8 @@
+Process 1428: UID = rtkit; daemons like this can be used applications to ask for permission through dbus rather than asking the kernel directly. Although, given the nature of this machine, this might be a process for the malicious rtkit that was installed.
+Process 749; UID = root; krfcommd; I actually couldn't find anything online about this process, so I'm very curious to see if this process is linked to something suspcicious or not
+Process 2; UID = root; kthreadd; this is a kernal thread and is usually used to manage hardware
+Process 20; UID = root; crypto; according to Reddit, this is an API for cryptography in the kernel, basically to handle transformations of data between states of encrypted and unencrypted
+Process 26; UID = root; md; this is the multiple device driver for RAID setups
+Process 31; UID = root; kswapd0; This process manages virtual memory
+Process 45; UID = root; kthrotld; This process is another kernel thread that manages I/O bandwidth ona  request queue by throttling requests
+Process 925; UID = whoopsie; whoopsie; This is a daemon that is responsible for collecting error reports
