@@ -1,0 +1,12 @@
+c999b502fdfaf6a3179e5f005c1c42ba467c2bf5 */usr/sbin/chgpasswd - Hash not found 
+0c03a3d2fbc29e95a11db337d55d682d9539a33e */usr/bin/gnome-keyring-daemon - Hash not found
+8e3aa19fdc42e87659746f6dc8ea3af74ab30362 */bin/bash - confirmed as Bash
+1786c3a730971dd967409b71b09333062bdfe2c0 */sbin/start-stop-daemon - Hash not found
+93afab76bc981d4457f029d7dca3e72d49e2613e */usr/bin/md5pass - confirmed as MD5pass
+e0d6264ac7595920978366f3f532a13868b02f44 */usr/bin/lppasswd - Hash not found
+9c67fe596df4ebb714b4a4f19b3bc15d20a98ce2 */usr/bin/isodump - confirmed as isodump
+a49b712e5c5ef2fa8240174e5c918a106cb9f019 */usr/bin/zenity - confirmed as Zenity
+5433b69d27bc39b988cd724efd9ae03edabbc516 */usr/bin/gnome-screensaver-command - confirmed as gnome-screensaver-command
+253adb2b0dc33a58fb6264c5d5399c90f4fc8baa */usr/sbin/rtkitctl - confirmed as rtkitctl
+
+
