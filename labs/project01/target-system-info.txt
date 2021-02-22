@@ -1,0 +1,42 @@
+Target System info:
+
+
+Name:				Forensics 14 Target
+Operating System:		Ubuntu (64-bit)
+Base Memory:			2048 MB
+Boot Order:			Floppy, Optical, Hard Disk
+Acceleration:			VT-x/AMD-V, Nested Paging
+Video Memory:			12 MB
+Grahpics Controller:		VMSVGA
+Acceleration:			3D
+Remote Desktop Server:		Disabled
+Audio Host Driver:		Windows DirectSound
+Controller:			ICH AC97
+Storage Controller:		ID
+Storage Controller SATA Port 0: pentest-academy-subject1.vmdk (Normal 18GB)
+Storage Controller SATA Port 1: known_good_binaries.vdi (Normal, 25GB) - this was attached by me after the creation of the VM
+Serial Ports:			Disabled
+Network Adapater 1:		Intel PRO/1000MT Desktop (NAT)
+Shared Folders:			None
+USB Controller:			OHCI, EHCI
+Device Filers:			0 (0 active)
+Serial Ports:			Disabled
+
+Additionally some information from the terminal of the target-system
+
+Date:initial-scan-findings.txt
+Sun Feb 14 22:29:25 EST 2021
+
+Version and Kernel Inforomation: 
+Linux PentesterAcademyLinux 3.16.0-30-generic #40~14.04.1-Ubuntu SMP Thu Jan 15 17:43:14 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux 
+
+Network connection information:
+ eth0      Link encap:Ethernet  HWaddr 08:00:27:f0:84:95  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fef0:8495/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:151 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:211 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:24280 (24.2 KB)  TX bytes:22459 (22.4 KB)
+

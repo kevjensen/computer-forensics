@@ -1,0 +1,24 @@
+Given that there is a strong likelihood that the system has had a rootkit installed on it, research the rootkit in question and document your findings as to its behavior. What is it capable of? Does it bind to any ports? Allow any other functions?
+
+
+I believe the rootkit installed on the system is called xingyiquan.
+
+It appears that xingyiquan rootkit works on linux kernel versions 3.x and 2.6.x
+
+The rootkit has several function:
+
+It is able to escalate privilege
+One of its utiltiies xingyi_rootshell. After the rootkits installation, a user can get a rootshell with the following command ./xingyi_rootshell “sw0rdm4n”. “sw0rdm4n” is the default password used for root shell.  It can be found in userspace config file at xingyi_userspace_src/xingyi_userspace_config.h
+
+Additionally it can do a bindshell
+The default bindshell is on port 7777 and this can be achieved using the password above. 
+
+The rootkit can also do a reverse shell. "A reverse shell is a shell session established on a connection that is initiated from a remote machine, not from the local host. Attackers who successfully exploit a remote command execution vulnerability can use a reverse shell to obtain an interactive shell session on the target machine and continue their attack." (https://www.netsparker.com/blog/web-security/understanding-reverse-shells/)
+First, netcat listener should be running port 7777.
+The reverse shell can be triggered by "netfilter hook" and to get the reverse shell a user must use ip via port 7777. Then use telnet on port 1337 (elite?) to the system where the rootkit is installed. 
+
+– Further common functions of the rootkit
+"hide files/dirs, hide connections, hide module, hook kill process, hook open, hook open directory, etc."
+
+
+Research information is taken from: https://sw0rdm4n.wordpress.com/2014/11/03/xingyiquan-simple-linux-kernel-rootkit-for-kernel-3-x-and-kernel-2-6-x/

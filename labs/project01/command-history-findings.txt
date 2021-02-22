@@ -1,0 +1,323 @@
+Are there any suspicious commands in any user's command history? Include your findings in command-history-findings.txt in your project01 case file
+
+
+There are quite a few suspicious commands in the user's history. These are not listed in a chronological order, but in an order of interest.
+
+1) The useradd, userdel and adduser for "johnn" is suspicious since there is already a "john" account which is likely what was used by the customer.
+
+2) Several of the commands below don't seem like something a programmer like the customer would be doing like checking out files in /etc/groups, whoopsie, lightdm and so on.
+
+3) Another very suspicious behavior is copying /bin/true from /bin/false - and I verified this very strange since the sha256 of false and bash match on the target system.
+
+4) Additional suspcious commands are going into downloads and using the tar command on a strange file named xingyiquan.tar.gz and later going into that folder, cd xingyiquan checking what is in it via ls and executing the install file via sudo ./install
+
+5) Installing chromium-browser seems unlikely that right around when things started acting unusual, the user happened to install a new version of the browser.
+
+6) I also find the commands very suspicious where the user installs various tools via apt-get like openssh-server, pure-ftpd, netcat and nmap
+
+
+commands of interest:
+
+update-rc.d ssh defaults
+apt-cache search chrome
+apt-get install chromium-browser
+ls
+cd xingyiquan/
+ls
+cd
+ls
+pwd
+cd Downloads/
+ls
+tar xzvf xingyiquan.tar.gz 
+
+useradd johnn
+userdel johnn
+adduser johnn
+cp /bin/true /bin/false
+ls -l /bin/false
+passwd whoopsie
+passwd lightdm
+cp /bin/bash /bin/false
+vi /etc/gr/group
+vi /etc/groups
+cd /etc
+ls gr*
+cat passwd
+cd /home
+ls
+mv johnn .johnn
+ls
+ls -l
+vi /etc/passwd
+man sed
+sed #/home/johnn#/home/.johnn# /etc/passwd
+sed -i 's#/home/johnn#/home/.johnn#' /etc/passwd
+
+
+
+Complete list of commands:
+
+Started log listener for case pfe-winter-2020-lab06 on Fri Feb 12 21:01:08 MST 2021
+++++Sending log for find /home -type f -regextype posix-extended -regex /home/[a-zA-Z\.]+(/\.bash_history) -exec echo -e ---dumping history file {} ---
+ ; -exec cat {} ; -exec echo -e ---end of dump for history file {} ---
+ ; at Fri Feb 12 23:01:22 EST 2021 ++++
+ ---dumping history file /home/john/.bash_history ---
+
+sudo apt-get update && sudo apt-get -y upgrade
+sudo apt-get install netcat
+sudo apt-get install nmap
+service pure-ftpd start
+update-rc.d pure-ftpd defaults
+nmap localhost
+update-rc.d ssh defaults
+apt-cache search chrome
+apt-get install chromium-browser
+ls
+cd xingyiquan/
+ls
+cd
+ls
+pwd
+cd Downloads/
+ls
+tar xzvf xingyiquan.tar.gz 
+ls
+apt-cache search ssh
+apt-cache search openssh
+sudo apt-get install openssh-server
+apt-cache search ftp-server
+sudo apt-get install pure-ftpd
+sudo -s
+mkdir /mnt/x64
+mount /dev/sdb2 /mnt/x64
+cd /mnt/x64
+ls
+cd x64
+ls
+exec bin/bash
+export PATH=/mnt/x64/x64/sbin;/mnt/x64/x64/bin
+echo $PATH
+export PATH=/mnt/x64/x64/sbin:/mnt/x64/x64/bin
+echo $PATH
+exec bin/bash
+mount
+cd mnt/x64/x64/
+l
+exec bin/bash
+export PATH=/mnt/x64/x64/bin:/mnt/x64/x64/sbin
+export LD_LIBRARY_PATH=/mnt/x64/x64/lib:/mnt/x64/x64/lib64
+ls
+ifconfig
+ls /dev/sd*
+cd /media/john
+ls
+ls /dev/sd*
+cd /
+mount
+sudo -s
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+ls
+exec bin/bash
+export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+ifconfig
+mount
+sudo -s
+mount
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+exec bin/bash
+export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+ifconfig
+date | nc 192.168.56.1 9999
+uname -a | nc 192.168.56.1 9999
+cd
+cd /bin
+nc 192.168.56.1 4444 < /bin/bash
+exec bin/bash
+cd x64
+exec bin/bash
+export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+ifconfig
+cd/
+cd
+date | nc 192.168.56.1 9999
+uname -a | nc 192.168.56.1 9999
+nc 192.168.56.1 4444 < /bin/bash
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+sudo -s
+ls
+ls /mnt
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+cd x64/
+ls
+exec bin/bash
+export PATH=$(pwd)/bin:$(pwd)/sbin
+export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+ifconfig
+echo $PATH
+source bin/setup-client.sh 192.168.56.1
+bash bin/send-log.sh date
+bash bin/send-log.sh ifconfig
+bash bin/send-log.sh ps -ef
+bash bin/send-log.sh ps -ef lsof
+bash bin/send-log.sh lsof
+bash bin/send-log.sh route
+bash bin/send-log.sh netstat
+bash bin/send-file.sh /bin/bash
+/usr/bin/lsof
+cd bin
+ls
+cp /usr/bin/lsof ./.
+cp /usr/bin/basename ./.
+ls
+cd ..
+bash bin/send-file.sh /bin/bash
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+exec bin/bash
+cd x64
+exec bin/bash
+export PATH=$(pwd)/bin:$(pwd)/sbin
+export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+source bin/setup-client.sh 192.168.56.1
+bash bin/send-log.sh date
+bash bin/send-log.sh ifconfig
+bash bin/send-log.sh netstat
+bash bin/send-log.sh lsof
+bash bin/send-file.sh /bin/bash
+bash bin/send-file.sh /bin/false
+sudo -s
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+exec bin/bash
+export PATH=$(pwd)/bin:$(pwd)/sbin
+export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+source bin/setup-client.sh 192.168.56.1
+bash bin/inital-scan.sh
+bash bin/initial-scan.sh
+cd
+mount
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+exec bin/bash
+w
+useradd johnn
+userdel johnn
+adduser johnn
+cp /bin/true /bin/false
+ls -l /bin/false
+passwd whoopsie
+passwd lightdm
+cp /bin/bash /bin/false
+vi /etc/gr/group
+vi /etc/groups
+cd /etc
+ls gr*
+cat passwd
+cd /home
+ls
+mv johnn .johnn
+ls
+ls -l
+vi /etc/passwd
+man sed
+sed #/home/johnn#/home/.johnn# /etc/passwd
+sed -i 's#/home/johnn#/home/.johnn#' /etc/passwd
+tail /etc/passwd
+./install
+nmap localhost
+cd ..
+ls
+pwd
+ls
+ls -a
+cd ..
+pwd
+cd Downloads/
+ls
+cd ..
+cd /home
+ls
+ls -a
+clear
+ls
+cd Downloads/
+ls
+cd xingyiquan/
+ls
+more README
+sudo -s
+ls
+cd ..
+ls
+nmap localhost
+q
+export PATH=$(pwd)/sbin:$(pwd)/bin
+export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+source bin/setup-client.sh 192.168.56.1
+bash bin/initial-scan.sh 
+sudo -s
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+exec bin/bash
+ls
+make 
+cp lime-3.16.0-30-generic.ko ../../.
+cd ../..
+ls
+insmod lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"
+ls
+uname -a
+insmod lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"
+delmod lime-3.16.0-30-generic
+modprobe -r lime-3.16.0-30-generic
+lsmod | grep lime
+modprobe -r lime
+lsmod | grep lime
+lsmod
+exit
+uname -a
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+ls
+cd x64/
+ls
+cd LiMe
+ls
+cd src
+ls -l
+sudo -s
+cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+ls
+ls 
+uname -a
+insmod lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"
+cd /lib/modules
+ls
+cd 3.16.0-30-generic/
+ls
+cd build
+ls
+cd ..
+ls
+cd ..
+ls
+cd Downloads/
+ls
+cd xingyiquan/
+ls
+sudo ./install
+ls
+cd ..
+ls
+cd ..
+sudo -s
+sudo su -
+---end of dump for history file /home/john/.bash_history ---
+
+---dumping history file /home/.johnn/.bash_history ---
+
+w
+cat /etc/passwd
+su whoopsie
+su lightdm
+---end of dump for history file /home/.johnn/.bash_history --- 
+----end----

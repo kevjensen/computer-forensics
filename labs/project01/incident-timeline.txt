@@ -1,0 +1,75 @@
+After gathering your initial findings, and making your initial determination, create a detailed timeline from the time the first suspicious user command is executed, until the time that forensic analysis was started on the system. Include this timeline analysis in incident-timeline.txt
+
+---
+
+files and information taken from log.txt and information was accessed via logfile /var/log/auth.log
+
+----
+
+At an unusual time of 22:52:31 user "john" logged into the system in question. The assumption here is that "john" was not working at ~11pm and this login was by someone else who used "john"'s credentials to login to the system.
+
+Mar  5 22:52:31 PentesterAcademyLinux systemd-logind[587]: New session c2 of user john.
+
+----
+
+Approximatley a minute and a half after this unusual evening login, between 22:53:57 and 23:02:26, a manual update was executed followed by the installation of netcat, nmap and openssh-server  on the target system. Openssh-server which is a powerful set of tools that includes tools to remotely control a system. The other tools nmap is a tool that can be used for scanning vulnerbilites on a network system and netcat is a very general tool used for a huge variety of things involving TCP< UDP and Unix-domain sockets - it can open TCP connections, send UDP packets, do port scanning and even do things with IPv4 and IPv6.
+
+Mar  5 22:53:57 PentesterAcademyLinux sudo:     john : TTY=pts/4 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt-get -y upgrade
+Mar  5 22:55:15 PentesterAcademyLinux sudo:     john : TTY=pts/4 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt-get install netcat
+Mar  5 22:55:30 PentesterAcademyLinux sudo:     john : TTY=pts/4 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt-get install nmap
+Mar  5 22:59:35 PentesterAcademyLinux pkexec[2345]: john: Executing command [USER=root] [TTY=unknown] [CWD=/home/john] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  5 23:02:26 PentesterAcademyLinux sudo:     john : TTY=pts/0 ; PWD=/home/john/Downloads ; USER=root ; COMMAND=/usr/bin/apt-get install openssh-server
+
+----
+
+As our command history indicated, /bin/false was replaced with /bin/bash and I can already see that someone using a shell called /bin/false which should not br possibe (this happened, chronlogically, in the middle of the previous step, but due to its significance I created a new entry for it). The previous step may not have been possible without this.
+
+Mar  5 22:57:24 PentesterAcademyLinux useradd[17534]: new user: name=vboxadd, UID=999, GID=1, home=/var/run/vboxadd, shell=/bin/false
+
+----
+
+Four days later there was a remote login using SSH by the user "john" again after working hours.
+
+Mar  9 21:24:49 PentesterAcademyLinux sshd[3130]: Accepted password for john from 192.168.56.1 port 52833 ssh2
+
+----
+
+Only 4 minutes after this remote login, a new user was created "johnn"
+
+Mar  9 21:28:30 PentesterAcademyLinux useradd[3602]: new group: name=johnn, GID=1001
+Mar  9 21:28:30 PentesterAcademyLinux useradd[3602]: new user: name=johnn, UID=1001, GID=1001, home=/home/johnn, shell=
+
+----
+
+Approximatley a minute after, somebody remotley logged into "johnn" via ssh
+
+Mar  9 21:29:38 PentesterAcademyLinux sshd[3953]: Accepted password for johnn from 192.168.56.1 port 54840 ssh2
+
+----
+
+After this a myriad of suspicious activities take place, like changing the password for "whoopsie" which is responsible for error logging and "lightdm" which is a cross-desktop display manager.
+
+Mar  9 21:31:55 PentesterAcademyLinux passwd[4076]: pam_unix(passwd:chauthtok): password changed for whoopsie
+Mar  9 21:32:50 PentesterAcademyLinux passwd[4145]: pam_unix(passwd:chauthtok): password changed for lightdm
+
+----
+
+Shrotly after, in the Downloads directory, wthin a foler name xingyiquan (which is what I suspect is the rootkit), the install file was executed. We know from the command history that it was at some point before this unzipped, etc. There some more logins that evening for user "john" which I believe was done by the malicious party.
+
+Mar  9 21:49:35 PentesterAcademyLinux sudo:     john : TTY=pts/12 ; PWD=/home/john/Downloads/xingyiquan ; USER=root ; COMMAND=./install
+
+***I suspect that at this point the rootkit, xingyiquan, has been installed***
+
+----
+
+The morning of March 11th, there was a login for user "john" which I believe is a legitimate login. I suspect at this point user "john" noticed the system was acting unusual.
+
+Sidenote: This leads me to believe this may have occured in 2019, because in that year March 9th was a Saturday, and the next login on March 11th was a Monday which is when "john" would have returned to work. 
+
+Mar 11 09:55:46 PentesterAcademyLinux lightdm: pam_unix(lightdm:session): session opened for user john by (uid=0)
+
+----
+
+There was some activity on the target system the following day on March 12th and the activity thereafter is on Jan 30 which is when I began working on the target system.
+
+

@@ -1,0 +1,221 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	Are there users running shells that shouldn't be?
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	Are there suspicous processes running?
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	Does the output of commands that should match differ?
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	Have any users been created recently?
+
+
+According to the following command there appears that a user was recently created: "johnn"
+
+++++Sending log for find /home -type f -regextype posix-extended -regex /home/[a-zA-Z\.]+(/\.bash_history) -exec echo -e ---dumping history file {} ---
+ ; -exec cat {} ; -exec echo -e ---end of dump for history file {} ---
+ ; at Fri Feb 12 23:01:22 EST 2021 ++++
+ ---dumping history file /home/john/.bash_history ---
+
+When I inspect the history of commands, I can see the following commands of interest:
+
+useradd johnn
+userdel johnn
+adduser johnn
+cp /bin/true /bin/false
+ls -l /bin/false
+passwd whoopsie
+passwd lightdm
+cp /bin/bash /bin/false
+vi /etc/gr/group
+vi /etc/groups
+cd /etc
+ls gr*
+cat passwd
+cd /home
+ls
+mv johnn .johnn
+ls
+ls -l
+vi /etc/passwd
+man sed
+sed #/home/johnn#/home/.johnn# /etc/passwd
+sed -i 's#/home/johnn#/home/.johnn#' /etc/passwd
+
+Further information of interest includes:
+
+Mar  9 21:28:30 PentesterAcademyLinux useradd[3602]: new group: name=johnn, GID=1001
+Mar  9 21:28:30 PentesterAcademyLinux useradd[3602]: new user: name=johnn, UID=1001, GID=1001, home=/home/johnn, shell=
+Mar  9 21:28:48 PentesterAcademyLinux useradd[3776]: new user: name=johnn, UID=1001, GID=1001, home=/home/johnn, shell=/bin/bash
+
+Also, a few days before a user named sshd was created:
+
+Mar  5 23:02:38 PentesterAcademyLinux useradd[3237]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+
+
+
+It is hard to determine which users are supposed to be there by default so I decided to look into the /etc/passwd file on the forensics14 control and this is the result:
+
+Please note I used the control 14 version because default users are likely different on the workstation which is version 18.
+
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+libuuid:x:100:101::/var/lib/libuuid:
+syslog:x:101:104::/home/syslog:/bin/false
+messagebus:x:102:106::/var/run/dbus:/bin/false
+usbmux:x:103:46:usbmux daemon,,,:/home/usbmux:/bin/false
+dnsmasq:x:104:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+avahi-autoipd:x:105:113:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+kernoops:x:106:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+rtkit:x:107:114:RealtimeKit,,,:/proc:/bin/false
+saned:x:108:115::/home/saned:/bin/false
+whoopsie:x:109:116::/nonexistent:/bin/false
+speech-dispatcher:x:110:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+avahi:x:111:117:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+lightdm:x:112:118:Light Display Manager:/var/lib/lightdm:/bin/false
+colord:x:113:121:colord colour management daemon,,,:/var/lib/colord:/bin/false
+hplip:x:114:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+pulse:x:115:122:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+forensics:x:1000:1000:Computer Forensics,,,:/home/forensics:/bin/bash
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+
+when I compare this /etc/passwd to the one on the target I see a few users that are not default users. Below is the etc file from the target:
+
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System
+(admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+libuuid:x:100:101::/var/lib/libuuid:
+syslog:x:101:104::/home/syslog:/bin/false
+messagebus:x:102:106::/var/run/dbus:/bin/false
+usbmux:x:103:46:usbmux daemon,,,:/home/usbmux:/bin/false
+dnsmasq:x:104:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+avahi-autoipd:x:105:113:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+kernoops:x:106:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+rtkit:x:107:114:RealtimeKit,,,:/proc:/bin/false
+saned:x:108:115::/home/saned:/bin/false
+whoopsie:x:109:116::/nonexistent:/bin/false
+speech-dispatcher:x:110:29:Speech
+Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+avahi:x:111:117:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+lightdm:x:112:118:Light Display Manager:/var/lib/lightdm:/bin/false
+colord:x:113:121:colord colour management daemon,,,:/var/lib/colord:/bin/false
+hplip:x:114:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+pulse:x:115:122:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+john:x:1000:1000:John Smith,,,:/home/john:/bin/bash
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+sshd:x:116:65534::/var/run/sshd:/usr/sbin/nologin
+johnn:x:1001:1001:,John Smith,,:/home/.johnn:/bin/bash
+
+What I noticed here is the following are not default users and I would have to ask the user of the computer if this was there for a reason and was being used for something:
+
+This is not a default user and was added to the control by us:
+forensics:x:1000:1000:Computer Forensics,,,:/home/forensics:/bin/bash
+
+
+These users do not exsist on the control but exsist on the target:
+Note that john is the user account used on the target:
+
+gnats:x:41:41:Gnats Bug-Reporting System
+(admin):/var/lib/gnats:/usr/sbin/nologin
+john:x:1000:1000:John Smith,,,:/home/john:/bin/bash
+sshd:x:116:65534::/var/run/sshd:/usr/sbin/nologin
+johnn:x:1001:1001:,John Smith,,:/home/.johnn:/bin/bash
+
+Users of concern to further investigate are: sshd, johnn, gnats and (admin).
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	Has there been suspicious login activity?
+
+User johnn did some suspicious things which can be seen in the user's command history:
+
+---dumping history file /home/.johnn/.bash_history ---
+
+w
+cat /etc/passwd
+su whoopsie
+su lightdm
+---end of dump for history file /home/.johnn/.bash_history --- 
+----end----
+
+Interesting to note that whoopsie which is a daemon responsible for colelcting error reports, etc had its password changed:
+
+Mar  9 21:31:55 PentesterAcademyLinux passwd[4076]: pam_unix(passwd:chauthtok): password changed for whoopsie
+
+Also lightdm had its password changed:
+
+Mar  9 21:32:50 PentesterAcademyLinux passwd[4145]: pam_unix(passwd:chauthtok): password changed for lightdm
+
+The suspicious login activity I have been seeing is several logins by johnn and lightdm. It appears lightdm is a display manager, so this might be benign. However, john has several logins:
+
+I can see this through:
+
+
+---dumping logfile /var/log/auth.log ---
+
+Mar  9 21:29:38 PentesterAcademyLinux systemd-logind[638]: New session 2 of user johnn.
+Mar  9 21:34:45 PentesterAcademyLinux systemd-logind[638]: New session 5 of user johnn.
+
+Mar  5 22:52:11 PentesterAcademyLinux systemd-logind[587]: New session c1 of user lightdm.
+Mar  5 22:58:14 PentesterAcademyLinux systemd-logind[621]: New session c1 of user lightdm.
+Mar  6 08:49:19 PentesterAcademyLinux systemd-logind[565]: New session c1 of user lightdm.
+Mar  6 20:19:43 PentesterAcademyLinux systemd-logind[650]: New session c1 of user lightdm.
+Mar  6 20:31:36 PentesterAcademyLinux systemd-logind[645]: New session c1 of user lightdm.
+Mar  6 21:23:18 PentesterAcademyLinux systemd-logind[628]: New session c1 of user lightdm.
+Mar  8 20:27:33 PentesterAcademyLinux systemd-logind[530]: New session c1 of user lightdm.
+Mar  9 20:59:02 PentesterAcademyLinux systemd-logind[638]: New session c1 of user lightdm.
+Mar  9 21:33:16 PentesterAcademyLinux systemd-logind[638]: New session 3 of user lightdm.
+Mar  9 21:34:01 PentesterAcademyLinux systemd-logind[638]: New session 4 of user lightdm.
+Mar  9 21:44:43 PentesterAcademyLinux systemd-logind[638]: New session c3 of user lightdm.
+Mar  9 21:48:06 PentesterAcademyLinux systemd-logind[483]: New session c1 of user lightdm.
+Mar 11 09:55:31 PentesterAcademyLinux systemd-logind[649]: New session c1 of user lightdm.
+Mar 11 10:09:38 PentesterAcademyLinux systemd-logind[655]: New session c1 of user lightdm.
+Mar 12 13:35:54 PentesterAcademyLinux systemd-logind[653]: New session c1 of user lightdm.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

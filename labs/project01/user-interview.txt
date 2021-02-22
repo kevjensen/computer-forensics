@@ -1,0 +1,39 @@
+Dan: Hello. I am Dan your forensic investigator. How do you do?
+
+User X: Hi Dan, I am happy to hear from you, I do well! I have problems with my computer.
+
+Dan: Very well. In order to begin the forenics process I must ask you a few questions. Is this okay?
+
+User X: Yes, please do.
+
+Dan: What made you call me? Why do you think there is a problem or incident? Did something strange happen? Is the network and/or machine slower than normal? Is there traffic on unusual ports?
+
+User X: The computer was acting strange. There were pop up warnings. I don't know what a port is or how it works. I think it was acting slower.... maybe.
+
+Dan: Was there an event that led to me being called in besides the pop ups?
+
+User X: The thing I noticed most were the pop ups.
+
+Dan: Does the organization lack a qualified person to perform the investigation?
+
+User x: I don't think we have an in-house Linux forensics group.
+
+Dan: Does the organization's policy on possible incidents require an outside investigator?
+
+User x: Maybe I am not sure what our policies are. I don't even know how to set a password.
+
+Dan: What is the system normally used for?
+
+User X: I use it for email.
+
+Dan: Where did the system come from? Was it purchased locally or online?
+
+User X: I don't know, I didn't buy it and it was already here when I started using it.
+
+Dan: Has the computer been repaired recently? If so, by whom? An old trusted friend or someone new?
+
+User X: No repairs recently that I am aware of. The only other person to have had access to the computer was a contractor but I don't know their name.
+
+Dan: Thank you for answering my questions, if it is okay, I should like to have a look at the computer now and see what I can find out.
+
+User X: Thank you.

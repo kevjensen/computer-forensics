@@ -1,0 +1,20 @@
+Based on all the evidence collected so far, make an initial determination as to whether you believe the system to be compromised. Cite the specific evidence collected that backs your claim in your write up. Include your determination in initial-incident-assessment.txt 
+
+I believe the system was in fact compromised. There are three points that have lead me to this hypothesis.
+
+1) There was a login to the the user "john" via SSH. This could be verified in the field by talking to "john" to see if he or somebody authorized had logged in via ssh. The log entry in question is:
+
+Mar  9 21:24:49 PentesterAcademyLinux sshd[3130]: Accepted password for john from 192.168.56.1 port 52833 ssh2
+
+2) Very shrotly (61 seconds) after this login via SSH, the user "john" was in the downloads folder accessing xingyiquan (which research indiciates is a rootkit).
+
+Mar  9 21:25:50 PentesterAcademyLinux sudo:     john : TTY=pts/23 ; PWD=/home/john/Downloads/xingyiquan ; USER=root ; COMMAND=/bin/bash
+
+3) Then there was the creation of a new user that is suspiciously similar to "john" called "johnn" (this is documented in the command history findings) and the login to "johnn" via ssh
+
+Mar  9 21:29:38 PentesterAcademyLinux sshd[3953]: Accepted password for johnn from 192.168.56.1 port 54840 ssh2
+
+
+These three events alone are very strongly indicative of a system compromise.
+
+
