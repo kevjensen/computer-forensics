@@ -1,0 +1,7 @@
+Looks like a MBR or VBR
+Must be a MBR
+Bootable:Type 131:Start 2048:Total sectors 33552384
+Type 5:Start 33556478:Total sectors 4190210
+Sorry GPT and extended partitions are not supported by this script!
+<empty>
+<empty>
