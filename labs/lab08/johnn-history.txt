@@ -1,0 +1,12 @@
+mysql> select historyCommand from histories where historyFilename like '%.johnn%' order by recno;
++-----------------+
+| historyCommand  |
++-----------------+
+| w               |
+| cat /etc/passwd |
+| su whoopsie     |
+| su lightdm      |
++-----------------+
+4 rows in set (0.00 sec)
+
+mysql> tee auth-logs.txt
