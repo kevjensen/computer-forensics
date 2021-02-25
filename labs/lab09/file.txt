@@ -1,0 +1,2 @@
+/dev/sda:  DOS/MBR boot sector
+/dev/sda1: Linux rev 1.0 ext4 filesystem data, UUID=2ab9902b-6aee-4744-91de-2badb29836df (needs journal recovery) (extents) (64bit) (large files) (huge files)

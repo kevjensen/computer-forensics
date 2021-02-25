@@ -1,0 +1,1610 @@
+FILE SYSTEM INFORMATION
+--------------------------------------------
+File System Type: Ext4
+Volume Name: 
+Volume ID: 6d3257cce44c5499d141d359183193c1
+
+Last Written at: 2021-02-18 13:57:09 (MST)
+Last Checked at: 2015-03-05 20:37:57 (MST)
+
+Last Mounted at: 2021-02-18 13:57:09 (MST)
+Unmounted properly
+Last mounted on: /
+
+Source OS: Linux
+Dynamic Structure
+Compat Features: Journal, Ext Attributes, Resize Inode, Dir Index
+InCompat Features: Filetype, Extents, Flexible Block Groups, 
+Read Only Compat Features: Sparse Super, Large File, Huge File, Extra Inode Size
+
+Journal ID: 00
+Journal Inode: 8
+
+METADATA INFORMATION
+--------------------------------------------
+Inode Range: 1 - 1048577
+Root Directory: 2
+Free Inodes: 864062
+Inode Size: 256
+
+CONTENT INFORMATION
+--------------------------------------------
+Block Groups Per Flex Group: 16
+Block Range: 0 - 4194047
+Block Size: 4096
+Free Blocks: 3070818
+
+BLOCK GROUP INFORMATION
+--------------------------------------------
+Number of Block Groups: 128
+Inodes per group: 8192
+Blocks per group: 32768
+
+Group: 0:
+  Inode Range: 1 - 8192
+  Block Range: 0 - 32767
+  Layout:
+    Super Block: 0 - 0
+    Group Descriptor Table: 1 - 1
+    Group Descriptor Growth Blocks: 2 - 1024
+    Data bitmap: 1025 - 1025
+    Inode bitmap: 1041 - 1041
+    Inode Table: 1057 - 1568
+    Data Blocks: 1569 - 32767
+  Free Inodes: 844 (10%)
+  Free Blocks: 22649 (69%)
+  Total Directories: 370
+
+Group: 1:
+  Inode Range: 8193 - 16384
+  Block Range: 32768 - 65535
+  Layout:
+    Super Block: 32768 - 32768
+    Group Descriptor Table: 32769 - 32769
+    Group Descriptor Growth Blocks: 32770 - 33792
+    Data bitmap: 1026 - 1026
+    Inode bitmap: 1042 - 1042
+    Inode Table: 1569 - 2080
+    Data Blocks: 2081 - 65535
+  Free Inodes: 7521 (91%)
+  Free Blocks: 14764 (45%)
+  Total Directories: 2
+
+Group: 2:
+  Inode Range: 16385 - 24576
+  Block Range: 65536 - 98303
+  Layout:
+    Data bitmap: 1027 - 1027
+    Inode bitmap: 1043 - 1043
+    Inode Table: 2081 - 2592
+    Data Blocks: 2593 - 98303
+  Free Inodes: 8192 (100%)
+  Free Blocks: 6548 (19%)
+  Total Directories: 0
+
+Group: 3:
+  Inode Range: 24577 - 32768
+  Block Range: 98304 - 131071
+  Layout:
+    Super Block: 98304 - 98304
+    Group Descriptor Table: 98305 - 98305
+    Group Descriptor Growth Blocks: 98306 - 99328
+    Data bitmap: 1028 - 1028
+    Inode bitmap: 1044 - 1044
+    Inode Table: 2593 - 3104
+    Data Blocks: 3105 - 131071
+  Free Inodes: 8192 (100%)
+  Free Blocks: 7016 (21%)
+  Total Directories: 0
+
+Group: 4:
+  Inode Range: 32769 - 40960
+  Block Range: 131072 - 163839
+  Layout:
+    Data bitmap: 1029 - 1029
+    Inode bitmap: 1045 - 1045
+    Inode Table: 3105 - 3616
+    Data Blocks: 3617 - 163839
+  Free Inodes: 8192 (100%)
+  Free Blocks: 4183 (12%)
+  Total Directories: 0
+
+Group: 5:
+  Inode Range: 40961 - 49152
+  Block Range: 163840 - 196607
+  Layout:
+    Super Block: 163840 - 163840
+    Group Descriptor Table: 163841 - 163841
+    Group Descriptor Growth Blocks: 163842 - 164864
+    Data bitmap: 1030 - 1030
+    Inode bitmap: 1046 - 1046
+    Inode Table: 3617 - 4128
+    Data Blocks: 4129 - 196607
+  Free Inodes: 8192 (100%)
+  Free Blocks: 423 (1%)
+  Total Directories: 0
+
+Group: 6:
+  Inode Range: 49153 - 57344
+  Block Range: 196608 - 229375
+  Layout:
+    Data bitmap: 1031 - 1031
+    Inode bitmap: 1047 - 1047
+    Inode Table: 4129 - 4640
+    Data Blocks: 4641 - 229375
+  Free Inodes: 8192 (100%)
+  Free Blocks: 12242 (37%)
+  Total Directories: 0
+
+Group: 7:
+  Inode Range: 57345 - 65536
+  Block Range: 229376 - 262143
+  Layout:
+    Super Block: 229376 - 229376
+    Group Descriptor Table: 229377 - 229377
+    Group Descriptor Growth Blocks: 229378 - 230400
+    Data bitmap: 1032 - 1032
+    Inode bitmap: 1048 - 1048
+    Inode Table: 4641 - 5152
+    Data Blocks: 5153 - 262143
+  Free Inodes: 8192 (100%)
+  Free Blocks: 6235 (19%)
+  Total Directories: 0
+
+Group: 8:
+  Inode Range: 65537 - 73728
+  Block Range: 262144 - 294911
+  Layout:
+    Data bitmap: 1033 - 1033
+    Inode bitmap: 1049 - 1049
+    Inode Table: 5153 - 5664
+    Data Blocks: 5665 - 294911
+  Free Inodes: 8192 (100%)
+  Free Blocks: 15 (0%)
+  Total Directories: 0
+
+Group: 9:
+  Inode Range: 73729 - 81920
+  Block Range: 294912 - 327679
+  Layout:
+    Super Block: 294912 - 294912
+    Group Descriptor Table: 294913 - 294913
+    Group Descriptor Growth Blocks: 294914 - 295936
+    Data bitmap: 1034 - 1034
+    Inode bitmap: 1050 - 1050
+    Inode Table: 5665 - 6176
+    Data Blocks: 6177 - 327679
+  Free Inodes: 8192 (100%)
+  Free Blocks: 8812 (26%)
+  Total Directories: 0
+
+Group: 10:
+  Inode Range: 81921 - 90112
+  Block Range: 327680 - 360447
+  Layout:
+    Data bitmap: 1035 - 1035
+    Inode bitmap: 1051 - 1051
+    Inode Table: 6177 - 6688
+    Data Blocks: 6689 - 360447
+  Free Inodes: 8192 (100%)
+  Free Blocks: 5269 (16%)
+  Total Directories: 0
+
+Group: 11:
+  Inode Range: 90113 - 98304
+  Block Range: 360448 - 393215
+  Layout:
+    Data bitmap: 1036 - 1036
+    Inode bitmap: 1052 - 1052
+    Inode Table: 6689 - 7200
+    Data Blocks: 7201 - 393215
+  Free Inodes: 8192 (100%)
+  Free Blocks: 23632 (72%)
+  Total Directories: 0
+
+Group: 12:
+  Inode Range: 98305 - 106496
+  Block Range: 393216 - 425983
+  Layout:
+    Data bitmap: 1037 - 1037
+    Inode bitmap: 1053 - 1053
+    Inode Table: 7201 - 7712
+    Data Blocks: 7713 - 425983
+  Free Inodes: 8192 (100%)
+  Free Blocks: 3079 (9%)
+  Total Directories: 0
+
+Group: 13:
+  Inode Range: 106497 - 114688
+  Block Range: 425984 - 458751
+  Layout:
+    Data bitmap: 1038 - 1038
+    Inode bitmap: 1054 - 1054
+    Inode Table: 7713 - 8224
+    Data Blocks: 8225 - 458751
+  Free Inodes: 8192 (100%)
+  Free Blocks: 6681 (20%)
+  Total Directories: 0
+
+Group: 14:
+  Inode Range: 114689 - 122880
+  Block Range: 458752 - 491519
+  Layout:
+    Data bitmap: 1039 - 1039
+    Inode bitmap: 1055 - 1055
+    Inode Table: 8225 - 8736
+    Data Blocks: 8737 - 491519
+  Free Inodes: 8192 (100%)
+  Free Blocks: 2855 (8%)
+  Total Directories: 0
+
+Group: 15:
+  Inode Range: 122881 - 131072
+  Block Range: 491520 - 524287
+  Layout:
+    Data bitmap: 1040 - 1040
+    Inode bitmap: 1056 - 1056
+    Inode Table: 8737 - 9248
+    Data Blocks: 9249 - 524287
+  Free Inodes: 8192 (100%)
+  Free Blocks: 3104 (9%)
+  Total Directories: 0
+
+Group: 16:
+  Inode Range: 131073 - 139264
+  Block Range: 524288 - 557055
+  Layout:
+    Data bitmap: 524288 - 524288
+    Inode bitmap: 524304 - 524304
+    Inode Table: 524320 - 524831
+    Data Blocks: 524305 - 524319, 524832 - 557055
+  Free Inodes: 0 (0%)
+  Free Blocks: 19399 (59%)
+  Total Directories: 1016
+
+Group: 17:
+  Inode Range: 139265 - 147456
+  Block Range: 557056 - 589823
+  Layout:
+    Data bitmap: 524289 - 524289
+    Inode bitmap: 524305 - 524305
+    Inode Table: 524832 - 525343
+    Data Blocks: 525344 - 589823
+  Free Inodes: 0 (0%)
+  Free Blocks: 1 (0%)
+  Total Directories: 931
+
+Group: 18:
+  Inode Range: 147457 - 155648
+  Block Range: 589824 - 622591
+  Layout:
+    Data bitmap: 524290 - 524290
+    Inode bitmap: 524306 - 524306
+    Inode Table: 525344 - 525855
+    Data Blocks: 525856 - 622591
+  Free Inodes: 0 (0%)
+  Free Blocks: 749 (2%)
+  Total Directories: 382
+
+Group: 19:
+  Inode Range: 155649 - 163840
+  Block Range: 622592 - 655359
+  Layout:
+    Data bitmap: 524291 - 524291
+    Inode bitmap: 524307 - 524307
+    Inode Table: 525856 - 526367
+    Data Blocks: 526368 - 655359
+  Free Inodes: 2243 (27%)
+  Free Blocks: 3200 (9%)
+  Total Directories: 103
+
+Group: 20:
+  Inode Range: 163841 - 172032
+  Block Range: 655360 - 688127
+  Layout:
+    Data bitmap: 524292 - 524292
+    Inode bitmap: 524308 - 524308
+    Inode Table: 526368 - 526879
+    Data Blocks: 526880 - 688127
+  Free Inodes: 8192 (100%)
+  Free Blocks: 12250 (37%)
+  Total Directories: 0
+
+Group: 21:
+  Inode Range: 172033 - 180224
+  Block Range: 688128 - 720895
+  Layout:
+    Data bitmap: 524293 - 524293
+    Inode bitmap: 524309 - 524309
+    Inode Table: 526880 - 527391
+    Data Blocks: 527392 - 720895
+  Free Inodes: 8192 (100%)
+  Free Blocks: 7657 (23%)
+  Total Directories: 0
+
+Group: 22:
+  Inode Range: 180225 - 188416
+  Block Range: 720896 - 753663
+  Layout:
+    Data bitmap: 524294 - 524294
+    Inode bitmap: 524310 - 524310
+    Inode Table: 527392 - 527903
+    Data Blocks: 527904 - 753663
+  Free Inodes: 8192 (100%)
+  Free Blocks: 18632 (56%)
+  Total Directories: 0
+
+Group: 23:
+  Inode Range: 188417 - 196608
+  Block Range: 753664 - 786431
+  Layout:
+    Data bitmap: 524295 - 524295
+    Inode bitmap: 524311 - 524311
+    Inode Table: 527904 - 528415
+    Data Blocks: 528416 - 786431
+  Free Inodes: 8192 (100%)
+  Free Blocks: 8730 (26%)
+  Total Directories: 0
+
+Group: 24:
+  Inode Range: 196609 - 204800
+  Block Range: 786432 - 819199
+  Layout:
+    Data bitmap: 524296 - 524296
+    Inode bitmap: 524312 - 524312
+    Inode Table: 528416 - 528927
+    Data Blocks: 528928 - 819199
+  Free Inodes: 8192 (100%)
+  Free Blocks: 11875 (36%)
+  Total Directories: 0
+
+Group: 25:
+  Inode Range: 204801 - 212992
+  Block Range: 819200 - 851967
+  Layout:
+    Super Block: 819200 - 819200
+    Group Descriptor Table: 819201 - 819201
+    Group Descriptor Growth Blocks: 819202 - 820224
+    Data bitmap: 524297 - 524297
+    Inode bitmap: 524313 - 524313
+    Inode Table: 528928 - 529439
+    Data Blocks: 529440 - 851967
+  Free Inodes: 8192 (100%)
+  Free Blocks: 19562 (59%)
+  Total Directories: 0
+
+Group: 26:
+  Inode Range: 212993 - 221184
+  Block Range: 851968 - 884735
+  Layout:
+    Data bitmap: 524298 - 524298
+    Inode bitmap: 524314 - 524314
+    Inode Table: 529440 - 529951
+    Data Blocks: 529952 - 884735
+  Free Inodes: 8192 (100%)
+  Free Blocks: 5232 (15%)
+  Total Directories: 0
+
+Group: 27:
+  Inode Range: 221185 - 229376
+  Block Range: 884736 - 917503
+  Layout:
+    Super Block: 884736 - 884736
+    Group Descriptor Table: 884737 - 884737
+    Group Descriptor Growth Blocks: 884738 - 885760
+    Data bitmap: 524299 - 524299
+    Inode bitmap: 524315 - 524315
+    Inode Table: 529952 - 530463
+    Data Blocks: 530464 - 917503
+  Free Inodes: 8192 (100%)
+  Free Blocks: 9389 (28%)
+  Total Directories: 0
+
+Group: 28:
+  Inode Range: 229377 - 237568
+  Block Range: 917504 - 950271
+  Layout:
+    Data bitmap: 524300 - 524300
+    Inode bitmap: 524316 - 524316
+    Inode Table: 530464 - 530975
+    Data Blocks: 530976 - 950271
+  Free Inodes: 8192 (100%)
+  Free Blocks: 7207 (21%)
+  Total Directories: 0
+
+Group: 29:
+  Inode Range: 237569 - 245760
+  Block Range: 950272 - 983039
+  Layout:
+    Data bitmap: 524301 - 524301
+    Inode bitmap: 524317 - 524317
+    Inode Table: 530976 - 531487
+    Data Blocks: 531488 - 983039
+  Free Inodes: 8192 (100%)
+  Free Blocks: 27040 (82%)
+  Total Directories: 0
+
+Group: 30:
+  Inode Range: 245761 - 253952
+  Block Range: 983040 - 1015807
+  Layout:
+    Data bitmap: 524302 - 524302
+    Inode bitmap: 524318 - 524318
+    Inode Table: 531488 - 531999
+    Data Blocks: 532000 - 1015807
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 31:
+  Inode Range: 253953 - 262144
+  Block Range: 1015808 - 1048575
+  Layout:
+    Data bitmap: 524303 - 524303
+    Inode bitmap: 524319 - 524319
+    Inode Table: 532000 - 532511
+    Data Blocks: 532512 - 1048575
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 32:
+  Inode Range: 262145 - 270336
+  Block Range: 1048576 - 1081343
+  Layout:
+    Data bitmap: 1048576 - 1048576
+    Inode bitmap: 1048592 - 1048592
+    Inode Table: 1048608 - 1049119
+    Data Blocks: 1048593 - 1048607, 1049120 - 1081343
+  Free Inodes: 0 (0%)
+  Free Blocks: 22008 (67%)
+  Total Directories: 993
+
+Group: 33:
+  Inode Range: 270337 - 278528
+  Block Range: 1081344 - 1114111
+  Layout:
+    Data bitmap: 1048577 - 1048577
+    Inode bitmap: 1048593 - 1048593
+    Inode Table: 1049120 - 1049631
+    Data Blocks: 1049632 - 1114111
+  Free Inodes: 1 (0%)
+  Free Blocks: 1769 (5%)
+  Total Directories: 566
+
+Group: 34:
+  Inode Range: 278529 - 286720
+  Block Range: 1114112 - 1146879
+  Layout:
+    Data bitmap: 1048578 - 1048578
+    Inode bitmap: 1048594 - 1048594
+    Inode Table: 1049632 - 1050143
+    Data Blocks: 1050144 - 1146879
+  Free Inodes: 0 (0%)
+  Free Blocks: 1192 (3%)
+  Total Directories: 479
+
+Group: 35:
+  Inode Range: 286721 - 294912
+  Block Range: 1146880 - 1179647
+  Layout:
+    Data bitmap: 1048579 - 1048579
+    Inode bitmap: 1048595 - 1048595
+    Inode Table: 1050144 - 1050655
+    Data Blocks: 1050656 - 1179647
+  Free Inodes: 1491 (18%)
+  Free Blocks: 2187 (6%)
+  Total Directories: 257
+
+Group: 36:
+  Inode Range: 294913 - 303104
+  Block Range: 1179648 - 1212415
+  Layout:
+    Data bitmap: 1048580 - 1048580
+    Inode bitmap: 1048596 - 1048596
+    Inode Table: 1050656 - 1051167
+    Data Blocks: 1051168 - 1212415
+  Free Inodes: 8192 (100%)
+  Free Blocks: 11885 (36%)
+  Total Directories: 0
+
+Group: 37:
+  Inode Range: 303105 - 311296
+  Block Range: 1212416 - 1245183
+  Layout:
+    Data bitmap: 1048581 - 1048581
+    Inode bitmap: 1048597 - 1048597
+    Inode Table: 1051168 - 1051679
+    Data Blocks: 1051680 - 1245183
+  Free Inodes: 8192 (100%)
+  Free Blocks: 31536 (96%)
+  Total Directories: 0
+
+Group: 38:
+  Inode Range: 311297 - 319488
+  Block Range: 1245184 - 1277951
+  Layout:
+    Data bitmap: 1048582 - 1048582
+    Inode bitmap: 1048598 - 1048598
+    Inode Table: 1051680 - 1052191
+    Data Blocks: 1052192 - 1277951
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 39:
+  Inode Range: 319489 - 327680
+  Block Range: 1277952 - 1310719
+  Layout:
+    Data bitmap: 1048583 - 1048583
+    Inode bitmap: 1048599 - 1048599
+    Inode Table: 1052192 - 1052703
+    Data Blocks: 1052704 - 1310719
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 40:
+  Inode Range: 327681 - 335872
+  Block Range: 1310720 - 1343487
+  Layout:
+    Data bitmap: 1048584 - 1048584
+    Inode bitmap: 1048600 - 1048600
+    Inode Table: 1052704 - 1053215
+    Data Blocks: 1053216 - 1343487
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 41:
+  Inode Range: 335873 - 344064
+  Block Range: 1343488 - 1376255
+  Layout:
+    Data bitmap: 1048585 - 1048585
+    Inode bitmap: 1048601 - 1048601
+    Inode Table: 1053216 - 1053727
+    Data Blocks: 1053728 - 1376255
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 42:
+  Inode Range: 344065 - 352256
+  Block Range: 1376256 - 1409023
+  Layout:
+    Data bitmap: 1048586 - 1048586
+    Inode bitmap: 1048602 - 1048602
+    Inode Table: 1053728 - 1054239
+    Data Blocks: 1054240 - 1409023
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 43:
+  Inode Range: 352257 - 360448
+  Block Range: 1409024 - 1441791
+  Layout:
+    Data bitmap: 1048587 - 1048587
+    Inode bitmap: 1048603 - 1048603
+    Inode Table: 1054240 - 1054751
+    Data Blocks: 1054752 - 1441791
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 44:
+  Inode Range: 360449 - 368640
+  Block Range: 1441792 - 1474559
+  Layout:
+    Data bitmap: 1048588 - 1048588
+    Inode bitmap: 1048604 - 1048604
+    Inode Table: 1054752 - 1055263
+    Data Blocks: 1055264 - 1474559
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 45:
+  Inode Range: 368641 - 376832
+  Block Range: 1474560 - 1507327
+  Layout:
+    Data bitmap: 1048589 - 1048589
+    Inode bitmap: 1048605 - 1048605
+    Inode Table: 1055264 - 1055775
+    Data Blocks: 1055776 - 1507327
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 46:
+  Inode Range: 376833 - 385024
+  Block Range: 1507328 - 1540095
+  Layout:
+    Data bitmap: 1048590 - 1048590
+    Inode bitmap: 1048606 - 1048606
+    Inode Table: 1055776 - 1056287
+    Data Blocks: 1056288 - 1540095
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 47:
+  Inode Range: 385025 - 393216
+  Block Range: 1540096 - 1572863
+  Layout:
+    Data bitmap: 1048591 - 1048591
+    Inode bitmap: 1048607 - 1048607
+    Inode Table: 1056288 - 1056799
+    Data Blocks: 1056800 - 1572863
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 48:
+  Inode Range: 393217 - 401408
+  Block Range: 1572864 - 1605631
+  Layout:
+    Data bitmap: 1572864 - 1572864
+    Inode bitmap: 1572880 - 1572880
+    Inode Table: 1572896 - 1573407
+    Data Blocks: 1572881 - 1572895, 1573408 - 1605631
+  Free Inodes: 621 (7%)
+  Free Blocks: 22365 (68%)
+  Total Directories: 1273
+
+Group: 49:
+  Inode Range: 401409 - 409600
+  Block Range: 1605632 - 1638399
+  Layout:
+    Super Block: 1605632 - 1605632
+    Group Descriptor Table: 1605633 - 1605633
+    Group Descriptor Growth Blocks: 1605634 - 1606656
+    Data bitmap: 1572865 - 1572865
+    Inode bitmap: 1572881 - 1572881
+    Inode Table: 1573408 - 1573919
+    Data Blocks: 1573920 - 1638399
+  Free Inodes: 0 (0%)
+  Free Blocks: 0 (0%)
+  Total Directories: 125
+
+Group: 50:
+  Inode Range: 409601 - 417792
+  Block Range: 1638400 - 1671167
+  Layout:
+    Data bitmap: 1572866 - 1572866
+    Inode bitmap: 1572882 - 1572882
+    Inode Table: 1573920 - 1574431
+    Data Blocks: 1574432 - 1671167
+  Free Inodes: 95 (1%)
+  Free Blocks: 2205 (6%)
+  Total Directories: 227
+
+Group: 51:
+  Inode Range: 417793 - 425984
+  Block Range: 1671168 - 1703935
+  Layout:
+    Data bitmap: 1572867 - 1572867
+    Inode bitmap: 1572883 - 1572883
+    Inode Table: 1574432 - 1574943
+    Data Blocks: 1574944 - 1703935
+  Free Inodes: 5453 (66%)
+  Free Blocks: 26952 (82%)
+  Total Directories: 416
+
+Group: 52:
+  Inode Range: 425985 - 434176
+  Block Range: 1703936 - 1736703
+  Layout:
+    Data bitmap: 1572868 - 1572868
+    Inode bitmap: 1572884 - 1572884
+    Inode Table: 1574944 - 1575455
+    Data Blocks: 1575456 - 1736703
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 53:
+  Inode Range: 434177 - 442368
+  Block Range: 1736704 - 1769471
+  Layout:
+    Data bitmap: 1572869 - 1572869
+    Inode bitmap: 1572885 - 1572885
+    Inode Table: 1575456 - 1575967
+    Data Blocks: 1575968 - 1769471
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 54:
+  Inode Range: 442369 - 450560
+  Block Range: 1769472 - 1802239
+  Layout:
+    Data bitmap: 1572870 - 1572870
+    Inode bitmap: 1572886 - 1572886
+    Inode Table: 1575968 - 1576479
+    Data Blocks: 1576480 - 1802239
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 55:
+  Inode Range: 450561 - 458752
+  Block Range: 1802240 - 1835007
+  Layout:
+    Data bitmap: 1572871 - 1572871
+    Inode bitmap: 1572887 - 1572887
+    Inode Table: 1576480 - 1576991
+    Data Blocks: 1576992 - 1835007
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 56:
+  Inode Range: 458753 - 466944
+  Block Range: 1835008 - 1867775
+  Layout:
+    Data bitmap: 1572872 - 1572872
+    Inode bitmap: 1572888 - 1572888
+    Inode Table: 1576992 - 1577503
+    Data Blocks: 1577504 - 1867775
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 57:
+  Inode Range: 466945 - 475136
+  Block Range: 1867776 - 1900543
+  Layout:
+    Data bitmap: 1572873 - 1572873
+    Inode bitmap: 1572889 - 1572889
+    Inode Table: 1577504 - 1578015
+    Data Blocks: 1578016 - 1900543
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 58:
+  Inode Range: 475137 - 483328
+  Block Range: 1900544 - 1933311
+  Layout:
+    Data bitmap: 1572874 - 1572874
+    Inode bitmap: 1572890 - 1572890
+    Inode Table: 1578016 - 1578527
+    Data Blocks: 1578528 - 1933311
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 59:
+  Inode Range: 483329 - 491520
+  Block Range: 1933312 - 1966079
+  Layout:
+    Data bitmap: 1572875 - 1572875
+    Inode bitmap: 1572891 - 1572891
+    Inode Table: 1578528 - 1579039
+    Data Blocks: 1579040 - 1966079
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 60:
+  Inode Range: 491521 - 499712
+  Block Range: 1966080 - 1998847
+  Layout:
+    Data bitmap: 1572876 - 1572876
+    Inode bitmap: 1572892 - 1572892
+    Inode Table: 1579040 - 1579551
+    Data Blocks: 1579552 - 1998847
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 61:
+  Inode Range: 499713 - 507904
+  Block Range: 1998848 - 2031615
+  Layout:
+    Data bitmap: 1572877 - 1572877
+    Inode bitmap: 1572893 - 1572893
+    Inode Table: 1579552 - 1580063
+    Data Blocks: 1580064 - 2031615
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 62:
+  Inode Range: 507905 - 516096
+  Block Range: 2031616 - 2064383
+  Layout:
+    Data bitmap: 1572878 - 1572878
+    Inode bitmap: 1572894 - 1572894
+    Inode Table: 1580064 - 1580575
+    Data Blocks: 1580576 - 2064383
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 63:
+  Inode Range: 516097 - 524288
+  Block Range: 2064384 - 2097151
+  Layout:
+    Data bitmap: 1572879 - 1572879
+    Inode bitmap: 1572895 - 1572895
+    Inode Table: 1580576 - 1581087
+    Data Blocks: 1581088 - 2097151
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 64:
+  Inode Range: 524289 - 532480
+  Block Range: 2097152 - 2129919
+  Layout:
+    Data bitmap: 2097152 - 2097152
+    Inode bitmap: 2097168 - 2097168
+    Inode Table: 2097184 - 2097695
+    Data Blocks: 2097169 - 2097183, 2097696 - 2129919
+  Free Inodes: 90 (1%)
+  Free Blocks: 22166 (67%)
+  Total Directories: 1276
+
+Group: 65:
+  Inode Range: 532481 - 540672
+  Block Range: 2129920 - 2162687
+  Layout:
+    Data bitmap: 2097153 - 2097153
+    Inode bitmap: 2097169 - 2097169
+    Inode Table: 2097696 - 2098207
+    Data Blocks: 2098208 - 2162687
+  Free Inodes: 2957 (36%)
+  Free Blocks: 999 (3%)
+  Total Directories: 931
+
+Group: 66:
+  Inode Range: 540673 - 548864
+  Block Range: 2162688 - 2195455
+  Layout:
+    Data bitmap: 2097154 - 2097154
+    Inode bitmap: 2097170 - 2097170
+    Inode Table: 2098208 - 2098719
+    Data Blocks: 2098720 - 2195455
+  Free Inodes: 8192 (100%)
+  Free Blocks: 1295 (3%)
+  Total Directories: 0
+
+Group: 67:
+  Inode Range: 548865 - 557056
+  Block Range: 2195456 - 2228223
+  Layout:
+    Data bitmap: 2097155 - 2097155
+    Inode bitmap: 2097171 - 2097171
+    Inode Table: 2098720 - 2099231
+    Data Blocks: 2099232 - 2228223
+  Free Inodes: 8192 (100%)
+  Free Blocks: 24047 (73%)
+  Total Directories: 0
+
+Group: 68:
+  Inode Range: 557057 - 565248
+  Block Range: 2228224 - 2260991
+  Layout:
+    Data bitmap: 2097156 - 2097156
+    Inode bitmap: 2097172 - 2097172
+    Inode Table: 2099232 - 2099743
+    Data Blocks: 2099744 - 2260991
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 69:
+  Inode Range: 565249 - 573440
+  Block Range: 2260992 - 2293759
+  Layout:
+    Data bitmap: 2097157 - 2097157
+    Inode bitmap: 2097173 - 2097173
+    Inode Table: 2099744 - 2100255
+    Data Blocks: 2100256 - 2293759
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 70:
+  Inode Range: 573441 - 581632
+  Block Range: 2293760 - 2326527
+  Layout:
+    Data bitmap: 2097158 - 2097158
+    Inode bitmap: 2097174 - 2097174
+    Inode Table: 2100256 - 2100767
+    Data Blocks: 2100768 - 2326527
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 71:
+  Inode Range: 581633 - 589824
+  Block Range: 2326528 - 2359295
+  Layout:
+    Data bitmap: 2097159 - 2097159
+    Inode bitmap: 2097175 - 2097175
+    Inode Table: 2100768 - 2101279
+    Data Blocks: 2101280 - 2359295
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 72:
+  Inode Range: 589825 - 598016
+  Block Range: 2359296 - 2392063
+  Layout:
+    Data bitmap: 2097160 - 2097160
+    Inode bitmap: 2097176 - 2097176
+    Inode Table: 2101280 - 2101791
+    Data Blocks: 2101792 - 2392063
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 73:
+  Inode Range: 598017 - 606208
+  Block Range: 2392064 - 2424831
+  Layout:
+    Data bitmap: 2097161 - 2097161
+    Inode bitmap: 2097177 - 2097177
+    Inode Table: 2101792 - 2102303
+    Data Blocks: 2102304 - 2424831
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 74:
+  Inode Range: 606209 - 614400
+  Block Range: 2424832 - 2457599
+  Layout:
+    Data bitmap: 2097162 - 2097162
+    Inode bitmap: 2097178 - 2097178
+    Inode Table: 2102304 - 2102815
+    Data Blocks: 2102816 - 2457599
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 75:
+  Inode Range: 614401 - 622592
+  Block Range: 2457600 - 2490367
+  Layout:
+    Data bitmap: 2097163 - 2097163
+    Inode bitmap: 2097179 - 2097179
+    Inode Table: 2102816 - 2103327
+    Data Blocks: 2103328 - 2490367
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 76:
+  Inode Range: 622593 - 630784
+  Block Range: 2490368 - 2523135
+  Layout:
+    Data bitmap: 2097164 - 2097164
+    Inode bitmap: 2097180 - 2097180
+    Inode Table: 2103328 - 2103839
+    Data Blocks: 2103840 - 2523135
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 77:
+  Inode Range: 630785 - 638976
+  Block Range: 2523136 - 2555903
+  Layout:
+    Data bitmap: 2097165 - 2097165
+    Inode bitmap: 2097181 - 2097181
+    Inode Table: 2103840 - 2104351
+    Data Blocks: 2104352 - 2555903
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 78:
+  Inode Range: 638977 - 647168
+  Block Range: 2555904 - 2588671
+  Layout:
+    Data bitmap: 2097166 - 2097166
+    Inode bitmap: 2097182 - 2097182
+    Inode Table: 2104352 - 2104863
+    Data Blocks: 2104864 - 2588671
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 79:
+  Inode Range: 647169 - 655360
+  Block Range: 2588672 - 2621439
+  Layout:
+    Data bitmap: 2097167 - 2097167
+    Inode bitmap: 2097183 - 2097183
+    Inode Table: 2104864 - 2105375
+    Data Blocks: 2105376 - 2621439
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 80:
+  Inode Range: 655361 - 663552
+  Block Range: 2621440 - 2654207
+  Layout:
+    Data bitmap: 2621440 - 2621440
+    Inode bitmap: 2621456 - 2621456
+    Inode Table: 2621472 - 2621983
+    Data Blocks: 2621457 - 2621471, 2621984 - 2654207
+  Free Inodes: 358 (4%)
+  Free Blocks: 14137 (43%)
+  Total Directories: 755
+
+Group: 81:
+  Inode Range: 663553 - 671744
+  Block Range: 2654208 - 2686975
+  Layout:
+    Super Block: 2654208 - 2654208
+    Group Descriptor Table: 2654209 - 2654209
+    Group Descriptor Growth Blocks: 2654210 - 2655232
+    Data bitmap: 2621441 - 2621441
+    Inode bitmap: 2621457 - 2621457
+    Inode Table: 2621984 - 2622495
+    Data Blocks: 2622496 - 2686975
+  Free Inodes: 0 (0%)
+  Free Blocks: 429 (1%)
+  Total Directories: 252
+
+Group: 82:
+  Inode Range: 671745 - 679936
+  Block Range: 2686976 - 2719743
+  Layout:
+    Data bitmap: 2621442 - 2621442
+    Inode bitmap: 2621458 - 2621458
+    Inode Table: 2622496 - 2623007
+    Data Blocks: 2623008 - 2719743
+  Free Inodes: 0 (0%)
+  Free Blocks: 392 (1%)
+  Total Directories: 247
+
+Group: 83:
+  Inode Range: 679937 - 688128
+  Block Range: 2719744 - 2752511
+  Layout:
+    Data bitmap: 2621443 - 2621443
+    Inode bitmap: 2621459 - 2621459
+    Inode Table: 2623008 - 2623519
+    Data Blocks: 2623520 - 2752511
+  Free Inodes: 16 (0%)
+  Free Blocks: 32218 (98%)
+  Total Directories: 171
+
+Group: 84:
+  Inode Range: 688129 - 696320
+  Block Range: 2752512 - 2785279
+  Layout:
+    Data bitmap: 2621444 - 2621444
+    Inode bitmap: 2621460 - 2621460
+    Inode Table: 2623520 - 2624031
+    Data Blocks: 2624032 - 2785279
+  Free Inodes: 3365 (41%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 723
+
+Group: 85:
+  Inode Range: 696321 - 704512
+  Block Range: 2785280 - 2818047
+  Layout:
+    Data bitmap: 2621445 - 2621445
+    Inode bitmap: 2621461 - 2621461
+    Inode Table: 2624032 - 2624543
+    Data Blocks: 2624544 - 2818047
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 86:
+  Inode Range: 704513 - 712704
+  Block Range: 2818048 - 2850815
+  Layout:
+    Data bitmap: 2621446 - 2621446
+    Inode bitmap: 2621462 - 2621462
+    Inode Table: 2624544 - 2625055
+    Data Blocks: 2625056 - 2850815
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 87:
+  Inode Range: 712705 - 720896
+  Block Range: 2850816 - 2883583
+  Layout:
+    Data bitmap: 2621447 - 2621447
+    Inode bitmap: 2621463 - 2621463
+    Inode Table: 2625056 - 2625567
+    Data Blocks: 2625568 - 2883583
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 88:
+  Inode Range: 720897 - 729088
+  Block Range: 2883584 - 2916351
+  Layout:
+    Data bitmap: 2621448 - 2621448
+    Inode bitmap: 2621464 - 2621464
+    Inode Table: 2625568 - 2626079
+    Data Blocks: 2626080 - 2916351
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 89:
+  Inode Range: 729089 - 737280
+  Block Range: 2916352 - 2949119
+  Layout:
+    Data bitmap: 2621449 - 2621449
+    Inode bitmap: 2621465 - 2621465
+    Inode Table: 2626080 - 2626591
+    Data Blocks: 2626592 - 2949119
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 90:
+  Inode Range: 737281 - 745472
+  Block Range: 2949120 - 2981887
+  Layout:
+    Data bitmap: 2621450 - 2621450
+    Inode bitmap: 2621466 - 2621466
+    Inode Table: 2626592 - 2627103
+    Data Blocks: 2627104 - 2981887
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 91:
+  Inode Range: 745473 - 753664
+  Block Range: 2981888 - 3014655
+  Layout:
+    Data bitmap: 2621451 - 2621451
+    Inode bitmap: 2621467 - 2621467
+    Inode Table: 2627104 - 2627615
+    Data Blocks: 2627616 - 3014655
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 92:
+  Inode Range: 753665 - 761856
+  Block Range: 3014656 - 3047423
+  Layout:
+    Data bitmap: 2621452 - 2621452
+    Inode bitmap: 2621468 - 2621468
+    Inode Table: 2627616 - 2628127
+    Data Blocks: 2628128 - 3047423
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 93:
+  Inode Range: 761857 - 770048
+  Block Range: 3047424 - 3080191
+  Layout:
+    Data bitmap: 2621453 - 2621453
+    Inode bitmap: 2621469 - 2621469
+    Inode Table: 2628128 - 2628639
+    Data Blocks: 2628640 - 3080191
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 94:
+  Inode Range: 770049 - 778240
+  Block Range: 3080192 - 3112959
+  Layout:
+    Data bitmap: 2621454 - 2621454
+    Inode bitmap: 2621470 - 2621470
+    Inode Table: 2628640 - 2629151
+    Data Blocks: 2629152 - 3112959
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 95:
+  Inode Range: 778241 - 786432
+  Block Range: 3112960 - 3145727
+  Layout:
+    Data bitmap: 2621455 - 2621455
+    Inode bitmap: 2621471 - 2621471
+    Inode Table: 2629152 - 2629663
+    Data Blocks: 2629664 - 3145727
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 96:
+  Inode Range: 786433 - 794624
+  Block Range: 3145728 - 3178495
+  Layout:
+    Data bitmap: 3145728 - 3145728
+    Inode bitmap: 3145744 - 3145744
+    Inode Table: 3145760 - 3146271
+    Data Blocks: 3145745 - 3145759, 3146272 - 3178495
+  Free Inodes: 0 (0%)
+  Free Blocks: 14274 (43%)
+  Total Directories: 388
+
+Group: 97:
+  Inode Range: 794625 - 802816
+  Block Range: 3178496 - 3211263
+  Layout:
+    Data bitmap: 3145729 - 3145729
+    Inode bitmap: 3145745 - 3145745
+    Inode Table: 3146272 - 3146783
+    Data Blocks: 3146784 - 3211263
+  Free Inodes: 0 (0%)
+  Free Blocks: 17090 (52%)
+  Total Directories: 217
+
+Group: 98:
+  Inode Range: 802817 - 811008
+  Block Range: 3211264 - 3244031
+  Layout:
+    Data bitmap: 3145730 - 3145730
+    Inode bitmap: 3145746 - 3145746
+    Inode Table: 3146784 - 3147295
+    Data Blocks: 3147296 - 3244031
+  Free Inodes: 0 (0%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 227
+
+Group: 99:
+  Inode Range: 811009 - 819200
+  Block Range: 3244032 - 3276799
+  Layout:
+    Data bitmap: 3145731 - 3145731
+    Inode bitmap: 3145747 - 3145747
+    Inode Table: 3147296 - 3147807
+    Data Blocks: 3147808 - 3276799
+  Free Inodes: 662 (8%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 1473
+
+Group: 100:
+  Inode Range: 819201 - 827392
+  Block Range: 3276800 - 3309567
+  Layout:
+    Data bitmap: 3145732 - 3145732
+    Inode bitmap: 3145748 - 3145748
+    Inode Table: 3147808 - 3148319
+    Data Blocks: 3148320 - 3309567
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 101:
+  Inode Range: 827393 - 835584
+  Block Range: 3309568 - 3342335
+  Layout:
+    Data bitmap: 3145733 - 3145733
+    Inode bitmap: 3145749 - 3145749
+    Inode Table: 3148320 - 3148831
+    Data Blocks: 3148832 - 3342335
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 102:
+  Inode Range: 835585 - 843776
+  Block Range: 3342336 - 3375103
+  Layout:
+    Data bitmap: 3145734 - 3145734
+    Inode bitmap: 3145750 - 3145750
+    Inode Table: 3148832 - 3149343
+    Data Blocks: 3149344 - 3375103
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 103:
+  Inode Range: 843777 - 851968
+  Block Range: 3375104 - 3407871
+  Layout:
+    Data bitmap: 3145735 - 3145735
+    Inode bitmap: 3145751 - 3145751
+    Inode Table: 3149344 - 3149855
+    Data Blocks: 3149856 - 3407871
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 104:
+  Inode Range: 851969 - 860160
+  Block Range: 3407872 - 3440639
+  Layout:
+    Data bitmap: 3145736 - 3145736
+    Inode bitmap: 3145752 - 3145752
+    Inode Table: 3149856 - 3150367
+    Data Blocks: 3150368 - 3440639
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 105:
+  Inode Range: 860161 - 868352
+  Block Range: 3440640 - 3473407
+  Layout:
+    Data bitmap: 3145737 - 3145737
+    Inode bitmap: 3145753 - 3145753
+    Inode Table: 3150368 - 3150879
+    Data Blocks: 3150880 - 3473407
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 106:
+  Inode Range: 868353 - 876544
+  Block Range: 3473408 - 3506175
+  Layout:
+    Data bitmap: 3145738 - 3145738
+    Inode bitmap: 3145754 - 3145754
+    Inode Table: 3150880 - 3151391
+    Data Blocks: 3151392 - 3506175
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 107:
+  Inode Range: 876545 - 884736
+  Block Range: 3506176 - 3538943
+  Layout:
+    Data bitmap: 3145739 - 3145739
+    Inode bitmap: 3145755 - 3145755
+    Inode Table: 3151392 - 3151903
+    Data Blocks: 3151904 - 3538943
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 108:
+  Inode Range: 884737 - 892928
+  Block Range: 3538944 - 3571711
+  Layout:
+    Data bitmap: 3145740 - 3145740
+    Inode bitmap: 3145756 - 3145756
+    Inode Table: 3151904 - 3152415
+    Data Blocks: 3152416 - 3571711
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 109:
+  Inode Range: 892929 - 901120
+  Block Range: 3571712 - 3604479
+  Layout:
+    Data bitmap: 3145741 - 3145741
+    Inode bitmap: 3145757 - 3145757
+    Inode Table: 3152416 - 3152927
+    Data Blocks: 3152928 - 3604479
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 110:
+  Inode Range: 901121 - 909312
+  Block Range: 3604480 - 3637247
+  Layout:
+    Data bitmap: 3145742 - 3145742
+    Inode bitmap: 3145758 - 3145758
+    Inode Table: 3152928 - 3153439
+    Data Blocks: 3153440 - 3637247
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 111:
+  Inode Range: 909313 - 917504
+  Block Range: 3637248 - 3670015
+  Layout:
+    Data bitmap: 3145743 - 3145743
+    Inode bitmap: 3145759 - 3145759
+    Inode Table: 3153440 - 3153951
+    Data Blocks: 3153952 - 3670015
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 112:
+  Inode Range: 917505 - 925696
+  Block Range: 3670016 - 3702783
+  Layout:
+    Data bitmap: 3670016 - 3670016
+    Inode bitmap: 3670032 - 3670032
+    Inode Table: 3670048 - 3670559
+    Data Blocks: 3670033 - 3670047, 3670560 - 3702783
+  Free Inodes: 2761 (33%)
+  Free Blocks: 22898 (69%)
+  Total Directories: 1644
+
+Group: 113:
+  Inode Range: 925697 - 933888
+  Block Range: 3702784 - 3735551
+  Layout:
+    Data bitmap: 3670017 - 3670017
+    Inode bitmap: 3670033 - 3670033
+    Inode Table: 3670560 - 3671071
+    Data Blocks: 3671072 - 3735551
+  Free Inodes: 8192 (100%)
+  Free Blocks: 31257 (95%)
+  Total Directories: 0
+
+Group: 114:
+  Inode Range: 933889 - 942080
+  Block Range: 3735552 - 3768319
+  Layout:
+    Data bitmap: 3670018 - 3670018
+    Inode bitmap: 3670034 - 3670034
+    Inode Table: 3671072 - 3671583
+    Data Blocks: 3671584 - 3768319
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 115:
+  Inode Range: 942081 - 950272
+  Block Range: 3768320 - 3801087
+  Layout:
+    Data bitmap: 3670019 - 3670019
+    Inode bitmap: 3670035 - 3670035
+    Inode Table: 3671584 - 3672095
+    Data Blocks: 3672096 - 3801087
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 116:
+  Inode Range: 950273 - 958464
+  Block Range: 3801088 - 3833855
+  Layout:
+    Data bitmap: 3670020 - 3670020
+    Inode bitmap: 3670036 - 3670036
+    Inode Table: 3672096 - 3672607
+    Data Blocks: 3672608 - 3833855
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 117:
+  Inode Range: 958465 - 966656
+  Block Range: 3833856 - 3866623
+  Layout:
+    Data bitmap: 3670021 - 3670021
+    Inode bitmap: 3670037 - 3670037
+    Inode Table: 3672608 - 3673119
+    Data Blocks: 3673120 - 3866623
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 118:
+  Inode Range: 966657 - 974848
+  Block Range: 3866624 - 3899391
+  Layout:
+    Data bitmap: 3670022 - 3670022
+    Inode bitmap: 3670038 - 3670038
+    Inode Table: 3673120 - 3673631
+    Data Blocks: 3673632 - 3899391
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 119:
+  Inode Range: 974849 - 983040
+  Block Range: 3899392 - 3932159
+  Layout:
+    Data bitmap: 3670023 - 3670023
+    Inode bitmap: 3670039 - 3670039
+    Inode Table: 3673632 - 3674143
+    Data Blocks: 3674144 - 3932159
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 120:
+  Inode Range: 983041 - 991232
+  Block Range: 3932160 - 3964927
+  Layout:
+    Data bitmap: 3670024 - 3670024
+    Inode bitmap: 3670040 - 3670040
+    Inode Table: 3674144 - 3674655
+    Data Blocks: 3674656 - 3964927
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 121:
+  Inode Range: 991233 - 999424
+  Block Range: 3964928 - 3997695
+  Layout:
+    Data bitmap: 3670025 - 3670025
+    Inode bitmap: 3670041 - 3670041
+    Inode Table: 3674656 - 3675167
+    Data Blocks: 3675168 - 3997695
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 122:
+  Inode Range: 999425 - 1007616
+  Block Range: 3997696 - 4030463
+  Layout:
+    Data bitmap: 3670026 - 3670026
+    Inode bitmap: 3670042 - 3670042
+    Inode Table: 3675168 - 3675679
+    Data Blocks: 3675680 - 4030463
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 123:
+  Inode Range: 1007617 - 1015808
+  Block Range: 4030464 - 4063231
+  Layout:
+    Data bitmap: 3670027 - 3670027
+    Inode bitmap: 3670043 - 3670043
+    Inode Table: 3675680 - 3676191
+    Data Blocks: 3676192 - 4063231
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 124:
+  Inode Range: 1015809 - 1024000
+  Block Range: 4063232 - 4095999
+  Layout:
+    Data bitmap: 3670028 - 3670028
+    Inode bitmap: 3670044 - 3670044
+    Inode Table: 3676192 - 3676703
+    Data Blocks: 3676704 - 4095999
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 125:
+  Inode Range: 1024001 - 1032192
+  Block Range: 4096000 - 4128767
+  Layout:
+    Super Block: 4096000 - 4096000
+    Group Descriptor Table: 4096001 - 4096001
+    Group Descriptor Growth Blocks: 4096002 - 4097024
+    Data bitmap: 3670029 - 3670029
+    Inode bitmap: 3670045 - 3670045
+    Inode Table: 3676704 - 3677215
+    Data Blocks: 3677216 - 4128767
+  Free Inodes: 8192 (100%)
+  Free Blocks: 31743 (96%)
+  Total Directories: 0
+
+Group: 126:
+  Inode Range: 1032193 - 1040384
+  Block Range: 4128768 - 4161535
+  Layout:
+    Data bitmap: 3670030 - 3670030
+    Inode bitmap: 3670046 - 3670046
+    Inode Table: 3677216 - 3677727
+    Data Blocks: 3677728 - 4161535
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32768 (100%)
+  Total Directories: 0
+
+Group: 127:
+  Inode Range: 1040385 - 1048576
+  Block Range: 4161536 - 4194047
+  Layout:
+    Data bitmap: 3670031 - 3670031
+    Inode bitmap: 3670047 - 3670047
+    Inode Table: 3677728 - 3678239
+    Data Blocks: 3678240 - 4194047
+  Free Inodes: 8192 (100%)
+  Free Blocks: 32512 (100%)
+  Total Directories: 0

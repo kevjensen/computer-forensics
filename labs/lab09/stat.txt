@@ -1,0 +1,5 @@
+  File: "/media/part0"
+    ID: fc7dc758bc738495 Namelen: 255     Type: ext2/ext3
+Block size: 4096       Fundamental block size: 4096
+Blocks: Total: 4095466    Free: 3070818    Available: 2857020
+Inodes: Total: 1048576    Free: 864062
