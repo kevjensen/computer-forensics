@@ -1,0 +1,20 @@
+Offset             Pid      Name                 Start              End                Flags               Pgoff Major  Minor  Inode      File Path
+------------------ -------- -------------------- ------------------ ------------------ ------ ------------------ ------ ------ ---------- ---------
+0xffff88006e880000     3027 xingyi_bindshel      0x0000000000400000 0x0000000000402000 r-x                   0x0      8      1     657103 /bin/xingyi_bindshell
+0xffff88006e880000     3027 xingyi_bindshel      0x0000000000601000 0x0000000000602000 r--                0x1000      8      1     657103 /bin/xingyi_bindshell
+0xffff88006e880000     3027 xingyi_bindshel      0x0000000000602000 0x0000000000603000 rw-                0x2000      8      1     657103 /bin/xingyi_bindshell
+0xffff88006e880000     3027 xingyi_bindshel      0x0000000002581000 0x00000000025a2000 rw-                   0x0      0      0          0 [heap]
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718667000 0x00007fa718822000 r-x                   0x0      8      1     528859 /lib/x86_64-linux-gnu/libc-2.19.so
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718822000 0x00007fa718a21000 ---              0x1bb000      8      1     528859 /lib/x86_64-linux-gnu/libc-2.19.so
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718a21000 0x00007fa718a25000 r--              0x1ba000      8      1     528859 /lib/x86_64-linux-gnu/libc-2.19.so
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718a25000 0x00007fa718a27000 rw-              0x1be000      8      1     528859 /lib/x86_64-linux-gnu/libc-2.19.so
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718a27000 0x00007fa718a2c000 rw-                   0x0      0      0          0 
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718a2c000 0x00007fa718a4f000 r-x                   0x0      8      1     524392 /lib/x86_64-linux-gnu/ld-2.19.so
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718c33000 0x00007fa718c36000 rw-                   0x0      0      0          0 
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718c4a000 0x00007fa718c4e000 rw-                   0x0      0      0          0 
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718c4e000 0x00007fa718c4f000 r--               0x22000      8      1     524392 /lib/x86_64-linux-gnu/ld-2.19.so
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718c4f000 0x00007fa718c50000 rw-               0x23000      8      1     524392 /lib/x86_64-linux-gnu/ld-2.19.so
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fa718c50000 0x00007fa718c51000 rw-                   0x0      0      0          0 
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fffc7f88000 0x00007fffc7faa000 rw-                   0x0      0      0          0 [stack]
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fffc7ffc000 0x00007fffc7ffe000 r-x                   0x0      0      0          0 [vdso]
+0xffff88006e880000     3027 xingyi_bindshel      0x00007fffc7ffe000 0x00007fffc8000000 r--                   0x0      0      0          0 

@@ -1,0 +1,43 @@
+linux_bash.txt ex:
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   tar xzvf xingyiquan.tar.gz
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   passwd lightdm
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   passwd whoopsie
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mv johnn .johnn
+
+linux_bash_env.txt ex:
+3027 xingyi_bindshel 
+
+linux_check_syscall.txt ex:
+64bit          2                          0xffffffffc0648ad0 HOOKED: xingyiquan/cr_open 
+64bit          6                          0xffffffffc06487a0 HOOKED: xingyiquan/cr_lstat
+64bit         32                          0xffffffffc0648270 HOOKED: xingyiquan/cr_dup 
+64bit         62                          0xffffffffc06482e0 HOOKED: xingyiquan/cr_kill
+linux_enumerate_files.txt ex:
+               0x0 ------------------------- /tmp/xingyi_reverse_pid
+0xffff8800470ff470                    657113 /tmp/xingyi_bindshell_port
+0xffff8800470ff080                    657030 /tmp/xingyi_bindshell_pid
+
+linux_netfilter.txt ex:
+IPV4  PRE_ROUTING      0xffffffffc0648f20 True 
+linux_proc_maps.txt
+0xffff88006e880000     3027 xingyi_bindshel      0x0000000000400000 0x0000000000402000 r-x                   0x0      8      1     657103 /bin/xingyi_bindshell
+This shows the process map for the rootkit's bindshell.
+
+linux_psaux.txt ex:
+3027   0      0      xingyi_bindshell
+
+linux_psenv.txt ex:
+xingyi_bindshel   3027   TERM=xterm PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin LANG=en_US.UTF-8 HOME=/home/john LANGUAGE=en_US DISPLAY=:0 COLORTERM=gnome-terminal XAUTHORITY=/home/john/.Xauthority SHELL=/bin/bash MAIL=/var/mail/root LOGNAME=root USER=root USERNAME=root SUDO_COMMAND=./install SUDO_USER=john SUDO_UID=1000 SUDO_GID=1000
+
+linux_pslist.txt ex:
+0xffff88006e880000 xingyi_bindshel      3027            1719            0               0      0x000000005d2be000 2015-03-11 14:11:25 UTC+0000
+
+linux_pstree.txt ex:
+....xingyi_bindshel  3027
+This is located under the "lightdm" user, which is highly suspicious because lightdm should not have execution privileges.
+
+linux_psxview.txt ex:
+0x000000006e880000 xingyi_bindshel        3027 True   True   True     False      False   True
+
+netstat_tcp.txt ex:
+TCP      0.0.0.0         : 7777 0.0.0.0         :    0 LISTEN            xingyi_bindshel/3027

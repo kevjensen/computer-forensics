@@ -1,0 +1,457 @@
+Pid      Name                 Command Time                   Command
+-------- -------------------- ------------------------------ -------
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo apt-get install netcat
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo apt-get update && sudo apt-get -y upgrade
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mkdir /mnt/x64
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=/mnt/x64/x64/bin:/mnt/x64/x64/sbin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   clear
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd Downloads/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd xingyiquan/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   more README
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo -s
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd ..
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   nmap localhost
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   q
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=$(pwd)/sbin:$(pwd)/bin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   source bin/setup-client.sh 192.168.56.1
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/initial-scan.sh 
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo -s
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   make 
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cp lime-3.16.0-30-generic.ko ../../.
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   update-rc.d pure-ftpd defaults
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   update-rc.d ssh defaults
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd Downloads/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo apt-get install openssh-server
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   service pure-ftpd start
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   apt-cache search chrome
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   pwd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export LD_LIBRARY_PATH=/mnt/x64/x64/lib:/mnt/x64/x64/lib64
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mount /dev/sdb2 /mnt/x64
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /mnt/x64
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   tar xzvf xingyiquan.tar.gz 
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   apt-cache search ssh
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   apt-cache search ftp-server
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo apt-get install pure-ftpd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   nmap localhost
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   apt-cache search openssh
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd xingyiquan/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo -s
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   apt-get install chromium-browser
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   date | nc 192.168.56.1 9999
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   uname -a | nc 192.168.56.1 9999
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ifconfig
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   echo $PATH
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   l
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd x64
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ifconfig
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ifconfig
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   date | nc 192.168.56.1 9999
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   uname -a | nc 192.168.56.1 9999
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd ../..
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   insmod lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   uname -a
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   insmod lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   delmod lime-3.16.0-30-generic
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   modprobe -r lime-3.16.0-30-generic
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   lsmod | grep lime
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   modprobe -r lime
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   lsmod | grep lime
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   lsmod
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exit
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   uname -a
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd x64/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd LiMe
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd src
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls -l
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo -s
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd ..
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   source bin/setup-client.sh 192.168.56.1
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh date
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh ifconfig
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   echo $PATH
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ifconfig
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=$(pwd)/bin:$(pwd)/sbin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls /dev/sd*
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo apt-get install nmap
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mount
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=/mnt/x64/x64/sbin:/mnt/x64/x64/bin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   nc 192.168.56.1 4444 < /bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   nc 192.168.56.1 4444 < /bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd x64/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo -s
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   echo $PATH
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /bin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls /mnt
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh ps -ef
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh ps -ef lsof
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd bin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh lsof
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh route
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-file.sh /bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cp /usr/bin/basename ./.
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   /usr/bin/lsof
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls /dev/sd*
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd mnt/x64/x64/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=/mnt/x64/x64/sbin;/mnt/x64/x64/bin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh netstat
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-file.sh /bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd x64
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=$(pwd)/bin:$(pwd)/sbin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cp /usr/bin/lsof ./.
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mount
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd x64
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh lsof
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-file.sh /bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mount
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo -s
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   userdel johnn
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mount
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mount
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   w
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-file.sh /bin/false
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo -s
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=$(pwd)/bin:$(pwd)/sbin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   useradd johnn
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   source bin/setup-client.sh 192.168.56.1
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/inital-scan.sh
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/initial-scan.sh
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   adduser johnn
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cp /bin/true /bin/false
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls -l /bin/false
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   source bin/setup-client.sh 192.168.56.1
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh date
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ifconfig
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sudo -s
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh ifconfig
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   bash bin/send-log.sh netstat
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   vi /etc/passwd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   man sed
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sed #/home/johnn#/home/.johnn# /etc/passwd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   sed -i 's#/home/johnn#/home/.johnn#' /etc/passwd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   tail /etc/passwd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ./install
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   nmap localhost
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd ..
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   pwd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls -a
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd ..
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   pwd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd Downloads/
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd ..
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /home
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls -a
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /etc
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls gr*
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cat passwd
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cd /home
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   mv johnn .johnn
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   ls -l
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   passwd whoopsie
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   exec bin/bash
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   passwd lightdm
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   cp /bin/bash /bin/false
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   vi /etc/gr/group
+    2568 bash                 2015-03-11 14:10:27 UTC+0000   vi /etc/groups
+    2568 bash                 2015-03-11 14:10:37 UTC+0000   cd Downloads/
+    2568 bash                 2015-03-11 14:10:38 UTC+0000   ls
+    2568 bash                 2015-03-11 14:10:46 UTC+0000   cd xingyiquan/
+    2568 bash                 2015-03-11 14:10:52 UTC+0000   ls
+    2568 bash                 2015-03-11 14:11:02 UTC+0000   sudo ./install
+    2568 bash                 2015-03-11 14:11:29 UTC+0000   ls
+    2568 bash                 2015-03-11 14:11:31 UTC+0000   cd ..
+    2568 bash                 2015-03-11 14:11:32 UTC+0000   ls
+    2568 bash                 2015-03-11 14:11:34 UTC+0000   cd ..
+    2568 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo apt-get install nmap
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ifconfig
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   apt-cache search chrome
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo apt-get install netcat
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   service pure-ftpd start
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   mkdir /mnt/x64
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls -a
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   clear
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd Downloads/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd xingyiquan/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   more README
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd ..
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   nmap localhost
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   q
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=$(pwd)/sbin:$(pwd)/bin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   source bin/setup-client.sh 192.168.56.1
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/initial-scan.sh 
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   make 
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=/mnt/x64/x64/sbin;/mnt/x64/x64/bin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd x64
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   nmap localhost
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd xingyiquan/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   mount /dev/sdb2 /mnt/x64
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   apt-cache search ssh
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   update-rc.d pure-ftpd defaults
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   tar xzvf xingyiquan.tar.gz 
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   pwd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   apt-cache search openssh
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo apt-get install openssh-server
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd Downloads/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   apt-cache search ftp-server
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   apt-get install chromium-browser
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   update-rc.d ssh defaults
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /mnt/x64
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo apt-get install pure-ftpd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd x64
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd mnt/x64/x64/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   date | nc 192.168.56.1 9999
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   uname -a | nc 192.168.56.1 9999
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export LD_LIBRARY_PATH=/mnt/x64/x64/lib:/mnt/x64/x64/lib64
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=/mnt/x64/x64/bin:/mnt/x64/x64/sbin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   l
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ifconfig
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cp lime-3.16.0-30-generic.ko ../../.
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd ../..
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   insmod lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   uname -a
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   insmod lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   delmod lime-3.16.0-30-generic
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   modprobe -r lime-3.16.0-30-generic
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   lsmod | grep lime
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   modprobe -r lime
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   lsmod | grep lime
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   lsmod
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exit
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   uname -a
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd x64/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd LiMe
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd src
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls -l
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   echo $PATH
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=$(pwd)/bin:$(pwd)/sbin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh date
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh ifconfig
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ifconfig
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   source bin/setup-client.sh 192.168.56.1
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ifconfig
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd x64/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo apt-get update && sudo apt-get -y upgrade
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cp /usr/bin/lsof ./.
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls /mnt
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   echo $PATH
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /bin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh ps -ef
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh ps -ef lsof
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cp /usr/bin/basename ./.
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh lsof
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh route
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd ..
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls /dev/sd*
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   mount
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh netstat
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-file.sh /bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   /usr/bin/lsof
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-file.sh /bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   date | nc 192.168.56.1 9999
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   uname -a | nc 192.168.56.1 9999
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd x64
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=$(pwd)/bin:$(pwd)/sbin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd bin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls /dev/sd*
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   source bin/setup-client.sh 192.168.56.1
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh date
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export LD_LIBRARY_PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib64:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/lib
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   mount
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   useradd johnn
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh lsof
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-file.sh /bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ifconfig
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/initial-scan.sh
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   mount
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   nc 192.168.56.1 4444 < /bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-file.sh /bin/false
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=$(pwd)/bin:$(pwd)/sbin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/lib
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   w
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   source bin/setup-client.sh 192.168.56.1
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/inital-scan.sh
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   userdel johnn
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   mount
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cp /bin/true /bin/false
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls -l /bin/false
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   adduser johnn
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   exec bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/bin:/media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/sbin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh ifconfig
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   bash bin/send-log.sh netstat
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sudo -s
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   mount
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   vi /etc/groups
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /etc
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls gr*
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cat passwd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /home
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   mv johnn .johnn
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls -l
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   vi /etc/passwd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   man sed
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sed #/home/johnn#/home/.johnn# /etc/passwd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   sed -i 's#/home/johnn#/home/.johnn#' /etc/passwd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   tail /etc/passwd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ./install
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   nmap localhost
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd ..
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   pwd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls -a
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd ..
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   pwd
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd Downloads/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd ..
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /home
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   ls
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   echo $PATH
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   nc 192.168.56.1 4444 < /bin/bash
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   export PATH=/mnt/x64/x64/sbin:/mnt/x64/x64/bin
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   passwd whoopsie
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   passwd lightdm
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   cp /bin/bash /bin/false
+    3035 bash                 2015-03-11 14:11:43 UTC+0000   vi /etc/gr/group
+    3035 bash                 2015-03-11 14:11:51 UTC+0000   cd /media/john/37fd0119-0386-4b6e-896b-d463f702f660/x64/
+    3035 bash                 2015-03-11 14:11:52 UTC+0000   ls
+    3035 bash                 2015-03-11 14:12:50 UTC+0000   ls 
+    3035 bash                 2015-03-11 14:13:02 UTC+0000   uname -a
+    3035 bash                 2015-03-11 14:13:56 UTC+0000   insmod lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"

@@ -1,0 +1,11 @@
+Disk pentest.img: 18 GiB, 19327352832 bytes, 37748736 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x0004565b
+
+Device       Boot    Start      End  Sectors Size Id Type
+pentest.img1 *        2048 33554431 33552384  16G 83 Linux
+pentest.img2      33556478 37746687  4190210   2G  5 Extended
+pentest.img5      33556480 37746687  4190208   2G 82 Linux swap / Solaris

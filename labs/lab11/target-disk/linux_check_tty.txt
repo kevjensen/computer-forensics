@@ -1,0 +1,9 @@
+Name             Address            Symbol                        
+---------------- ------------------ ------------------------------
+tty1             0xffffffff81471770 n_tty_receive_buf             
+tty2             0xffffffff81471770 n_tty_receive_buf             
+tty3             0xffffffff81471770 n_tty_receive_buf             
+tty4             0xffffffff81471770 n_tty_receive_buf             
+tty5             0xffffffff81471770 n_tty_receive_buf             
+tty6             0xffffffff81471770 n_tty_receive_buf             
+tty7             0xffffffff81471770 n_tty_receive_buf             

@@ -1,0 +1,7 @@
+Pid      Name                 Hits   Command                   Full Path
+-------- -------------------- ------ ------------------------- ---------
+    2568 bash                      2 sudo                      /usr/bin/sudo
+    2568 bash                      4 ls                        /bin/ls
+    3035 bash                      1 uname                     /bin/uname
+    3035 bash                      1 insmod                    /sbin/insmod
+    3035 bash                      2 ls                        /bin/ls

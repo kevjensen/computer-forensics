@@ -1,0 +1,9 @@
+TCP      0.0.0.0         :   22 0.0.0.0         :    0 LISTEN                       sshd/890  
+TCP      ::              :   22 ::              :    0 LISTEN                       sshd/890  
+TCP      ::1             :36876 ::1             :  631 CLOSE_WAIT           cups-browsed/944  
+TCP      127.0.1.1       :   53 0.0.0.0         :    0 LISTEN                    dnsmasq/955  
+TCP      0.0.0.0         :   21 0.0.0.0         :    0 LISTEN                  pure-ftpd/1001 
+TCP      ::              :   21 ::              :    0 LISTEN                  pure-ftpd/1001 
+TCP      ::1             :  631 ::              :    0 LISTEN                      cupsd/2421 
+TCP      127.0.0.1       :  631 0.0.0.0         :    0 LISTEN                      cupsd/2421 
+TCP      0.0.0.0         : 7777 0.0.0.0         :    0 LISTEN            xingyi_bindshel/3027 

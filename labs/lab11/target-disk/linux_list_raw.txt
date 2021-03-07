@@ -1,0 +1,4 @@
+Process          PID    File Descriptor Inode             
+---------------- ------ --------------- ------------------
+dhclient            832               5              10190
+dhclient            825               5              10183

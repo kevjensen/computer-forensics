@@ -1,0 +1,98 @@
+0xffff88007bd7e4b0                    655363 /tmp
+               0x0 ------------------------- /tmp/xingyi_reverse_pid
+0xffff8800470ff470                    657113 /tmp/xingyi_bindshell_port
+0xffff8800470ff080                    657030 /tmp/xingyi_bindshell_pid
+               0x0 ------------------------- /tmp/ccitCNl4.le
+               0x0 ------------------------- /tmp/ccUnh2GK.ld
+               0x0 ------------------------- /tmp/ccaHZg2q.o
+               0x0 ------------------------- /tmp/ccIVLvn7.c
+               0x0 ------------------------- /tmp/ccic45Oh.o
+               0x0 ------------------------- /tmp/ccy4DvcY.s
+               0x0 ------------------------- /tmp/xingyi*
+               0x0 ------------------------- /tmp/ccmDy4iQ.le
+               0x0 ------------------------- /tmp/ccoUW5Ww.ld
+               0x0 ------------------------- /tmp/ccAko7Ad.o
+               0x0 ------------------------- /tmp/cckKW8eU.c
+               0x0 ------------------------- /tmp/ccQNh5j9.o
+0xffff8800470e9470                    657112 /tmp/#657112
+0xffff8800470f7470                    657110 /tmp/#657110
+0xffff8800470ebc50                    657075 /tmp/#657075
+               0x0 ------------------------- /tmp/cc0qCj1P.s
+               0x0 ------------------------- /tmp/ccux6XrJ.le
+               0x0 ------------------------- /tmp/ccpyjXjq.ld
+               0x0 ------------------------- /tmp/cciEDWb7.o
+               0x0 ------------------------- /tmp/ccph0V3N.c
+               0x0 ------------------------- /tmp/ccH0RwGP.o
+               0x0 ------------------------- /tmp/cc9imAzw.s
+               0x0 ------------------------- /tmp/ccGYinAI.le
+               0x0 ------------------------- /tmp/ccqI50aC.ld
+               0x0 ------------------------- /tmp/ccOyWELv.o
+               0x0 ------------------------- /tmp/cc46Simp.c
+               0x0 ------------------------- /tmp/cc19Kq9r.o
+               0x0 ------------------------- /tmp/ccc0NUKl.s
+               0x0 ------------------------- /tmp/ccY7AwbG.le
+               0x0 ------------------------- /tmp/ccv3W0Oz.ld
+               0x0 ------------------------- /tmp/ccsOnvst.o
+               0x0 ------------------------- /tmp/ccbUSZ5m.c
+               0x0 ------------------------- /tmp/cc2cdRkq.o
+               0x0 ------------------------- /tmp/ccDRq8Yj.s
+               0x0 ------------------------- /tmp/ccg84FGh.s
+               0x0 ------------------------- /tmp/cckNR79Q.s
+               0x0 ------------------------- /tmp/ccl6NjkS.s
+               0x0 ------------------------- /tmp/ccHnjMxO.s
+               0x0 ------------------------- /tmp/cc1WHvVP.s
+               0x0 ------------------------- /tmp/ccQFITrM.s
+               0x0 ------------------------- /tmp/ccJW3QRK.s
+               0x0 ------------------------- /tmp/ccTkUWsL.s
+               0x0 ------------------------- /tmp/ccDdvMyJ.s
+               0x0 ------------------------- /tmp/cc03drfF.s
+               0x0 ------------------------- /tmp/ccKsUM9C.s
+               0x0 ------------------------- /tmp/ccXefhFE.s
+               0x0 ------------------------- /tmp/cc29oihF.le
+               0x0 ------------------------- /tmp/cc62nZIN.ld
+               0x0 ------------------------- /tmp/cccXmGaW.o
+               0x0 ------------------------- /tmp/cccOlnC4.c
+               0x0 ------------------------- /tmp/ccvrJ6aD.o
+               0x0 ------------------------- /tmp/ccR32dWL.s
+               0x0 ------------------------- /tmp/l7m_4_3b
+               0x0 ------------------------- /tmp/dbus-1DG3kAex
+               0x0 ------------------------- /tmp/dbus-eohFENJJII
+               0x0 ------------------------- /tmp/tmp.nDChfnVNFh
+0xffff880068be5860                    657029 /tmp/tmpftGkzki
+0xffff880068be5470                    657028 /tmp/tmpfppTMn5
+0xffff880068be5080                    655534 /tmp/tmpftJDEsS
+0xffff880068be4c90                    655533 /tmp/tmpfw4fZOF
+0xffff880068be48a0                    655521 /tmp/tmpflKBkbt
+0xffff880068ba48a0                    655509 /tmp/tmpft0k1xg
+0xffff880068badc50                    655508 /tmp/tmpfpM1325
+               0x0 ------------------------- /tmp/2z10v45p
+               0x0 ------------------------- /tmp/9y6e5scu
+               0x0 ------------------------- /tmp/zbv50xpw
+               0x0 ------------------------- /tmp/b51mpk26
+               0x0 ------------------------- /tmp/fileFDcJFX
+               0x0 ------------------------- /tmp/dbus-gFqLqAQpvA
+               0x0 ------------------------- /tmp/file1kIsIN
+               0x0 ------------------------- /tmp/unity_support_test.0
+0xffff880078ea3c50                    655488 /tmp/config-err-ABoqDx
+               0x0 ------------------------- /tmp/fileZ0IpLg
+               0x0 ------------------------- /tmp/filegbaboo
+               0x0 ------------------------- /tmp/filenSHW0v
+               0x0 ------------------------- /tmp/fileoN88KD
+               0x0 ------------------------- /tmp/filepKFlvL
+               0x0 ------------------------- /tmp/filehbv5nT
+               0x0 ------------------------- /tmp/file9XoPg1
+               0x0 ------------------------- /tmp/filePS57h9
+               0x0 ------------------------- /tmp/fileD5Tqjh
+               0x0 ------------------------- /tmp/filetQt5up
+               0x0 ------------------------- /tmp/fileEzaKGx
+               0x0 ------------------------- /tmp/file7nkz8F
+               0x0 ------------------------- /tmp/.tX0-lock
+0xffff880078d71080                    655486 /tmp/.X0-lock
+0xffff88007aefbc50                    655485 /tmp/.ICE-unix
+0xffff88006885a4b0                    655500 /tmp/.ICE-unix/1950
+0xffff880078e9d860                    655494 /tmp/unity_support_test.1
+               0x0 ------------------------- /tmp/config-err-D7zBGZ
+0xffff88007aefb860                    655484 /tmp/.X11-unix
+0xffff880078d5e0c0                    655487 /tmp/.X11-unix/X0
+               0x0 ------------------------- /tmp/".
+               0x0 ------------------------- /tmp/.X*-lock

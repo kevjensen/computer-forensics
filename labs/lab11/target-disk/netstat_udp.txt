@@ -1,0 +1,12 @@
+UDP      0.0.0.0         : 5353 0.0.0.0         :    0                      avahi-daemon/658  
+UDP      ::              : 5353 ::              :    0                      avahi-daemon/658  
+UDP      0.0.0.0         :52335 0.0.0.0         :    0                      avahi-daemon/658  
+UDP      ::              :34952 ::              :    0                      avahi-daemon/658  
+UDP      0.0.0.0         :   68 0.0.0.0         :    0                          dhclient/825  
+UDP      0.0.0.0         :30705 0.0.0.0         :    0                          dhclient/825  
+UDP      ::              :36006 ::              :    0                          dhclient/825  
+UDP      0.0.0.0         :   68 0.0.0.0         :    0                          dhclient/832  
+UDP      0.0.0.0         :36006 0.0.0.0         :    0                          dhclient/832  
+UDP      ::              : 9677 ::              :    0                          dhclient/832  
+UDP      0.0.0.0         :  631 0.0.0.0         :    0                      cups-browsed/944  
+UDP      127.0.1.1       :   53 0.0.0.0         :    0                           dnsmasq/955  
