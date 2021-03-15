@@ -1,0 +1,3 @@
+I replicated the author's investigation by importing the bash history into MySQL. I included that report in this submission under the "bash_histories.txt" file. 
+
+My investigation concludes that, like the author, there is not much information to gather about these rootkits from the system itself. It does appear that the attacker attempted to cover their tracks by deleting the directories containing the hidden ".rk" directory. Nevertheless, we can see that the Poison rootkit has been installed.

@@ -1,0 +1,326 @@
+UNIX 8277                  init/1     
+UNIX 9532                  init/1     
+UNIX 8524                  init/1     
+UNIX 9339                  init/1     
+UNIX 9195                  init/1     
+UNIX 8518       upstart-udev-br/255   
+UNIX 8542         systemd-udevd/261   /run/udev/control
+UNIX 8584         systemd-udevd/261   
+UNIX 8585         systemd-udevd/261   
+UNIX 9191       upstart-file-br/421   
+UNIX 9330              rsyslogd/449   /dev/log
+UNIX 9332       upstart-socket-/462   
+UNIX 9407           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9525           dbus-daemon/618   
+UNIX 9526           dbus-daemon/618   
+UNIX 9527           dbus-daemon/618   
+UNIX 9533           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9630           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9736           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9812           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9879           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9924           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9930           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 10282          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9940           dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 10807          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 10952          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 342942         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 11110          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 11594          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 11193          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 11610          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 343300         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 343444         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 343520         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 343526         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 343541         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 343695         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 12935          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 343719         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 343746         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 344013         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 16601          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 15045          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 14958          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 12931          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 12791          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 15099          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 16613          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 14966          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 13371          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 14996          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 279492         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 279510         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 13660          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 344031         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 279514         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 16850          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 16201          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 16190          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 16215          dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 332995         dbus-daemon/618   /var/run/dbus/system_bus_socket
+UNIX 9856          ModemManager/638   
+UNIX 9878          ModemManager/638   
+UNIX 9628            bluetoothd/656   
+UNIX 9629            bluetoothd/656   
+UNIX 9853            bluetoothd/656   /var/run/sdp
+UNIX 9774        systemd-logind/662   
+UNIX 9811        systemd-logind/662   
+UNIX 9811        systemd-logind/662   
+UNIX 9695          avahi-daemon/669   
+UNIX 9697          avahi-daemon/669   
+UNIX 9733          avahi-daemon/669   /var/run/avahi-daemon/socket
+UNIX 9735          avahi-daemon/669   
+UDP      0.0.0.0         : 5353 0.0.0.0         :    0                      avahi-daemon/669  
+UDP      ::              : 5353 ::              :    0                      avahi-daemon/669  
+UDP      0.0.0.0         :54707 0.0.0.0         :    0                      avahi-daemon/669  
+UDP      ::              :54700 ::              :    0                      avahi-daemon/669  
+UNIX 9695          avahi-daemon/676   
+UNIX 9698          avahi-daemon/676   
+UNIX 9920        NetworkManager/780   
+UNIX 9923        NetworkManager/780   
+UNIX 9929        NetworkManager/780   
+UNIX 9939               polkitd/788   
+UNIX 16089              polkitd/788   
+UNIX 10034             dhclient/795   
+UDP      0.0.0.0         :   68 0.0.0.0         :    0                          dhclient/795  
+UDP      0.0.0.0         :57773 0.0.0.0         :    0                          dhclient/795  
+UDP      ::              :57235 ::              :    0                          dhclient/795  
+UNIX 10035             dhclient/796   
+UDP      0.0.0.0         :   68 0.0.0.0         :    0                          dhclient/796  
+UDP      0.0.0.0         :57235 0.0.0.0         :    0                          dhclient/796  
+UDP      ::              :21505 ::              :    0                          dhclient/796  
+UNIX 10212                acpid/887   
+UNIX 10222                acpid/887   /var/run/acpid.socket
+TCP      0.0.0.0         :   22 0.0.0.0         :    0 LISTEN                       sshd/923  
+TCP      ::              :   22 ::              :    0 LISTEN                       sshd/923  
+UNIX 10281           kerneloops/935   
+TCP      ::1             :46966 ::1             :  631 CLOSE_WAIT           cups-browsed/953  
+UNIX 13659         cups-browsed/953   
+UDP      0.0.0.0         :  631 0.0.0.0         :    0                      cups-browsed/953  
+UDP      127.0.1.1       :   53 0.0.0.0         :    0                           dnsmasq/965  
+TCP      127.0.1.1       :   53 0.0.0.0         :    0 LISTEN                    dnsmasq/965  
+UNIX 10806              dnsmasq/965   
+UNIX 10815              dnsmasq/965   
+UNIX 10951             whoopsie/1045  
+UNIX 11609             whoopsie/1045  
+UNIX 11611             whoopsie/1045  
+TCP      127.0.0.1       : 3306 0.0.0.0         :    0 LISTEN                     mysqld/1056 
+UNIX 11189               mysqld/1056  /var/run/mysqld/mysqld.sock
+UNIX 11109              lightdm/1234  
+UNIX 342912             lightdm/1234  
+UNIX 11192      accounts-daemon/1249  
+TCP      ::              :44965 ::              :    0 LISTEN                   dropbear/1284 
+UNIX 11593          VBoxService/1360  
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/1514 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/1514 
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/1567 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/1567 
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/1568 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/1568 
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/1569 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/1569 
+TCP      ::ffff192.168.56.101:   80 ::ffff192.168.56.1:40544 CLOSE                     apache2/1569 
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/1570 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/1570 
+TCP      ::ffff192.168.56.101:   80 ::ffff192.168.56.1:40545 ESTABLISHED               apache2/1570 
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/1571 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/1571 
+UNIX 12930              upowerd/1740  
+UNIX 12934              upowerd/1740  
+UNIX 12789         rtkit-daemon/1745  
+UNIX 12790         rtkit-daemon/1745  
+UNIX 13188               colord/1931  
+UNIX 13370               colord/1931  
+UNIX 14109          dbus-daemon/2228  
+UNIX 14115          dbus-daemon/2228  
+UNIX 14116          dbus-daemon/2228  
+UNIX 14295          dbus-daemon/2228  
+UNIX 14395          dbus-daemon/2228  
+UNIX 14363          dbus-daemon/2228  
+UNIX 14522          dbus-daemon/2228  
+UNIX 14930          dbus-daemon/2228  
+UNIX 14651          dbus-daemon/2228  
+UNIX 15022          dbus-daemon/2228  
+UNIX 14963          dbus-daemon/2228  
+UNIX 14971          dbus-daemon/2228  
+UNIX 14983          dbus-daemon/2228  
+UNIX 14984          dbus-daemon/2228  
+UNIX 15097          dbus-daemon/2228  
+UNIX 15624          dbus-daemon/2228  
+UNIX 15646          dbus-daemon/2228  
+UNIX 15825          dbus-daemon/2228  
+UNIX 16225          dbus-daemon/2228  
+UNIX 16152          dbus-daemon/2228  
+UNIX 16323          dbus-daemon/2228  
+UNIX 16236          dbus-daemon/2228  
+UNIX 16244          dbus-daemon/2228  
+UNIX 16345          dbus-daemon/2228  
+UNIX 16262          dbus-daemon/2228  
+UNIX 16363          dbus-daemon/2228  
+UNIX 16836          dbus-daemon/2228  
+UNIX 16590          dbus-daemon/2228  
+UNIX 16598          dbus-daemon/2228  
+UNIX 16872          dbus-daemon/2228  
+UNIX 16843          dbus-daemon/2228  
+UNIX 19798          dbus-daemon/2228  
+UNIX 14929      window-stack-br/2252  
+UNIX 14294      at-spi-bus-laun/2296  
+UNIX 14319          dbus-daemon/2303  
+UNIX 14324          dbus-daemon/2303  
+UNIX 14325          dbus-daemon/2303  
+UNIX 14362                gvfsd/2315  
+UNIX 14394           gvfsd-fuse/2319  
+UNIX 14650        dconf-service/2357  
+UNIX 14961      indicator-messa/2388  
+UNIX 14957      indicator-bluet/2390  
+UNIX 14982      indicator-bluet/2390  
+UNIX 14965      indicator-power/2394  
+UNIX 14969      indicator-power/2394  
+UNIX 15021      indicator-datet/2399  
+UNIX 15044      indicator-datet/2399  
+UNIX 15822      evolution-sourc/2433  
+UNIX 15096      indicator-sessi/2440  
+UNIX 15098      indicator-sessi/2440  
+UNIX 15623      indicator-appli/2575  
+UNIX 15645      indicator-appli/2575  
+UNIX 16362      evolution-calen/2616  
+UNIX 16151             gconfd-2/2658  
+UNIX 16189             gconfd-2/2658  
+UNIX 16200      gvfs-udisks2-vo/2667  
+UNIX 16224      gvfs-udisks2-vo/2667  
+UNIX 16213              udisksd/2673  
+UNIX 16214              udisksd/2673  
+UNIX 16235      gvfs-mtp-volume/2682  
+UNIX 16243      gvfs-afc-volume/2686  
+UNIX 16261      gvfs-gphoto2-vo/2691  
+UNIX 16322           gvfsd-burn/2705  
+UNIX 16326           gvfsd-burn/2705  
+UNIX 16328           gvfsd-burn/2705  
+UNIX 16344          gvfsd-trash/2710  
+UNIX 16348          gvfsd-trash/2710  
+UNIX 16350          gvfsd-trash/2710  
+UNIX 16351          gvfsd-trash/2710  
+UNIX 16353          gvfsd-trash/2710  
+UNIX 16359          gvfsd-trash/2710  
+UNIX 16395          gvfsd-trash/2710  
+UNIX 16406          gvfsd-trash/2710  
+UNIX 16589      mission-control/2762  
+UNIX 16595      mission-control/2762  
+UNIX 16600      mission-control/2762  
+UNIX 16612      mission-control/2762  
+UNIX 16835      zeitgeist-datah/2823  
+UNIX 16842      zeitgeist-daemo/2828  
+UNIX 16849      zeitgeist-daemo/2828  
+UNIX 16871        zeitgeist-fts/2835  
+UNIX 16875        zeitgeist-fts/2835  
+UNIX 16876                  cat/2844  
+UNIX 16876                  cat/2844  
+UNIX 19797      deja-dup-monito/2937  
+UNIX 19906                snort/2994  
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/3008 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/3008 
+TCP      ::ffff192.168.56.101:   80 ::ffff192.168.56.1:40502 CLOSE                     apache2/3008 
+TCP      0.0.0.0         :   21 0.0.0.0         :    0 LISTEN                      inetd/3552 
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/4711 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/4711 
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/4712 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/4712 
+TCP      0.0.0.0         :    0 0.0.0.0         :    0 CLOSE                     apache2/4713 
+TCP      ::              :   80 ::              :    0 LISTEN                    apache2/4713 
+UNIX 279491               cupsd/5169  
+TCP      ::1             :  631 ::              :    0 LISTEN                      cupsd/5169 
+TCP      127.0.0.1       :  631 0.0.0.0         :    0 LISTEN                      cupsd/5169 
+UNIX 279497               cupsd/5169  /var/run/cups/cups.sock
+UNIX 279509                dbus/5173  
+UNIX 279513                dbus/5174  
+TCP      192.168.56.101  :   22 192.168.56.1    :41438 ESTABLISHED                  sshd/7621 
+UNIX 332916                sshd/7621  
+UNIX 332989                sshd/7621  
+UNIX 332994                sshd/7621  
+TCP      192.168.56.101  :   22 192.168.56.1    :41438 ESTABLISHED                  sshd/7681 
+UNIX 332916                sshd/7681  
+UNIX 332988                sshd/7681  
+UNIX 339080                  su/8019  
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT        xingyi_bindshel/8540 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT        xingyi_bindshel/8540 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT        xingyi_bindshel/8540 
+TCP      0.0.0.0         : 7777 0.0.0.0         :    0 LISTEN            xingyi_bindshel/8540 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT        xingyi_bindshel/8540 
+UNIX 342715                Xorg/8568  
+UNIX 342716                Xorg/8568  /tmp/.X11-unix/X0
+UNIX 342913                Xorg/8568  
+UNIX 343218                Xorg/8568  
+UNIX 343680                Xorg/8568  
+UNIX 343688                Xorg/8568  
+UNIX 342940             lightdm/8613  
+UNIX 342941             lightdm/8613  
+UNIX 343107         dbus-daemon/8644  
+UNIX 343111         dbus-daemon/8644  
+UNIX 343112         dbus-daemon/8644  
+UNIX 343129         dbus-daemon/8644  
+UNIX 343220         dbus-daemon/8644  
+UNIX 343293         dbus-daemon/8644  
+UNIX 343226         dbus-daemon/8644  
+UNIX 343166         dbus-daemon/8644  
+UNIX 343267         dbus-daemon/8644  
+UNIX 343483         dbus-daemon/8644  
+UNIX 343524         dbus-daemon/8644  
+UNIX 343528         dbus-daemon/8644  
+UNIX 343536         dbus-daemon/8644  
+UNIX 343559         dbus-daemon/8644  
+UNIX 343571         dbus-daemon/8644  
+UNIX 343690         dbus-daemon/8644  
+UNIX 343697         dbus-daemon/8644  
+UNIX 343713         dbus-daemon/8644  
+UNIX 343716         dbus-daemon/8644  
+UNIX 343722         dbus-daemon/8644  
+UNIX 343165     at-spi-bus-laun/8649  
+UNIX 343193         dbus-daemon/8657  
+UNIX 343213         dbus-daemon/8657  
+UNIX 343214         dbus-daemon/8657  
+UNIX 343216         dbus-daemon/8657  
+UNIX 343678         dbus-daemon/8657  
+UNIX 343686         dbus-daemon/8657  
+UNIX 343225               gvfsd/8662  
+UNIX 343292          gvfsd-fuse/8666  
+UNIX 343266       dconf-service/8669  
+UNIX 343431             lightdm/8701  
+UNIX 343442                init/8704  
+UNIX 343443                init/8704  
+UNIX 343677           nm-applet/8706  
+UNIX 343679           nm-applet/8706  
+UNIX 343694           nm-applet/8706  
+UNIX 343721           nm-applet/8706  
+UNIX 343696           nm-applet/8706  
+UNIX 343745           nm-applet/8706  
+UNIX 343482     indicator-messa/8709  
+UNIX 343519     indicator-bluet/8712  
+UNIX 343523     indicator-bluet/8712  
+UNIX 343525     indicator-power/8716  
+UNIX 343527     indicator-power/8716  
+UNIX 343714     indicator-datet/8717  
+UNIX 343715     indicator-datet/8717  
+UNIX 343685     unity-settings-/8719  
+UNIX 343687     unity-settings-/8719  
+UNIX 343689     unity-settings-/8719  
+UNIX 344012     unity-settings-/8719  
+UNIX 344026     unity-settings-/8719  
+UNIX 343535     indicator-sessi/8727  
+UNIX 343540     indicator-sessi/8727  
+UNIX 343558     indicator-appli/8738  
+UNIX 343570     indicator-appli/8738  
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                     sh/9208 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                     sh/9208 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                     sh/9208 
+TCP      0.0.0.0         : 7777 0.0.0.0         :    0 LISTEN                         sh/9208 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                     sh/9208 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                 python/9209 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                 python/9209 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                 python/9209 
+TCP      0.0.0.0         : 7777 0.0.0.0         :    0 LISTEN                     python/9209 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                 python/9209 
+TCP      0.0.0.0         : 7777 0.0.0.0         :    0 LISTEN                       bash/9210 
+TCP      192.168.56.101  : 7777 192.168.56.1    :32837 CLOSE_WAIT                   bash/9210 
+UNIX 369655             in.ftpd/10115 

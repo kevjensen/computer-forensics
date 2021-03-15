@@ -1,0 +1,166 @@
+Pid    Uid    Gid    Arguments                                                       
+1      0      0      /sbin/init splash                                               
+2      0      0      [kthreadd]                                                      
+3      0      0      [ksoftirqd/0]                                                   
+5      0      0      [kworker/0:0H]                                                  
+7      0      0      [rcu_sched]                                                     
+8      0      0      [rcuos/0]                                                       
+9      0      0      [rcu_bh]                                                        
+10     0      0      [rcuob/0]                                                       
+11     0      0      [migration/0]                                                   
+12     0      0      [watchdog/0]                                                    
+13     0      0      [khelper]                                                       
+14     0      0      [kdevtmpfs]                                                     
+15     0      0      [netns]                                                         
+16     0      0      [khungtaskd]                                                    
+17     0      0      [writeback]                                                     
+18     0      0      [ksmd]                                                          
+19     0      0      [khugepaged]                                                    
+20     0      0      [crypto]                                                        
+21     0      0      [kintegrityd]                                                   
+22     0      0      [bioset]                                                        
+23     0      0      [kblockd]                                                       
+24     0      0      [ata_sff]                                                       
+25     0      0      [khubd]                                                         
+26     0      0      [md]                                                            
+27     0      0      [devfreq_wq]                                                    
+28     0      0      [kworker/u2:1]                                                  
+29     0      0      [kworker/0:1]                                                   
+30     0      0      [kswapd0]                                                       
+31     0      0      [fsnotify_mark]                                                 
+32     0      0      [ecryptfs-kthrea]                                               
+44     0      0      [kthrotld]                                                      
+45     0      0      [acpi_thermal_pm]                                               
+46     0      0      [scsi_eh_0]                                                     
+47     0      0      [scsi_tmf_0]                                                    
+48     0      0      [scsi_eh_1]                                                     
+49     0      0      [scsi_tmf_1]                                                    
+51     0      0      [ipv6_addrconf]                                                 
+71     0      0      [deferwq]                                                       
+72     0      0      [charger_manager]                                               
+118    0      0      [kpsmoused]                                                     
+120    0      0      [scsi_eh_2]                                                     
+121    0      0      [scsi_tmf_2]                                                    
+130    0      0      [jbd2/sda1-8]                                                   
+131    0      0      [ext4-rsv-conver]                                               
+255    0      0      upstart-udev-bridge --daemon                                    
+261    0      0      /lib/systemd/systemd-udevd --daemon                             
+301    0      0      [kworker/0:1H]                                                  
+340    0      0      [iprt]                                                          
+421    0      0      upstart-file-bridge --daemon                                    
+449    101    104    rsyslogd                                                        
+462    0      0      upstart-socket-bridge --daemon                                  
+618    102    106    dbus-daemon --system --fork                                     
+638    0      0      /usr/sbin/ModemManager                                          
+656    0      0      /usr/sbin/bluetoothd                                            
+662    0      0      /lib/systemd/systemd-logind                                     
+669    111    117    avahi-daemon: ru                                                
+676    111    117    avahi-daemon: ch                                                
+764    0      0      [krfcommd]                                                      
+780    0      0      NetworkManager                                                  
+788    0      0      /usr/lib/policykit-1/polkitd --no-debug                         
+795    0      0      /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-49bcf7f2-7514-47e8-9238-03e63fc61822-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+796    0      0      /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth1.pid -lf /var/lib/NetworkManager/dhclient-5b974ae6-3308-4dfd-9590-e1345ed33888-eth1.lease -cf /var/lib/NetworkManager/dhclient-eth1.conf eth1
+843    0      0      /sbin/getty -8 38400 tty4                                       
+847    0      0      /sbin/getty -8 38400 tty5                                       
+854    0      0      /sbin/getty -8 38400 tty2                                       
+855    0      0      /sbin/getty -8 38400 tty3                                       
+859    0      0      /sbin/getty -8 38400 tty6                                       
+887    0      0      acpid -c /etc/acpi/events -s /var/run/acpid.socket              
+923    0      0      /usr/sbin/sshd -D                                               
+929    0      0      cron                                                            
+935    106    4      /usr/sbin/kerneloops                                            
+953    0      0      /usr/sbin/cups-browsed                                          
+965    65534  30     /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+1045   109    116    whoopsie                                                        
+1056   117    126    /usr/sbin/mysqld                                                
+1234   0      0      lightdm                                                         
+1249   0      0      /usr/lib/accountsservice/accounts-daemon                        
+1284   0      0      -bash                                                           
+1360   0      0      /usr/sbin/VBoxService                                           
+1514   0      0      /usr/sbin/apache2 -k start                                      
+1552   0      0      [kauditd]                                                       
+1567   33     33     /usr/sbin/apache2 -k start                                      
+1568   33     33     /usr/sbin/apache2 -k start                                      
+1569   33     33     /usr/sbin/apache2 -k start                                      
+1570   33     33     /usr/sbin/apache2 -k start                                      
+1571   33     33     /usr/sbin/apache2 -k start                                      
+1612   0      0      /sbin/getty -8 38400 tty1                                       
+1740   0      0      /usr/lib/upower/upowerd                                         
+1745   107    114    /usr/lib/rtkit/rtkit-daemon                                     
+1931   113    121    /usr/lib/colord/colord                                          
+2228   1000   1000   dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-P6xwlld549
+2252   1000   1000   /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge               
+2260   1000   1000   [ibus-daemon]                                                   
+2296   1000   1000   /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately  
+2303   1000   1000   /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+2315   1000   1000   /usr/lib/gvfs/gvfsd                                             
+2319   1000   1000   /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes   
+2357   1000   1000   /usr/lib/dconf/dconf-service                                    
+2388   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+2390   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+2394   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+2399   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+2400   1000   1000   [indicator-sound]                                               
+2433   1000   1000   /usr/lib/evolution/evolution-source-registry                    
+2440   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+2575   1000   1000   /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+2616   1000   1000   /usr/lib/evolution/evolution-calendar-factory                   
+2658   1000   1000   /usr/lib/x86_64-linux-gnu/gconf/gconfd-2                        
+2667   1000   1000   /usr/lib/gvfs/gvfs-udisks2-volume-monitor                       
+2673   0      0      /usr/lib/udisks2/udisksd --no-debug                             
+2682   1000   1000   /usr/lib/gvfs/gvfs-mtp-volume-monitor                           
+2686   1000   1000   /usr/lib/gvfs/gvfs-afc-volume-monitor                           
+2691   1000   1000   /usr/lib/gvfs/gvfs-gphoto2-volume-monitor                       
+2705   1000   1000   /usr/lib/gvfs/gvfsd-burn --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+2710   1000   1000   /usr/lib/gvfs/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/1
+2762   1000   1000   /usr/lib/telepathy/mission-control-5                            
+2823   1000   1000   zeitgeist-datahub                                               
+2828   1000   1000   /usr/bin/zeitgeist-daemon                                       
+2835   1000   1000   /usr/lib/x86_64-linux-gnu/zeitgeist-fts                         
+2844   1000   1000   /bin/cat                                                        
+2937   1000   1000   /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor             
+2994   116    125    snort -m 027 -D -d -l /var/log/snort -u snort -g snort -c /etc/snort/snort.conf -S HOME_NET=[192.168.56.0/24] -i eth1
+3008   33     33     /usr/sbin/apache2 -k start                                      
+3552   0      0       ÎI6  ÿÿÿÿüÿÿ                                                
+4202   0      0      [kworker/u2:2]                                                  
+4315   0      0      [kworker/0:0]                                                   
+4711   33     33     /usr/sbin/apache2 -k start                                      
+4712   33     33     /usr/sbin/apache2 -k start                                      
+4713   33     33     /usr/sbin/apache2 -k start                                      
+5169   0      0      /usr/sbin/cupsd -f                                              
+5173   7      7      /usr/lib/cups/notifier/dbus dbus://                             
+5174   7      7      /usr/lib/cups/notifier/dbus dbus://                             
+7621   0      0      sshd: michael [priv]                                            
+7681   1001   1001   sshd: michael@pts/4                                             
+7682   1001   1001   -bash                                                           
+8019   1001   0      su mysqll                                                       
+8021   0      0      bash                                                            
+8540   0      0      xingyi_bindshell                                                
+8568   0      0      /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+8613   0      0      lightdm --session-child 18 21                                   
+8639   112    118    /bin/sh /usr/lib/lightdm/lightdm-greeter-session /usr/sbin/unity-greeter
+8644   112    118    //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+8645   112    118    [unity-greeter]                                                 
+8649   112    118    /usr/lib/at-spi2-core/at-spi-bus-launcher                       
+8657   112    118    /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+8662   112    118    /usr/lib/gvfs/gvfsd                                             
+8666   112    118    /usr/lib/gvfs/gvfsd-fuse /run/user/112/gvfs -f -o big_writes    
+8669   112    118    /usr/lib/dconf/dconf-service                                    
+8701   0      0      lightdm --session-child 12 21                                   
+8704   112    118    init --user --startup-event indicator-services-start            
+8706   112    118    nm-applet                                                       
+8709   112    118    /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+8712   112    118    /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+8716   112    118    /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+8717   112    118    /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+8719   112    118    /usr/lib/unity-settings-daemon/unity-settings-daemon            
+8720   112    118    [indicator-sound]                                               
+8727   112    118    /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+8738   112    118    /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+9208   0      0      sh -c python -c 'import pty; pty.spawn("/bin/bash")'            
+9209   0      0      python -c import pty; pty.spawn("/bin/bash")                    
+9210   0      0      /bin/bash                                                       
+9976   0      0      [kworker/0:2]                                                   
+10057  0      0      insmod ./lime-3.16.0-30-generic.ko path=tcp:4444 format=lime    
+10115  -1     -1                                                                     

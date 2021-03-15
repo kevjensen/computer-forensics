@@ -1,0 +1,203 @@
+total 12488
+Start inode = 2
+2 drwxr-xr-x 23 root root      4096 May  3  2015 ..
+[31m****Out of Sequence inode detected**** expect 3 got 786435[0m
+786435 drwxr-xr-x  2 root root     12288 May  3  2015 .
+[31m****Out of Sequence inode detected**** expect 786436 got 786527[0m
+786527 -rwxr-xr-x  1 root root     52466 May 19  2013 MAKEDEV
+786528 -rwxr-xr-x  1 root root      6248 Oct  2  2012 acpi_available
+786529 -rwxr-xr-x  1 root root     32112 Feb 12  2015 agetty
+786530 -rwxr-xr-x  1 root root      5576 Feb 13  2013 alsa
+786531 -rwxr-xr-x  1 root root      6272 Oct  2  2012 apm_available
+786532 -rwxr-xr-x  1 root root    849048 Nov 14  2014 apparmor_parser
+786533 -rwxr-xr-x  1 root root     27160 Feb 19  2014 badblocks
+786534 -rwxr-xr-x  1 root root     31544 Feb 12  2015 blkid
+786535 -rwxr-xr-x  1 root root     23016 Feb 12  2015 blockdev
+786536 -rwxr-xr-x  1 root root     51768 Feb 17  2014 bridge
+786537 -rwxr-xr-x  1 root root    600768 Mar 31  2014 brltty
+786538 -rwxr-xr-x  1 root root      1416 Mar 13  2014 brltty-setup
+786539 -rwxr-xr-x  1 root root     18976 Feb 21  2014 capsh
+786540 -rwxr-xr-x  1 root root     54368 Feb 12  2015 cfdisk
+786541 -rwxr-xr-x  1 root root    171056 Dec 26  2013 cgdisk
+786542 -rwxr-xr-x  1 root root     14720 Oct  1  2012 crda
+[31m****Out of Sequence inode detected**** expect 786543 got 786547[0m
+786547 -rwxr-xr-x  1 root root      6288 Feb 12  2015 ctrlaltdel
+786548 -rwxr-xr-x  1 root root    116672 Feb 19  2014 debugfs
+786549 lrwxrwxrwx  1 root root         9 May  3  2015 depmod -> /bin/kmod
+786550 -rwxr-xr-x  1 root root   1668160 Apr  7  2014 dhclient
+786551 -rwxr-xr-x  1 root root     14484 Apr  7  2014 dhclient-script
+786552 -rwxr-xr-x  1 root root     71592 Dec 13  2013 dmsetup
+786553 lrwxrwxrwx  1 root root         8 May  3  2015 dosfsck -> fsck.fat
+786554 lrwxrwxrwx  1 root root         8 May  3  2015 dosfslabel -> fatlabel
+786555 -rwxr-xr-x  1 root root     23072 Feb 19  2014 dumpe2fs
+786556 -rwxr-xr-x  1 root root    248344 Feb 19  2014 e2fsck
+786557 -rwxr-xr-x  1 root root     31432 Feb 19  2014 e2image
+786558 lrwxrwxrwx  1 root root         7 May  3  2015 e2label -> tune2fs
+786559 -rwxr-xr-x  1 root root     10592 Feb 19  2014 e2undo
+786560 -rwxr-xr-x  1 root root    257256 Jan 29  2014 ethtool
+786561 -rwxr-xr-x  1 root root     51696 Mar 18  2014 fatlabel
+786562 -rwxr-xr-x  1 root root     99488 Feb 12  2015 fdisk
+786563 -rwxr-xr-x  1 root root      6304 Feb 12  2015 findfs
+786564 -rwxr-xr-x  1 root root     60088 Dec 26  2013 fixparts
+[33m****Out of Sequence inode detected**** expect 786565 got 786566[0m
+786566 -rwxr-xr-x  1 root root     31608 Feb 12  2015 fsck
+786567 -rwxr-xr-x  1 root root     14640 Feb 12  2015 fsck.cramfs
+786568 lrwxrwxrwx  1 root root         6 May  3  2015 fsck.ext2 -> e2fsck
+786569 lrwxrwxrwx  1 root root         6 May  3  2015 fsck.ext3 -> e2fsck
+786570 lrwxrwxrwx  1 root root         6 May  3  2015 fsck.ext4 -> e2fsck
+786571 lrwxrwxrwx  1 root root         6 May  3  2015 fsck.ext4dev -> e2fsck
+786572 -rwxr-xr-x  1 root root     55800 Mar 18  2014 fsck.fat
+786573 -rwxr-xr-x  1 root root     31200 Feb 12  2015 fsck.minix
+786574 lrwxrwxrwx  1 root root         8 May  3  2015 fsck.msdos -> fsck.fat
+786575 -rwxr-xr-x  1 root root       333 Mar 12  2014 fsck.nfs
+786576 lrwxrwxrwx  1 root root         8 May  3  2015 fsck.vfat -> fsck.fat
+786577 -rwxr-xr-x  1 root root     10440 Feb 12  2015 fsfreeze
+786578 -rwxr-xr-x  1 root root      6304 Mar 12  2014 fstab-decode
+786579 -rwxr-xr-x  1 root root     14616 Feb 12  2015 fstrim
+786580 -rwxr-xr-x  1 root root      3002 Feb 12  2015 fstrim-all
+786581 -rwxr-xr-x  1 root root    179040 Dec 26  2013 gdisk
+786582 -rwxr-xr-x  1 root root     10456 Feb 21  2014 getcap
+786583 -rwxr-xr-x  1 root root      6328 Feb 21  2014 getpcaps
+786584 -rwxr-xr-x  1 root root     32112 Feb 12  2015 getty
+786585 lrwxrwxrwx  1 root root         6 May  3  2015 halt -> reboot
+786586 -rwxr-xr-x  1 root root    103056 Nov 15  2013 hdparm
+786587 -rwxr-xr-x  1 root root     35384 Feb 12  2015 hwclock
+786588 -rwxr-xr-x  1 root root     68040 Aug  5  2014 ifconfig
+786589 lrwxrwxrwx  1 root root         4 May  3  2015 ifdown -> ifup
+786590 lrwxrwxrwx  1 root root         4 May  3  2015 ifquery -> ifup
+786591 -rwxr-xr-x  1 root root     62960 May 12  2014 ifup
+786592 -rwxr-xr-x  1 root root    265848 Jul 18  2014 init
+786593 -rwxr-xr-x  1 root root    193512 Apr 11  2014 initctl
+786594 lrwxrwxrwx  1 root root         9 May  3  2015 insmod -> /bin/kmod
+786595 -rwxr-xr-x  1 root root      2382 Aug 27  2013 installkernel
+786596 lrwxrwxrwx  1 root root         7 May  3  2015 ip -> /bin/ip
+786597 lrwxrwxrwx  1 root root        13 May  3  2015 ip6tables -> xtables-multi
+786598 lrwxrwxrwx  1 root root        14 May  3  2015 ip6tables-apply -> iptables-apply
+786599 lrwxrwxrwx  1 root root        13 May  3  2015 ip6tables-restore -> xtables-multi
+786600 lrwxrwxrwx  1 root root        13 May  3  2015 ip6tables-save -> xtables-multi
+786601 -rwxr-xr-x  1 root root     18760 Aug  5  2014 ipmaddr
+786602 lrwxrwxrwx  1 root root        13 May  3  2015 iptables -> xtables-multi
+786603 -rwxr-xr-x  1 root root      7016 Jan  8  2014 iptables-apply
+786604 lrwxrwxrwx  1 root root        13 May  3  2015 iptables-restore -> xtables-multi
+786605 lrwxrwxrwx  1 root root        13 May  3  2015 iptables-save -> xtables-multi
+786606 -rwxr-xr-x  1 root root     22864 Aug  5  2014 iptunnel
+786607 -rwxr-xr-x  1 root root     14616 Feb 12  2015 isosize
+786608 -rwxr-xr-x  1 root root    107216 May 24  2012 iw
+786609 -rwxr-xr-x  1 root root     27008 May  3  2012 iwconfig
+786610 -rwxr-xr-x  1 root root     14720 May  3  2012 iwevent
+786611 -rwxr-xr-x  1 root root     14528 May  3  2012 iwgetid
+786612 -rwxr-xr-x  1 root root     35352 May  3  2012 iwlist
+786613 -rwxr-xr-x  1 root root     14608 May  3  2012 iwpriv
+786614 -rwxr-xr-x  1 root root     14568 May  3  2012 iwspy
+786615 -rwxr-xr-x  1 root root     10552 Feb 18  2013 kbdrate
+[33m****Out of Sequence inode detected**** expect 786616 got 786617[0m
+786617 -rwxr-xr-x  1 root root     18992 Mar 12  2014 killall5
+786618 -rwxr-xr-x  1 root root       387 Dec  4  2014 ldconfig
+786619 -rwxr-xr-x  1 root root    951888 Dec  4  2014 ldconfig.real
+786620 -rwxr-xr-x  1 root root     10544 Feb 19  2014 logsave
+786621 -rwxr-xr-x  1 root root     43584 Feb 12  2015 losetup
+786622 lrwxrwxrwx  1 root root         9 May  3  2015 lsmod -> /bin/kmod
+786623 lrwxrwxrwx  1 root root         9 May  3  2015 lspcmcia -> pccardctl
+[31m****Out of Sequence inode detected**** expect 786624 got 786642[0m
+786642 -rwxr-xr-x  1 root root     19264 Aug  5  2014 mii-tool
+786643 lrwxrwxrwx  1 root root         8 May  3  2015 mkdosfs -> mkfs.fat
+786644 -rwxr-xr-x  1 root root     97944 Feb 19  2014 mke2fs
+786645 -rwxr-xr-x  1 root root     10440 Feb 12  2015 mkfs
+786646 -rwxr-xr-x  1 root root     18736 Feb 12  2015 mkfs.bfs
+786647 -rwxr-xr-x  1 root root     31216 Feb 12  2015 mkfs.cramfs
+786648 lrwxrwxrwx  1 root root         6 May  3  2015 mkfs.ext2 -> mke2fs
+786649 lrwxrwxrwx  1 root root         6 May  3  2015 mkfs.ext3 -> mke2fs
+786650 lrwxrwxrwx  1 root root         6 May  3  2015 mkfs.ext4 -> mke2fs
+786651 lrwxrwxrwx  1 root root         6 May  3  2015 mkfs.ext4dev -> mke2fs
+786652 -rwxr-xr-x  1 root root     27608 Mar 18  2014 mkfs.fat
+786653 -rwxr-xr-x  1 root root     27144 Feb 12  2015 mkfs.minix
+786654 lrwxrwxrwx  1 root root         8 May  3  2015 mkfs.msdos -> mkfs.fat
+786655 lrwxrwxrwx  1 root root         6 May  3  2015 mkfs.ntfs -> mkntfs
+786656 lrwxrwxrwx  1 root root         8 May  3  2015 mkfs.vfat -> mkfs.fat
+786657 -rwxr-xr-x  1 root root     18784 Jan 31  2014 mkhomedir_helper
+786658 -rwxr-xr-x  1 root root     79984 Dec 18  2013 mkntfs
+786659 -rwxr-xr-x  1 root root     23112 Feb 12  2015 mkswap
+786660 -rwxr-xr-x  1 root root     31112 Feb 21  2014 mntctl
+786661 lrwxrwxrwx  1 root root         9 May  3  2015 modinfo -> /bin/kmod
+786662 lrwxrwxrwx  1 root root         9 May  3  2015 modprobe -> /bin/kmod
+[33m****Out of Sequence inode detected**** expect 786663 got 786665[0m
+786665 -rwxr-xr-x  1 root root     10240 Dec 16  2013 mount.fuse
+786666 lrwxrwxrwx  1 root root        15 May  3  2015 mount.lowntfs-3g -> /bin/lowntfs-3g
+786667 lrwxrwxrwx  1 root root        13 May  3  2015 mount.ntfs -> mount.ntfs-3g
+786668 lrwxrwxrwx  1 root root        12 May  3  2015 mount.ntfs-3g -> /bin/ntfs-3g
+786669 -rwxr-xr-x  1 root root    104968 Feb 21  2014 mountall
+786670 -rwxr-xr-x  1 root root     14816 Aug  5  2014 nameif
+786671 -rwxr-xr-x  1 root root     55408 Dec 18  2013 ntfsclone
+786672 -rwxr-xr-x  1 root root     30824 Dec 18  2013 ntfscp
+786673 -rwxr-xr-x  1 root root     26728 Dec 18  2013 ntfslabel
+786674 -rwxr-xr-x  1 root root     71792 Dec 18  2013 ntfsresize
+786675 -rwxr-xr-x  1 root root     47208 Dec 18  2013 ntfsundelete
+786676 -rwxr-xr-x  1 root root      2251 Dec  2  2009 on_ac_power
+786677 -rwxr-xr-x  1 root root     10544 Jan 31  2014 pam_tally
+786678 -rwxr-xr-x  1 root root     14728 Jan 31  2014 pam_tally2
+786679 -rwxr-xr-x  1 root root     81296 Apr 14  2014 parted
+786680 -rwxr-xr-x  1 root root     10488 Apr 14  2014 partprobe
+786681 -rwxr-xr-x  1 root root     18800 Jun 28  2012 pccardctl
+786682 -rwxr-xr-x  1 root root      6240 Feb 12  2015 pivot_root
+786683 -rwxr-xr-x  1 root root     10448 Aug  5  2014 plipconfig
+786684 -rwxr-xr-x  1 root root     81632 Dec  2  2014 plymouthd
+786685 lrwxrwxrwx  1 root root         6 May  3  2015 poweroff -> reboot
+[31m****Out of Sequence inode detected**** expect 786686 got 786695[0m
+786695 -rwxr-xr-x  1 root root     29800 Aug  5  2014 rarp
+786696 -rwxr-xr-x  1 root root     10424 Feb 12  2015 raw
+786697 -rwxr-xr-x  1 root root     14784 Jul 18  2014 reboot
+786698 -rwxr-xr-x  1 root root     10488 Oct  1  2012 regdbdump
+786699 lrwxrwxrwx  1 root root         7 May  3  2015 reload -> initctl
+[33m****Out of Sequence inode detected**** expect 786700 got 786701[0m
+786701 -rwxr-xr-x  1 root root     48160 Feb 19  2014 resize2fs
+786702 -rwxr-xr-x  1 root root      5630 Jun 13  2014 resolvconf
+786703 lrwxrwxrwx  1 root root         7 May  3  2015 restart -> initctl
+786704 lrwxrwxrwx  1 root root         9 May  3  2015 rmmod -> /bin/kmod
+786705 -rwxr-xr-x  1 root root     58032 Aug  5  2014 route
+786706 -rwxr-xr-x  1 root root     35344 Feb 17  2014 rtacct
+786707 -rwxr-xr-x  1 root root     35256 Feb 17  2014 rtmon
+786708 -rwxr-xr-x  1 root root     10240 Jul 18  2014 runlevel
+[33m****Out of Sequence inode detected**** expect 786709 got 786710[0m
+786710 -rwxr-xr-x  1 root root     10488 Feb 21  2014 setcap
+786711 -rwxr-xr-x  1 root root     10600 Feb 18  2013 setvtrgb
+786712 -rwxr-xr-x  1 root root     61856 Feb 12  2015 sfdisk
+786713 -rwxr-xr-x  1 root root    162712 Dec 26  2013 sgdisk
+786714 -rwxr-xr-x  1 root root       885 Feb 16  2014 shadowconfig
+786715 -rwxr-xr-x  1 root root     84904 Jul 18  2014 shutdown
+786716 -rwxr-xr-x  1 root root     33928 Aug  5  2014 slattach
+786717 lrwxrwxrwx  1 root root         7 May  3  2015 start -> initctl
+786718 -rwxr-xr-x  1 root root     28200 Mar  7  2014 start-stop-daemon
+786719 -rwxr-xr-x  1 root root     35768 Mar 12  2014 startpar
+786720 -rwxr-xr-x  1 root root      6328 Mar 12  2014 startpar-upstart-inject
+786721 lrwxrwxrwx  1 root root         7 May  3  2015 status -> initctl
+786722 lrwxrwxrwx  1 root root         7 May  3  2015 stop -> initctl
+786723 -rwxr-xr-x  1 root root     14904 Mar 12  2014 sulogin
+786724 -rwxr-xr-x  1 root root     14664 Feb 12  2015 swaplabel
+786725 lrwxrwxrwx  1 root root         6 May  3  2015 swapoff -> swapon
+786726 -rwxr-xr-x  1 root root     27240 Feb 12  2015 swapon
+786727 -rwxr-xr-x  1 root root     10544 Feb 12  2015 switch_root
+786728 -rwxr-xr-x  1 root root    418436 May  3  2015 sysctl
+786729 -rwxr-xr-x  1 root root    282024 Feb 17  2014 tc
+786730 -rwxr-xr-x  1 root root    104728 Jul 18  2014 telinit
+786731 -rwxr-xr-x  1 root root     68952 Feb 19  2014 tune2fs
+786732 lrwxrwxrwx  1 root root        12 May  3  2015 udevadm -> /bin/udevadm
+786733 lrwxrwxrwx  1 root root        26 May  3  2015 udevd -> /lib/systemd/systemd-udevd
+[33m****Out of Sequence inode detected**** expect 786734 got 786736[0m
+786736 -rwxr-xr-x  1 root root     10504 Mar 10  2014 umount.udisks2
+786737 -rwxr-sr-x  1 root shadow   35536 Jan 31  2014 unix_chkpwd
+786738 -rwxr-xr-x  1 root root     31376 Jan 31  2014 unix_update
+786739 -rwxr-xr-x  1 root root    133640 Jul 18  2014 upstart-dbus-bridge
+786740 -rwxr-xr-x  1 root root    125144 Jul 18  2014 upstart-event-bridge
+786741 -rwxr-xr-x  1 root root    141592 Jul 18  2014 upstart-file-bridge
+786742 -rwxr-xr-x  1 root root    133512 Jul 18  2014 upstart-local-bridge
+786743 -rwxr-xr-x  1 root root    133352 Jul 18  2014 upstart-socket-bridge
+786744 -rwxr-xr-x  1 root root     76040 Jul 18  2014 upstart-udev-bridge
+786745 -rwxr-xr-x  1 root root     47408 Mar 25  2013 ureadahead
+[31m****Out of Sequence inode detected**** expect 786746 got 786766[0m
+786766 -rwxr-xr-x  1 root root     18856 Feb 12  2015 wipefs
+786767 -rwxr-xr-x  1 root root      1735 Jan 28  2014 wpa_action
+786768 -rwxr-xr-x  1 root root     94032 Oct 10  2014 wpa_cli
+786769 -rwxr-xr-x  1 root root   1769752 Oct 10  2014 wpa_supplicant
+786770 -rwxr-xr-x  1 root root     87768 Jan  8  2014 xtables-multi
+[31m****Out of Sequence inode detected**** expect 786771 got 827338[0m
+827338 lrwxrwxrwx  1 root root        57 May  3  2015 mount.vboxsf -> /usr/lib/x86_64-linux-gnu/VBoxGuestAdditions/mount.vboxsf

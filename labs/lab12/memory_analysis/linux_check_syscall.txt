@@ -1,0 +1,1092 @@
+Table Name Index System Call              Handler Address    Symbol                                                      
+---------- ----- ------------------------ ------------------ ------------------------------------------------------------
+64bit          0                          0xffffffff811d4680 SyS_read                                                    
+64bit          1                          0xffffffff811d4730 sys_write                                                   
+64bit          2                          0xffffffffc0363ad0 HOOKED: xingyiquan/cr_open                                  
+64bit          3                          0xffffffff811d1340 SyS_close                                                   
+64bit          4                          0xffffffff811d8ef0 sys_newstat                                                 
+64bit          5                          0xffffffff811d8f20 SyS_newfstat                                                
+64bit          6                          0xffffffffc03637a0 HOOKED: xingyiquan/cr_lstat                                 
+64bit          7                          0xffffffff811e8c00 SyS_poll                                                    
+64bit          8                          0xffffffff811d3680 sys_lseek                                                   
+64bit          9                          0xffffffff81018830 SyS_mmap                                                    
+64bit         10                          0xffffffff81196900 sys_mprotect                                                
+64bit         11                          0xffffffff811954a0 sys_munmap                                                  
+64bit         12                          0xffffffff81194970 SyS_brk                                                     
+64bit         13                          0xffffffff81081fe0 SyS_rt_sigaction                                            
+64bit         14                          0xffffffff81080d80 sys_rt_sigprocmask                                          
+64bit         15                          0xffffffff8176b2d0 stub_rt_sigreturn                                           
+64bit         16                          0xffffffff811e6bb0 SyS_ioctl                                                   
+64bit         17                          0xffffffff811d47e0 SyS_pread64                                                 
+64bit         18                          0xffffffff811d4890 sys_pwrite64                                                
+64bit         19                          0xffffffff811d4d30 sys_readv                                                   
+64bit         20                          0xffffffff811d4e00 sys_writev                                                  
+64bit         21                          0xffffffff811d2010 SyS_access                                                  
+64bit         22                          0xffffffff811dccc0 sys_pipe                                                    
+64bit         23                          0xffffffff811e8330 sys_select                                                  
+64bit         24                          0xffffffff810a09c0 sys_sched_yield                                             
+64bit         25                          0xffffffff81197680 sys_mremap                                                  
+64bit         26                          0xffffffff81197b90 sys_msync                                                   
+64bit         27                          0xffffffff811900a0 sys_mincore                                                 
+64bit         28                          0xffffffff81189510 SyS_madvise                                                 
+64bit         29                          0xffffffff812d9980 sys_shmget                                                  
+64bit         30                          0xffffffff812da160 sys_shmat                                                   
+64bit         31                          0xffffffff812d99d0 SyS_shmctl                                                  
+64bit         32                          0xffffffffc0363270 HOOKED: xingyiquan/cr_dup                                   
+64bit         33                          0xffffffff811f1530 SyS_dup2                                                    
+64bit         34                          0xffffffff81082280 sys_pause                                                   
+64bit         35                          0xffffffff810953a0 SyS_nanosleep                                               
+64bit         36                          0xffffffff810713a0 SyS_getitimer                                               
+64bit         37                          0xffffffff8107c680 sys_alarm                                                   
+64bit         38                          0xffffffff81071790 SyS_setitimer                                               
+64bit         39                          0xffffffff810847c0 sys_getpid                                                  
+64bit         40                          0xffffffff811d52b0 SyS_sendfile64                                              
+64bit         41                          0xffffffff816471d0 SyS_socket                                                  
+64bit         42                          0xffffffff81647580 sys_connect                                                 
+64bit         43                          0xffffffff81647560 sys_accept                                                  
+64bit         44                          0xffffffff816475b0 SyS_sendto                                                  
+64bit         45                          0xffffffff816475e0 sys_recvfrom                                                
+64bit         46                          0xffffffff816478c0 sys_sendmsg                                                 
+64bit         47                          0xffffffff81647b20 sys_recvmsg                                                 
+64bit         48                          0xffffffff816477b0 SyS_shutdown                                                
+64bit         49                          0xffffffff816474b0 SyS_bind                                                    
+64bit         50                          0xffffffff816474c0 SyS_listen                                                  
+64bit         51                          0xffffffff81647590 sys_getsockname                                             
+64bit         52                          0xffffffff816475a0 SyS_getpeername                                             
+64bit         53                          0xffffffff81647290 SyS_socketpair                                              
+64bit         54                          0xffffffff81647610 sys_setsockopt                                              
+64bit         55                          0xffffffff816476e0 sys_getsockopt                                              
+64bit         56                          0xffffffff8176afe0 stub_clone                                                  
+64bit         57                          0xffffffff8176b070 stub_fork                                                   
+64bit         58                          0xffffffff8176b100 stub_vfork                                                  
+64bit         59                          0xffffffff8176b230 stub_execve                                                 
+64bit         60                          0xffffffff81070a20 SyS_exit                                                    
+64bit         61                          0xffffffff81070ca0 sys_wait4                                                   
+64bit         62                          0xffffffffc03632e0 HOOKED: xingyiquan/cr_kill                                  
+64bit         63                          0xffffffff81084e90 SyS_newuname                                                
+64bit         64                          0xffffffff812d8240 sys_semget                                                  
+64bit         65                          0xffffffff812d8550 sys_semop                                                   
+64bit         66                          0xffffffff812d82b0 sys_semctl                                                  
+64bit         67                          0xffffffff812da190 SyS_shmdt                                                   
+64bit         68                          0xffffffff812d4e40 SyS_msgget                                                  
+64bit         69                          0xffffffff812d5300 sys_msgsnd                                                  
+64bit         70                          0xffffffff812d58c0 SyS_msgrcv                                                  
+64bit         71                          0xffffffff812d4e90 SyS_msgctl                                                  
+64bit         72                          0xffffffff811e55d0 sys_fcntl                                                   
+64bit         73                          0xffffffff81220cc0 sys_flock                                                   
+64bit         74                          0xffffffff812031a0 SyS_fsync                                                   
+64bit         75                          0xffffffff812031c0 SyS_fdatasync                                               
+64bit         76                          0xffffffff811d1d40 SyS_truncate                                                
+64bit         77                          0xffffffff811d1d70 SyS_ftruncate                                               
+64bit         78                          0xffffffffc0363190 HOOKED: xingyiquan/cr_getdents                              
+64bit         79                          0xffffffff811eccd0 sys_getcwd                                                  
+64bit         80                          0xffffffffc0363490 HOOKED: xingyiquan/cr_chdir                                 
+64bit         81                          0xffffffff811d22c0 sys_fchdir                                                  
+64bit         82                          0xffffffffc0363560 HOOKED: xingyiquan/cr_rename                                
+64bit         83                          0xffffffff811e49b0 SyS_mkdir                                                   
+64bit         84                          0xffffffffc0363620 HOOKED: xingyiquan/cr_rmdir                                 
+64bit         85                          0xffffffff811d2e80 sys_creat                                                   
+64bit         86                          0xffffffff811e4ff0 SyS_link                                                    
+64bit         87                          0xffffffff811e4af0 SyS_unlink                                                  
+64bit         88                          0xffffffff811e4c00 SyS_symlink                                                 
+64bit         89                          0xffffffff811d9060 SyS_readlink                                                
+64bit         90                          0xffffffff811d25c0 sys_chmod                                                   
+64bit         91                          0xffffffff811d2480 SyS_fchmod                                                  
+64bit         92                          0xffffffff811d2770 sys_chown                                                   
+64bit         93                          0xffffffff811d2940 SyS_fchown                                                  
+64bit         94                          0xffffffff811d2860 sys_lchown                                                  
+64bit         95                          0xffffffff81085920 sys_umask                                                   
+64bit         96                          0xffffffff81071ef0 SyS_gettimeofday                                            
+64bit         97                          0xffffffff810855e0 SyS_getrlimit                                               
+64bit         98                          0xffffffff810858d0 sys_getrusage                                               
+64bit         99                          0xffffffff81085e20 sys_sysinfo                                                 
+64bit        100                          0xffffffff81084a30 SyS_times                                                   
+64bit        101                          0xffffffff81078eb0 sys_ptrace                                                  
+64bit        102                          0xffffffff81084840 sys_getuid                                                  
+64bit        103                          0xffffffff810c9e80 sys_syslog                                                  
+64bit        104                          0xffffffff810848a0 sys_getgid                                                  
+64bit        105                          0xffffffff81084010 SyS_setuid                                                  
+64bit        106                          0xffffffff81083d80 SyS_setgid                                                  
+64bit        107                          0xffffffff81084870 sys_geteuid                                                 
+64bit        108                          0xffffffff810848d0 sys_getegid                                                 
+64bit        109                          0xffffffff81084a90 SyS_setpgid                                                 
+64bit        110                          0xffffffff81084810 sys_getppid                                                 
+64bit        111                          0xffffffff81084ce0 sys_getpgrp                                                 
+64bit        112                          0xffffffff81084d80 sys_setsid                                                  
+64bit        113                          0xffffffff81083e60 SyS_setreuid                                                
+64bit        114                          0xffffffff81083c00 SyS_setregid                                                
+64bit        115                          0xffffffff81098220 sys_getgroups                                               
+64bit        116                          0xffffffff81098310 sys_setgroups                                               
+64bit        117                          0xffffffff81084130 sys_setresuid                                               
+64bit        118                          0xffffffff81084340 SyS_getresuid                                               
+64bit        119                          0xffffffff810843e0 sys_setresgid                                               
+64bit        120                          0xffffffff81084570 SyS_getresgid                                               
+64bit        121                          0xffffffff81084c70 sys_getpgid                                                 
+64bit        122                          0xffffffff81084610 SyS_setfsuid                                                
+64bit        123                          0xffffffff810846f0 SyS_setfsgid                                                
+64bit        124                          0xffffffff81084d10 SyS_getsid                                                  
+64bit        125                          0xffffffff810776f0 sys_capget                                                  
+64bit        126                          0xffffffff81077850 sys_capset                                                  
+64bit        127                          0xffffffff81080ee0 sys_rt_sigpending                                           
+64bit        128                          0xffffffff81081630 sys_rt_sigtimedwait                                         
+64bit        129                          0xffffffff810816b0 SyS_rt_sigqueueinfo                                         
+64bit        130                          0xffffffff81082340 SyS_rt_sigsuspend                                           
+64bit        131                          0xffffffff81081a40 sys_sigaltstack                                             
+64bit        132                          0xffffffff812037d0 sys_utime                                                   
+64bit        133                          0xffffffff811e46d0 sys_mknod                                                   
+64bit        134                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        135                          0xffffffff8106d910 SyS_personality                                             
+64bit        136                          0xffffffff81204690 SyS_ustat                                                   
+64bit        137                          0xffffffff81204540 sys_statfs                                                  
+64bit        138                          0xffffffff81204560 SyS_fstatfs                                                 
+64bit        139                          0xffffffff811f1ac0 sys_sysfs                                                   
+64bit        140                          0xffffffff810839a0 sys_getpriority                                             
+64bit        141                          0xffffffff81083740 sys_setpriority                                             
+64bit        142                          0xffffffff810a03c0 sys_sched_setparam                                          
+64bit        143                          0xffffffff810a0600 sys_sched_getparam                                          
+64bit        144                          0xffffffff810a0390 sys_sched_setscheduler                                      
+64bit        145                          0xffffffff810a0580 sys_sched_getscheduler                                      
+64bit        146                          0xffffffff810a0a90 SyS_sched_get_priority_max                                  
+64bit        147                          0xffffffff810a0ad0 SyS_sched_get_priority_min                                  
+64bit        148                          0xffffffff810a0b10 SyS_sched_rr_get_interval                                   
+64bit        149                          0xffffffff81191790 SyS_mlock                                                   
+64bit        150                          0xffffffff811918b0 SyS_munlock                                                 
+64bit        151                          0xffffffff81191930 sys_mlockall                                                
+64bit        152                          0xffffffff81191ac0 sys_munlockall                                              
+64bit        153                          0xffffffff811d2ea0 sys_vhangup                                                 
+64bit        154                          0xffffffff810165c0 sys_modify_ldt                                              
+64bit        155                          0xffffffff811f5d20 SyS_pivot_root                                              
+64bit        156                          0xffffffff81077330 sys_sysctl                                                  
+64bit        157                          0xffffffff81085950 sys_prctl                                                   
+64bit        158                          0xffffffff810121f0 sys_arch_prctl                                              
+64bit        159                          0xffffffff810720e0 sys_adjtimex                                                
+64bit        160                          0xffffffff81085830 SyS_setrlimit                                               
+64bit        161                          0xffffffff811d2360 sys_chroot                                                  
+64bit        162                          0xffffffff81203030 sys_sync                                                    
+64bit        163                          0xffffffff810f0130 sys_acct                                                    
+64bit        164                          0xffffffff81072040 SyS_settimeofday                                            
+64bit        165                          0xffffffff811f5ba0 sys_mount                                                   
+64bit        166                          0xffffffff811f4590 SyS_umount                                                  
+64bit        167                          0xffffffff811a0fb0 SyS_swapon                                                  
+64bit        168                          0xffffffff811a38d0 sys_swapoff                                                 
+64bit        169                          0xffffffff81097420 SyS_reboot                                                  
+64bit        170                          0xffffffff81085060 SyS_sethostname                                             
+64bit        171                          0xffffffff81085200 sys_setdomainname                                           
+64bit        172                          0xffffffff8176b190 stub_iopl                                                   
+64bit        173                          0xffffffff81015d40 sys_ioperm                                                  
+64bit        174                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        175                          0xffffffff810ee0a0 SyS_init_module                                             
+64bit        176                          0xffffffff810eb5b0 SyS_delete_module                                           
+64bit        177                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        178                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        179                          0xffffffff81233020 sys_quotactl                                                
+64bit        180                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        181                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        182                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        183                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        184                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        185                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        186                          0xffffffff810847f0 sys_gettid                                                  
+64bit        187                          0xffffffff8116dd90 sys_readahead                                               
+64bit        188                          0xffffffff811f8a90 sys_setxattr                                                
+64bit        189                          0xffffffff811f8b70 SyS_lsetxattr                                               
+64bit        190                          0xffffffff811f8c40 sys_fsetxattr                                               
+64bit        191                          0xffffffff811f8d20 SyS_getxattr                                                
+64bit        192                          0xffffffff811f8db0 sys_lgetxattr                                               
+64bit        193                          0xffffffff811f8e40 sys_fgetxattr                                               
+64bit        194                          0xffffffff811f8f10 SyS_listxattr                                               
+64bit        195                          0xffffffff811f8fa0 sys_llistxattr                                              
+64bit        196                          0xffffffff811f9020 sys_flistxattr                                              
+64bit        197                          0xffffffff811f90e0 SyS_removexattr                                             
+64bit        198                          0xffffffff811f9190 sys_lremovexattr                                            
+64bit        199                          0xffffffff811f9240 SyS_fremovexattr                                            
+64bit        200                          0xffffffff81081680 SyS_tkill                                                   
+64bit        201                          0xffffffff81071e50 SyS_time                                                    
+64bit        202                          0xffffffff810e6dc0 SyS_futex                                                   
+64bit        203                          0xffffffff810a1c20 SyS_sched_setaffinity                                       
+64bit        204                          0xffffffff810a0930 sys_sched_getaffinity                                       
+64bit        205                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        206                          0xffffffff8121cbf0 sys_io_setup                                                
+64bit        207                          0xffffffff8121d5a0 SyS_io_destroy                                              
+64bit        208                          0xffffffff8121dcd0 SyS_io_getevents                                            
+64bit        209                          0xffffffff8121db50 sys_io_submit                                               
+64bit        210                          0xffffffff8121db70 SyS_io_cancel                                               
+64bit        211                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        212                          0xffffffff8124b170 SyS_lookup_dcookie                                          
+64bit        213                          0xffffffff812178e0 sys_epoll_create                                            
+64bit        214                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        215                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        216                          0xffffffff811882a0 sys_remap_file_pages                                        
+64bit        217                          0xffffffff811e7210 SyS_getdents64                                              
+64bit        218                          0xffffffff8106cd80 SyS_set_tid_address                                         
+64bit        219                          0xffffffff81080b20 sys_restart_syscall                                         
+64bit        220                          0xffffffff812d8540 sys_semtimedop                                              
+64bit        221                          0xffffffff81165800 sys_fadvise64                                               
+64bit        222                          0xffffffff8108ffc0 sys_timer_create                                            
+64bit        223                          0xffffffff81090670 sys_timer_settime                                           
+64bit        224                          0xffffffff81090520 sys_timer_gettime                                           
+64bit        225                          0xffffffff81090620 sys_timer_getoverrun                                        
+64bit        226                          0xffffffff81090860 SyS_timer_delete                                            
+64bit        227                          0xffffffff81090b40 SyS_clock_settime                                           
+64bit        228                          0xffffffff81090bf0 sys_clock_gettime                                           
+64bit        229                          0xffffffff81090ca0 SyS_clock_getres                                            
+64bit        230                          0xffffffff81090d50 sys_clock_nanosleep                                         
+64bit        231                          0xffffffff81070ae0 SyS_exit_group                                              
+64bit        232                          0xffffffff81218420 sys_epoll_wait                                              
+64bit        233                          0xffffffff81217a50 SyS_epoll_ctl                                               
+64bit        234                          0xffffffff81081650 sys_tgkill                                                  
+64bit        235                          0xffffffff812039a0 sys_utimes                                                  
+64bit        236                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        237                          0xffffffff811ae7c0 SyS_mbind                                                   
+64bit        238                          0xffffffff811ad250 sys_set_mempolicy                                           
+64bit        239                          0xffffffff811ad4c0 SyS_get_mempolicy                                           
+64bit        240                          0xffffffff812dbd90 SyS_mq_open                                                 
+64bit        241                          0xffffffff812dc0e0 SyS_mq_unlink                                               
+64bit        242                          0xffffffff812dc260 SyS_mq_timedsend                                            
+64bit        243                          0xffffffff812dc5d0 SyS_mq_timedreceive                                         
+64bit        244                          0xffffffff812dcb00 SyS_mq_notify                                               
+64bit        245                          0xffffffff812dcef0 SyS_mq_getsetattr                                           
+64bit        246                          0xffffffff810f12e0 sys_kexec_load                                              
+64bit        247                          0xffffffff81070b30 SyS_waitid                                                  
+64bit        248                          0xffffffff812e0680 SyS_add_key                                                 
+64bit        249                          0xffffffff812e0880 sys_request_key                                             
+64bit        250                          0xffffffff812e1f60 SyS_keyctl                                                  
+64bit        251                          0xffffffff813697b0 sys_ioprio_set                                              
+64bit        252                          0xffffffff81369aa0 sys_ioprio_get                                              
+64bit        253                          0xffffffff812140f0 sys_inotify_init                                            
+64bit        254                          0xffffffff81214150 SyS_inotify_add_watch                                       
+64bit        255                          0xffffffff812144a0 SyS_inotify_rm_watch                                        
+64bit        256                          0xffffffff811ad2d0 SyS_migrate_pages                                           
+64bit        257                          0xffffffff811d2e60 sys_openat                                                  
+64bit        258                          0xffffffff811e48d0 SyS_mkdirat                                                 
+64bit        259                          0xffffffff811e44d0 sys_mknodat                                                 
+64bit        260                          0xffffffff811d2660 sys_fchownat                                                
+64bit        261                          0xffffffff812038e0 SyS_futimesat                                               
+64bit        262                          0xffffffff811d8f10 sys_newfstatat                                              
+64bit        263                          0xffffffffc03636e0 HOOKED: xingyiquan/cr_unlinkat                              
+64bit        264                          0xffffffff811e5290 SyS_renameat                                                
+64bit        265                          0xffffffff811e4cf0 SyS_linkat                                                  
+64bit        266                          0xffffffff811e4b10 sys_symlinkat                                               
+64bit        267                          0xffffffff811d8f30 sys_readlinkat                                              
+64bit        268                          0xffffffff811d2510 sys_fchmodat                                                
+64bit        269                          0xffffffff811d1e10 sys_faccessat                                               
+64bit        270                          0xffffffff811e8430 SyS_pselect6                                                
+64bit        271                          0xffffffff811e8d00 SyS_ppoll                                                   
+64bit        272                          0xffffffff8106d250 SyS_unshare                                                 
+64bit        273                          0xffffffff810e63c0 sys_set_robust_list                                         
+64bit        274                          0xffffffff810e6410 SyS_get_robust_list                                         
+64bit        275                          0xffffffff81202290 SyS_splice                                                  
+64bit        276                          0xffffffff812029e0 sys_tee                                                     
+64bit        277                          0xffffffff812031e0 sys_sync_file_range                                         
+64bit        278                          0xffffffff81202030 sys_vmsplice                                                
+64bit        279                          0xffffffff811bd070 sys_move_pages                                              
+64bit        280                          0xffffffff81203850 SyS_utimensat                                               
+64bit        281                          0xffffffff81218500 sys_epoll_pwait                                             
+64bit        282                          0xffffffff81219420 sys_signalfd                                                
+64bit        283                          0xffffffff8121a6e0 SyS_timerfd_create                                          
+64bit        284                          0xffffffff8121b560 sys_eventfd                                                 
+64bit        285                          0xffffffff811d1da0 SyS_fallocate                                               
+64bit        286                          0xffffffff8121a820 SyS_timerfd_settime                                         
+64bit        287                          0xffffffff8121a8c0 sys_timerfd_gettime                                         
+64bit        288                          0xffffffff81647550 SyS_accept4                                                 
+64bit        289                          0xffffffff81219230 sys_signalfd4                                               
+64bit        290                          0xffffffff8121b4f0 SyS_eventfd2                                                
+64bit        291                          0xffffffff81217770 SyS_epoll_create1                                           
+64bit        292                          0xffffffff811f1400 SyS_dup3                                                    
+64bit        293                          0xffffffff811dcc20 SyS_pipe2                                                   
+64bit        294                          0xffffffff81214080 sys_inotify_init1                                           
+64bit        295                          0xffffffff811d4ed0 SyS_preadv                                                  
+64bit        296                          0xffffffff811d4fa0 SyS_pwritev                                                 
+64bit        297                          0xffffffff810816d0 SyS_rt_tgsigqueueinfo                                       
+64bit        298                          0xffffffff8115a3e0 sys_perf_event_open                                         
+64bit        299                          0xffffffff81647da0 SyS_recvmmsg                                                
+64bit        300                          0xffffffff81215820 SyS_fanotify_init                                           
+64bit        301                          0xffffffff81215af0 SyS_fanotify_mark                                           
+64bit        302                          0xffffffff81085650 sys_prlimit64                                               
+64bit        303                          0xffffffff8122dfb0 sys_name_to_handle_at                                       
+64bit        304                          0xffffffff8122e430 sys_open_by_handle_at                                       
+64bit        305                          0xffffffff81090c90 sys_clock_adjtime                                           
+64bit        306                          0xffffffff81203120 SyS_syncfs                                                  
+64bit        307                          0xffffffff81647a70 SyS_sendmmsg                                                
+64bit        308                          0xffffffff81095840 sys_setns                                                   
+64bit        309                          0xffffffff81085db0 SyS_getcpu                                                  
+64bit        310                          0xffffffff8119ece0 SyS_process_vm_readv                                        
+64bit        311                          0xffffffff8119ed00 sys_process_vm_writev                                       
+64bit        312                          0xffffffff810d6dd0 SyS_kcmp                                                    
+64bit        313                          0xffffffff810ee190 SyS_finit_module                                            
+64bit        314                          0xffffffff810a03e0 SyS_sched_setattr                                           
+64bit        315                          0xffffffff810a06d0 sys_sched_getattr                                           
+64bit        316                          0xffffffff811e5280 SyS_renameat2                                               
+64bit        317                          0xffffffff8111cc20 sys_seccomp                                                 
+64bit        318                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        319                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        320                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        321                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        322                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        323                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        324                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        325                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        326                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        327                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        328                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        329                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        330                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        331                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        332                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        333                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        334                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        335                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        336                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        337                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        338                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        339                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        340                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        341                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        342                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        343                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        344                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        345                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        346                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        347                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        348                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        349                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        350                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        351                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        352                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        353                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        354                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        355                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        356                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        357                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        358                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        359                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        360                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        361                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        362                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        363                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        364                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        365                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        366                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        367                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        368                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        369                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        370                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        371                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        372                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        373                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        374                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        375                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        376                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        377                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        378                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        379                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        380                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        381                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        382                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        383                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        384                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        385                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        386                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        387                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        388                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        389                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        390                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        391                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        392                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        393                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        394                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        395                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        396                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        397                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        398                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        399                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        400                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        401                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        402                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        403                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        404                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        405                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        406                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        407                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        408                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        409                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        410                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        411                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        412                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        413                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        414                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        415                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        416                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        417                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        418                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        419                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        420                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        421                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        422                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        423                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        424                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        425                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        426                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        427                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        428                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        429                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        430                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        431                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        432                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        433                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        434                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        435                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        436                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        437                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        438                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        439                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        440                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        441                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        442                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        443                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        444                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        445                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        446                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        447                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        448                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        449                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        450                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        451                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        452                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        453                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        454                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        455                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        456                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        457                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        458                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        459                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        460                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        461                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        462                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        463                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        464                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        465                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        466                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        467                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        468                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        469                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        470                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        471                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        472                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        473                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        474                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        475                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        476                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        477                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        478                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        479                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        480                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        481                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        482                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        483                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        484                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        485                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        486                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        487                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        488                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        489                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        490                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        491                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        492                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        493                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        494                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        495                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        496                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        497                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        498                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        499                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        500                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        501                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        502                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        503                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        504                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        505                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        506                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        507                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        508                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        509                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        510                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        511                          0xffffffff81091ca0 compat_sys_s390_ipc                                         
+64bit        512                          0xffffffff81082090 compat_SyS_rt_sigaction                                     
+64bit        513                          0xffffffff8176b370 stub_x32_rt_sigreturn                                       
+64bit        514                          0xffffffff81224e20 compat_sys_ioctl                                            
+64bit        515                          0xffffffff811d5070 compat_sys_readv                                            
+64bit        516                          0xffffffff811d5150 compat_sys_writev                                           
+64bit        517                          0xffffffff81681a10 compat_sys_recvfrom                                         
+64bit        518                          0xffffffff81681960 compat_sys_sendmsg                                          
+64bit        519                          0xffffffff816819c0 compat_sys_recvmsg                                          
+64bit        520                          0xffffffff8176b410 stub_x32_execve                                             
+64bit        521                          0xffffffff810798a0 compat_sys_ptrace                                           
+64bit        522                          0xffffffff81080fc0 compat_SyS_rt_sigpending                                    
+64bit        523                          0xffffffff810f4990 compat_sys_rt_sigtimedwait                                  
+64bit        524                          0xffffffff810816c0 compat_sys_rt_sigqueueinfo                                  
+64bit        525                          0xffffffff81081b20 compat_SyS_sigaltstack                                      
+64bit        526                          0xffffffff810f4600 compat_sys_timer_create                                     
+64bit        527                          0xffffffff812dd1a0 compat_SyS_mq_notify                                        
+64bit        528                          0xffffffff810f1920 compat_sys_kexec_load                                       
+64bit        529                          0xffffffff810f4060 compat_SyS_waitid                                           
+64bit        530                          0xffffffff810e7040 compat_SyS_set_robust_list                                  
+64bit        531                          0xffffffff810e7090 compat_sys_get_robust_list                                  
+64bit        532                          0xffffffff81202100 compat_sys_vmsplice                                         
+64bit        533                          0xffffffff810f4a60 compat_SyS_move_pages                                       
+64bit        534                          0xffffffff811d5120 compat_sys_preadv64                                         
+64bit        535                          0xffffffff811d5200 compat_sys_pwritev64                                        
+64bit        536                          0xffffffff810816e0 compat_SyS_rt_tgsigqueueinfo                                
+64bit        537                          0xffffffff81681a30 compat_SyS_recvmmsg                                         
+64bit        538                          0xffffffff81681990 compat_SyS_sendmmsg                                         
+64bit        539                          0xffffffff8119ed20 compat_SyS_process_vm_readv                                 
+64bit        540                          0xffffffff8119ed50 compat_sys_process_vm_writev                                
+64bit        541                          0xffffffff81681780 compat_SyS_setsockopt                                       
+64bit        542                          0xffffffff81681880 compat_sys_getsockopt                                       
+64bit        543                          0xffffffff81222cf0 compat_SyS_io_setup                                         
+64bit        544                          0xffffffff81222ff0 compat_SyS_io_submit                                        
+32bit          0                          0xffffffff81080b20 sys_restart_syscall                                         
+32bit          1                          0xffffffff81070a20 SyS_exit                                                    
+32bit          2                          0xffffffff8176d9f0 stub32_fork                                                 
+32bit          3                          0xffffffff811d4680 SyS_read                                                    
+32bit          4                          0xffffffff811d4730 sys_write                                                   
+32bit          5                          0xffffffff812235e0 compat_sys_open                                             
+32bit          6                          0xffffffff811d1340 SyS_close                                                   
+32bit          7                          0xffffffff810655a0 sys32_waitpid                                               
+32bit          8                          0xffffffff811d2e80 sys_creat                                                   
+32bit          9                          0xffffffff811e4ff0 SyS_link                                                    
+32bit         10                          0xffffffff811e4af0 SyS_unlink                                                  
+32bit         11                          0xffffffff8176d9e0 stub32_execve                                               
+32bit         12                          0xffffffff811d2200 sys_chdir                                                   
+32bit         13                          0xffffffff810f49a0 compat_SyS_time                                             
+32bit         14                          0xffffffff811e46d0 sys_mknod                                                   
+32bit         15                          0xffffffff811d25c0 sys_chmod                                                   
+32bit         16                          0xffffffff810e7e10 SyS_lchown16                                                
+32bit         17                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         18                          0xffffffff811d8ec0 SyS_stat                                                    
+32bit         19                          0xffffffff811d3730 compat_SyS_lseek                                            
+32bit         20                          0xffffffff810847c0 sys_getpid                                                  
+32bit         21                          0xffffffff812230f0 compat_sys_mount                                            
+32bit         22                          0xffffffff811f4690 sys_oldumount                                               
+32bit         23                          0xffffffff810e7f00 sys_setuid16                                                
+32bit         24                          0xffffffff810e84f0 sys_getuid16                                                
+32bit         25                          0xffffffff810f49f0 compat_SyS_stime                                            
+32bit         26                          0xffffffff810798a0 compat_sys_ptrace                                           
+32bit         27                          0xffffffff8107c680 sys_alarm                                                   
+32bit         28                          0xffffffff811d8ee0 SyS_fstat                                                   
+32bit         29                          0xffffffff81082280 sys_pause                                                   
+32bit         30                          0xffffffff81222350 compat_sys_utime                                            
+32bit         31                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         32                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         33                          0xffffffff811d2010 SyS_access                                                  
+32bit         34                          0xffffffff810a0210 SyS_nice                                                    
+32bit         35                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         36                          0xffffffff81203030 sys_sync                                                    
+32bit         37                          0xffffffff81081640 SyS_kill                                                    
+32bit         38                          0xffffffff811e52b0 SyS_rename                                                  
+32bit         39                          0xffffffff811e49b0 SyS_mkdir                                                   
+32bit         40                          0xffffffff811e4a90 sys_rmdir                                                   
+32bit         41                          0xffffffff811f1670 sys_dup                                                     
+32bit         42                          0xffffffff811dccc0 sys_pipe                                                    
+32bit         43                          0xffffffff810f3840 compat_sys_times                                            
+32bit         44                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         45                          0xffffffff81194970 SyS_brk                                                     
+32bit         46                          0xffffffff810e7ea0 SyS_setgid16                                                
+32bit         47                          0xffffffff810e85b0 sys_getgid16                                                
+32bit         48                          0xffffffff81082230 sys_signal                                                  
+32bit         49                          0xffffffff810e8550 sys_geteuid16                                               
+32bit         50                          0xffffffff810e8610 sys_getegid16                                               
+32bit         51                          0xffffffff810f0130 sys_acct                                                    
+32bit         52                          0xffffffff811f4590 SyS_umount                                                  
+32bit         53                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         54                          0xffffffff81224e20 compat_sys_ioctl                                            
+32bit         55                          0xffffffff812226c0 compat_sys_fcntl64                                          
+32bit         56                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         57                          0xffffffff81084a90 SyS_setpgid                                                 
+32bit         58                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         59                          0xffffffff81085050 SyS_olduname                                                
+32bit         60                          0xffffffff81085920 sys_umask                                                   
+32bit         61                          0xffffffff811d2360 sys_chroot                                                  
+32bit         62                          0xffffffff812226b0 compat_SyS_ustat                                            
+32bit         63                          0xffffffff811f1530 SyS_dup2                                                    
+32bit         64                          0xffffffff81084810 sys_getppid                                                 
+32bit         65                          0xffffffff81084ce0 sys_getpgrp                                                 
+32bit         66                          0xffffffff81084d80 sys_setsid                                                  
+32bit         67                          0xffffffff810821c0 compat_SyS_sigaction                                        
+32bit         68                          0xffffffff810821d0 sys_sgetmask                                                
+32bit         69                          0xffffffff810821f0 sys_ssetmask                                                
+32bit         70                          0xffffffff810e7ed0 SyS_setreuid16                                              
+32bit         71                          0xffffffff810e7e70 sys_setregid16                                              
+32bit         72                          0xffffffff81082400 sys_sigsuspend                                              
+32bit         73                          0xffffffff810f3960 compat_sys_sigpending                                       
+32bit         74                          0xffffffff81085060 SyS_sethostname                                             
+32bit         75                          0xffffffff810f3a80 compat_SyS_setrlimit                                        
+32bit         76                          0xffffffff810f3b40 compat_SyS_old_getrlimit                                    
+32bit         77                          0xffffffff81085910 compat_SyS_getrusage                                        
+32bit         78                          0xffffffff810f3370 compat_SyS_gettimeofday                                     
+32bit         79                          0xffffffff810f33f0 compat_sys_settimeofday                                     
+32bit         80                          0xffffffff810e8250 SyS_getgroups16                                             
+32bit         81                          0xffffffff810e8360 sys_setgroups16                                             
+32bit         82                          0xffffffff812239c0 compat_SyS_old_select                                       
+32bit         83                          0xffffffff811e4c00 SyS_symlink                                                 
+32bit         84                          0xffffffff811d8ed0 SyS_lstat                                                   
+32bit         85                          0xffffffff811d9060 SyS_readlink                                                
+32bit         86                          0xffffffff811dac10 SyS_uselib                                                  
+32bit         87                          0xffffffff811a0fb0 SyS_swapon                                                  
+32bit         88                          0xffffffff81097420 SyS_reboot                                                  
+32bit         89                          0xffffffff81223310 compat_sys_old_readdir                                      
+32bit         90                          0xffffffff81065530 sys32_mmap                                                  
+32bit         91                          0xffffffff811954a0 sys_munmap                                                  
+32bit         92                          0xffffffff811d1d50 compat_SyS_truncate                                         
+32bit         93                          0xffffffff811d1d80 compat_sys_ftruncate                                        
+32bit         94                          0xffffffff811d2480 SyS_fchmod                                                  
+32bit         95                          0xffffffff810e7e40 SyS_fchown16                                                
+32bit         96                          0xffffffff810839a0 sys_getpriority                                             
+32bit         97                          0xffffffff81083740 sys_setpriority                                             
+32bit         98                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit         99                          0xffffffff81222670 compat_sys_statfs                                           
+32bit        100                          0xffffffff81222680 compat_SyS_fstatfs                                          
+32bit        101                          0xffffffff81015d40 sys_ioperm                                                  
+32bit        102                          0xffffffff81681b00 compat_SyS_socketcall                                       
+32bit        103                          0xffffffff810c9e80 sys_syslog                                                  
+32bit        104                          0xffffffff810f36d0 compat_SyS_setitimer                                        
+32bit        105                          0xffffffff810f3620 compat_SyS_getitimer                                        
+32bit        106                          0xffffffff81222630 compat_SyS_newstat                                          
+32bit        107                          0xffffffff81222640 compat_sys_newlstat                                         
+32bit        108                          0xffffffff81222660 compat_SyS_newfstat                                         
+32bit        109                          0xffffffff81084f70 SyS_uname                                                   
+32bit        110                          0xffffffff81015f20 SyS_iopl                                                    
+32bit        111                          0xffffffff811d2ea0 sys_vhangup                                                 
+32bit        112                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        113                          0xffffffff81065630 sys32_vm86_warning                                          
+32bit        114                          0xffffffff810f4050 compat_SyS_wait4                                            
+32bit        115                          0xffffffff811a38d0 sys_swapoff                                                 
+32bit        116                          0xffffffff81085e30 compat_SyS_sysinfo                                          
+32bit        117                          0xffffffff812d2f90 compat_sys_ipc                                              
+32bit        118                          0xffffffff812031a0 SyS_fsync                                                   
+32bit        119                          0xffffffff8176d9d0 stub32_sigreturn                                            
+32bit        120                          0xffffffff8176da10 stub32_clone                                                
+32bit        121                          0xffffffff81085200 sys_setdomainname                                           
+32bit        122                          0xffffffff81084e90 SyS_newuname                                                
+32bit        123                          0xffffffff810165c0 sys_modify_ldt                                              
+32bit        124                          0xffffffff810f4a50 compat_SyS_adjtimex                                         
+32bit        125                          0xffffffff81196900 sys_mprotect                                                
+32bit        126                          0xffffffff810f39c0 compat_sys_sigprocmask                                      
+32bit        127                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        128                          0xffffffff810ee0a0 SyS_init_module                                             
+32bit        129                          0xffffffff810eb5b0 SyS_delete_module                                           
+32bit        130                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        131                          0xffffffff812338e0 sys32_quotactl                                              
+32bit        132                          0xffffffff81084c70 sys_getpgid                                                 
+32bit        133                          0xffffffff811d22c0 sys_fchdir                                                  
+32bit        134                          0xffffffff81208ec0 SyS_bdflush                                                 
+32bit        135                          0xffffffff811f1ac0 sys_sysfs                                                   
+32bit        136                          0xffffffff8106d910 SyS_personality                                             
+32bit        137                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        138                          0xffffffff810e81f0 SyS_setfsuid16                                              
+32bit        139                          0xffffffff810e8220 sys_setfsgid16                                              
+32bit        140                          0xffffffff811d37e0 SyS_llseek                                                  
+32bit        141                          0xffffffff812233b0 compat_SyS_getdents                                         
+32bit        142                          0xffffffff812238d0 compat_SyS_select                                           
+32bit        143                          0xffffffff81220cc0 sys_flock                                                   
+32bit        144                          0xffffffff81197b90 sys_msync                                                   
+32bit        145                          0xffffffff811d5070 compat_sys_readv                                            
+32bit        146                          0xffffffff811d5150 compat_sys_writev                                           
+32bit        147                          0xffffffff81084d10 SyS_getsid                                                  
+32bit        148                          0xffffffff812031c0 SyS_fdatasync                                               
+32bit        149                          0xffffffff810773e0 compat_SyS_sysctl                                           
+32bit        150                          0xffffffff81191790 SyS_mlock                                                   
+32bit        151                          0xffffffff811918b0 SyS_munlock                                                 
+32bit        152                          0xffffffff81191930 sys_mlockall                                                
+32bit        153                          0xffffffff81191ac0 sys_munlockall                                              
+32bit        154                          0xffffffff810a03c0 sys_sched_setparam                                          
+32bit        155                          0xffffffff810a0600 sys_sched_getparam                                          
+32bit        156                          0xffffffff810a0390 sys_sched_setscheduler                                      
+32bit        157                          0xffffffff810a0580 sys_sched_getscheduler                                      
+32bit        158                          0xffffffff810a09c0 sys_sched_yield                                             
+32bit        159                          0xffffffff810a0a90 SyS_sched_get_priority_max                                  
+32bit        160                          0xffffffff810a0ad0 SyS_sched_get_priority_min                                  
+32bit        161                          0xffffffff810f4c90 compat_sys_sched_rr_get_interval                            
+32bit        162                          0xffffffff810f3540 compat_sys_nanosleep                                        
+32bit        163                          0xffffffff81197680 sys_mremap                                                  
+32bit        164                          0xffffffff810e7f30 SyS_setresuid16                                             
+32bit        165                          0xffffffff810e7f70 SyS_getresuid16                                             
+32bit        166                          0xffffffff81065630 sys32_vm86_warning                                          
+32bit        167                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        168                          0xffffffff811e8c00 SyS_poll                                                    
+32bit        169                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        170                          0xffffffff810e8090 sys_setresgid16                                             
+32bit        171                          0xffffffff810e80d0 SyS_getresgid16                                             
+32bit        172                          0xffffffff81085950 sys_prctl                                                   
+32bit        173                          0xffffffff8176d9c0 stub32_rt_sigreturn                                         
+32bit        174                          0xffffffff81082090 compat_SyS_rt_sigaction                                     
+32bit        175                          0xffffffff81080d80 sys_rt_sigprocmask                                          
+32bit        176                          0xffffffff81080fc0 compat_SyS_rt_sigpending                                    
+32bit        177                          0xffffffff810f4990 compat_sys_rt_sigtimedwait                                  
+32bit        178                          0xffffffff810816c0 compat_sys_rt_sigqueueinfo                                  
+32bit        179                          0xffffffff81082340 SyS_rt_sigsuspend                                           
+32bit        180                          0xffffffff810655c0 sys32_pread                                                 
+32bit        181                          0xffffffff810655e0 sys32_pwrite                                                
+32bit        182                          0xffffffff810e7de0 SyS_chown16                                                 
+32bit        183                          0xffffffff811eccd0 sys_getcwd                                                  
+32bit        184                          0xffffffff810776f0 sys_capget                                                  
+32bit        185                          0xffffffff81077850 sys_capset                                                  
+32bit        186                          0xffffffff81081b20 compat_SyS_sigaltstack                                      
+32bit        187                          0xffffffff811d5350 compat_SyS_sendfile                                         
+32bit        188                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        189                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        190                          0xffffffff8176da00 stub32_vfork                                                
+32bit        191                          0xffffffff810f3c10 compat_sys_getrlimit                                        
+32bit        192                          0xffffffff81193850 sys_mmap_pgoff                                              
+32bit        193                          0xffffffff810653f0 sys32_truncate64                                            
+32bit        194                          0xffffffff81065410 sys32_ftruncate64                                           
+32bit        195                          0xffffffff81065430 sys32_stat64                                                
+32bit        196                          0xffffffff81065470 sys32_lstat64                                               
+32bit        197                          0xffffffff810654b0 sys32_fstat64                                               
+32bit        198                          0xffffffff811d2860 sys_lchown                                                  
+32bit        199                          0xffffffff81084840 sys_getuid                                                  
+32bit        200                          0xffffffff810848a0 sys_getgid                                                  
+32bit        201                          0xffffffff81084870 sys_geteuid                                                 
+32bit        202                          0xffffffff810848d0 sys_getegid                                                 
+32bit        203                          0xffffffff81083e60 SyS_setreuid                                                
+32bit        204                          0xffffffff81083c00 SyS_setregid                                                
+32bit        205                          0xffffffff81098220 sys_getgroups                                               
+32bit        206                          0xffffffff81098310 sys_setgroups                                               
+32bit        207                          0xffffffff811d2940 SyS_fchown                                                  
+32bit        208                          0xffffffff81084130 sys_setresuid                                               
+32bit        209                          0xffffffff81084340 SyS_getresuid                                               
+32bit        210                          0xffffffff810843e0 sys_setresgid                                               
+32bit        211                          0xffffffff81084570 SyS_getresgid                                               
+32bit        212                          0xffffffff811d2770 sys_chown                                                   
+32bit        213                          0xffffffff81084010 SyS_setuid                                                  
+32bit        214                          0xffffffff81083d80 SyS_setgid                                                  
+32bit        215                          0xffffffff81084610 SyS_setfsuid                                                
+32bit        216                          0xffffffff810846f0 SyS_setfsgid                                                
+32bit        217                          0xffffffff811f5d20 SyS_pivot_root                                              
+32bit        218                          0xffffffff811900a0 sys_mincore                                                 
+32bit        219                          0xffffffff81189510 SyS_madvise                                                 
+32bit        220                          0xffffffff812234c0 compat_sys_getdents64                                       
+32bit        221                          0xffffffff812226c0 compat_sys_fcntl64                                          
+32bit        222                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        223                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        224                          0xffffffff810847f0 sys_gettid                                                  
+32bit        225                          0xffffffff810656a0 sys32_readahead                                             
+32bit        226                          0xffffffff811f8a90 sys_setxattr                                                
+32bit        227                          0xffffffff811f8b70 SyS_lsetxattr                                               
+32bit        228                          0xffffffff811f8c40 sys_fsetxattr                                               
+32bit        229                          0xffffffff811f8d20 SyS_getxattr                                                
+32bit        230                          0xffffffff811f8db0 sys_lgetxattr                                               
+32bit        231                          0xffffffff811f8e40 sys_fgetxattr                                               
+32bit        232                          0xffffffff811f8f10 SyS_listxattr                                               
+32bit        233                          0xffffffff811f8fa0 sys_llistxattr                                              
+32bit        234                          0xffffffff811f9020 sys_flistxattr                                              
+32bit        235                          0xffffffff811f90e0 SyS_removexattr                                             
+32bit        236                          0xffffffff811f9190 sys_lremovexattr                                            
+32bit        237                          0xffffffff811f9240 SyS_fremovexattr                                            
+32bit        238                          0xffffffff81081680 SyS_tkill                                                   
+32bit        239                          0xffffffff811d52b0 SyS_sendfile64                                              
+32bit        240                          0xffffffff810e7150 compat_sys_futex                                            
+32bit        241                          0xffffffff810f4790 compat_SyS_sched_setaffinity                                
+32bit        242                          0xffffffff810f48e0 compat_sys_sched_getaffinity                                
+32bit        243                          0xffffffff81022100 sys_set_thread_area                                         
+32bit        244                          0xffffffff810221a0 SyS_get_thread_area                                         
+32bit        245                          0xffffffff81222cf0 compat_SyS_io_setup                                         
+32bit        246                          0xffffffff8121d5a0 SyS_io_destroy                                              
+32bit        247                          0xffffffff81222d80 compat_SyS_io_getevents                                     
+32bit        248                          0xffffffff81222ff0 compat_SyS_io_submit                                        
+32bit        249                          0xffffffff8121db70 SyS_io_cancel                                               
+32bit        250                          0xffffffff81065700 sys32_fadvise64                                             
+32bit        251                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        252                          0xffffffff81070ae0 SyS_exit_group                                              
+32bit        253                          0xffffffff8124b2e0 compat_sys_lookup_dcookie                                   
+32bit        254                          0xffffffff812178e0 sys_epoll_create                                            
+32bit        255                          0xffffffff81217a50 SyS_epoll_ctl                                               
+32bit        256                          0xffffffff81218420 sys_epoll_wait                                              
+32bit        257                          0xffffffff811882a0 sys_remap_file_pages                                        
+32bit        258                          0xffffffff8106cd80 SyS_set_tid_address                                         
+32bit        259                          0xffffffff810f4600 compat_sys_timer_create                                     
+32bit        260                          0xffffffff810f4100 compat_SyS_timer_settime                                    
+32bit        261                          0xffffffff810f41e0 compat_SyS_timer_gettime                                    
+32bit        262                          0xffffffff81090620 sys_timer_getoverrun                                        
+32bit        263                          0xffffffff81090860 SyS_timer_delete                                            
+32bit        264                          0xffffffff810f4260 compat_SyS_clock_settime                                    
+32bit        265                          0xffffffff810f42d0 compat_SyS_clock_gettime                                    
+32bit        266                          0xffffffff810f4360 compat_sys_clock_getres                                     
+32bit        267                          0xffffffff810f43e0 compat_SyS_clock_nanosleep                                  
+32bit        268                          0xffffffff81222690 compat_sys_statfs64                                         
+32bit        269                          0xffffffff812226a0 compat_SyS_fstatfs64                                        
+32bit        270                          0xffffffff81081650 sys_tgkill                                                  
+32bit        271                          0xffffffff81222550 compat_SyS_utimes                                           
+32bit        272                          0xffffffff81065600 sys32_fadvise64_64                                          
+32bit        273                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        274                          0xffffffff811ae7c0 SyS_mbind                                                   
+32bit        275                          0xffffffff811ad5c0 compat_SyS_get_mempolicy                                    
+32bit        276                          0xffffffff811ad250 sys_set_mempolicy                                           
+32bit        277                          0xffffffff812dcfd0 compat_SyS_mq_open                                          
+32bit        278                          0xffffffff812dc0e0 SyS_mq_unlink                                               
+32bit        279                          0xffffffff812dd0e0 compat_SyS_mq_timedsend                                     
+32bit        280                          0xffffffff812dd140 compat_SyS_mq_timedreceive                                  
+32bit        281                          0xffffffff812dd1a0 compat_SyS_mq_notify                                        
+32bit        282                          0xffffffff812dd240 compat_SyS_mq_getsetattr                                    
+32bit        283                          0xffffffff810f1920 compat_sys_kexec_load                                       
+32bit        284                          0xffffffff810f4060 compat_SyS_waitid                                           
+32bit        285                          0xffffffff810662a0 compat_ni_syscall                                           
+32bit        286                          0xffffffff812e0680 SyS_add_key                                                 
+32bit        287                          0xffffffff812e0880 sys_request_key                                             
+32bit        288                          0xffffffff812e1f60 SyS_keyctl                                                  
+32bit        289                          0xffffffff813697b0 sys_ioprio_set                                              
+32bit        290                          0xffffffff81369aa0 sys_ioprio_get                                              
+32bit        291                          0xffffffff812140f0 sys_inotify_init                                            
+32bit        292                          0xffffffff81214150 SyS_inotify_add_watch                                       
+32bit        293                          0xffffffff812144a0 SyS_inotify_rm_watch                                        
+32bit        294                          0xffffffff811ad2d0 SyS_migrate_pages                                           
+32bit        295                          0xffffffff81223600 compat_SyS_openat                                           
+32bit        296                          0xffffffff811e48d0 SyS_mkdirat                                                 
+32bit        297                          0xffffffff811e44d0 sys_mknodat                                                 
+32bit        298                          0xffffffff811d2660 sys_fchownat                                                
+32bit        299                          0xffffffff81222470 compat_SyS_futimesat                                        
+32bit        300                          0xffffffff810654f0 sys32_fstatat                                               
+32bit        301                          0xffffffff811e4ab0 sys_unlinkat                                                
+32bit        302                          0xffffffff811e5290 SyS_renameat                                                
+32bit        303                          0xffffffff811e4cf0 SyS_linkat                                                  
+32bit        304                          0xffffffff811e4b10 sys_symlinkat                                               
+32bit        305                          0xffffffff811d8f30 sys_readlinkat                                              
+32bit        306                          0xffffffff811d2510 sys_fchmodat                                                
+32bit        307                          0xffffffff811d1e10 sys_faccessat                                               
+32bit        308                          0xffffffff81223ad0 compat_sys_pselect6                                         
+32bit        309                          0xffffffff81223d00 compat_sys_ppoll                                            
+32bit        310                          0xffffffff8106d250 SyS_unshare                                                 
+32bit        311                          0xffffffff810e7040 compat_SyS_set_robust_list                                  
+32bit        312                          0xffffffff810e7090 compat_sys_get_robust_list                                  
+32bit        313                          0xffffffff81202290 SyS_splice                                                  
+32bit        314                          0xffffffff810656d0 sys32_sync_file_range                                       
+32bit        315                          0xffffffff812029e0 sys_tee                                                     
+32bit        316                          0xffffffff81202100 compat_sys_vmsplice                                         
+32bit        317                          0xffffffff810f4a60 compat_SyS_move_pages                                       
+32bit        318                          0xffffffff81085db0 SyS_getcpu                                                  
+32bit        319                          0xffffffff81218500 sys_epoll_pwait                                             
+32bit        320                          0xffffffff812223d0 compat_sys_utimensat                                        
+32bit        321                          0xffffffff81219840 compat_SyS_signalfd                                         
+32bit        322                          0xffffffff8121a6e0 SyS_timerfd_create                                          
+32bit        323                          0xffffffff8121b560 sys_eventfd                                                 
+32bit        324                          0xffffffff81065730 sys32_fallocate                                             
+32bit        325                          0xffffffff8121a920 compat_sys_timerfd_settime                                  
+32bit        326                          0xffffffff8121a9c0 compat_sys_timerfd_gettime                                  
+32bit        327                          0xffffffff81219600 compat_sys_signalfd4                                        
+32bit        328                          0xffffffff8121b4f0 SyS_eventfd2                                                
+32bit        329                          0xffffffff81217770 SyS_epoll_create1                                           
+32bit        330                          0xffffffff811f1400 SyS_dup3                                                    
+32bit        331                          0xffffffff811dcc20 SyS_pipe2                                                   
+32bit        332                          0xffffffff81214080 sys_inotify_init1                                           
+32bit        333                          0xffffffff811d5130 compat_SyS_preadv                                           
+32bit        334                          0xffffffff811d5210 compat_sys_pwritev                                          
+32bit        335                          0xffffffff810816e0 compat_SyS_rt_tgsigqueueinfo                                
+32bit        336                          0xffffffff8115a3e0 sys_perf_event_open                                         
+32bit        337                          0xffffffff81681a30 compat_SyS_recvmmsg                                         
+32bit        338                          0xffffffff81215820 SyS_fanotify_init                                           
+32bit        339                          0xffffffff81216010 compat_sys_fanotify_mark                                    
+32bit        340                          0xffffffff81085650 sys_prlimit64                                               
+32bit        341                          0xffffffff8122dfb0 sys_name_to_handle_at                                       
+32bit        342                          0xffffffff81223ed0 compat_SyS_open_by_handle_at                                
+32bit        343                          0xffffffff810f4350 compat_sys_clock_adjtime                                    
+32bit        344                          0xffffffff81203120 SyS_syncfs                                                  
+32bit        345                          0xffffffff81681990 compat_SyS_sendmmsg                                         
+32bit        346                          0xffffffff81095840 sys_setns                                                   
+32bit        347                          0xffffffff8119ed20 compat_SyS_process_vm_readv                                 
+32bit        348                          0xffffffff8119ed50 compat_sys_process_vm_writev                                
+32bit        349                          0xffffffff810d6dd0 SyS_kcmp                                                    
+32bit        350                          0xffffffff810ee190 SyS_finit_module                                            
+32bit        351                          0xffffffff810a03e0 SyS_sched_setattr                                           
+32bit        352                          0xffffffff810a06d0 sys_sched_getattr                                           
+32bit        353                          0xffffffff811e5280 SyS_renameat2                                               
+32bit        354                          0xffffffff8111cc20 sys_seccomp                                                 
+32bit        355                          0x0000000000000000 __per_cpu_start                                             
+32bit        356                          0xffffffff81d4f265 HOOKED: UNKNOWN                                             
+32bit        357                          0xffffffff81d4f265 HOOKED: UNKNOWN                                             
+32bit        358                          0xffffffff81d4f265 HOOKED: UNKNOWN                                             
+32bit        359                          0xffffffff81d4f265 HOOKED: UNKNOWN                                             
+32bit        360                          0xffffffff81d4f280 HOOKED: UNKNOWN                                             
+32bit        361                          0xffffffff81d4f280 HOOKED: UNKNOWN                                             
+32bit        362                          0xffffffff81d4f265 HOOKED: UNKNOWN                                             
+32bit        363                          0xffffffff81d4f279 HOOKED: UNKNOWN                                             
+32bit        364                          0xffffffff81d4f25e HOOKED: UNKNOWN                                             
+32bit        365                          0xffffffff81d4f287 HOOKED: UNKNOWN                                             
+32bit        366                          0x5f7465735f696665 HOOKED: UNKNOWN                                             
+32bit        367                          0x73736d6d5f637472 HOOKED: UNKNOWN                                             
+32bit        368                          0x0000000000000000 __per_cpu_start                                             
+32bit        369                          0x0000000000000000 __per_cpu_start                                             
+32bit        370                          0x0000000000000000 __per_cpu_start                                             
+32bit        371                          0x0000000000000000 __per_cpu_start                                             
+32bit        372                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        373                          0xffffffff81068bd0 HOOKED: UNKNOWN                                             
+32bit        374                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        375                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        376                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        377                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        378                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        379                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        380                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        381                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        382                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        383                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        384                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        385                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        386                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        387                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        388                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        389                          0xffffffff81068aa8 HOOKED: UNKNOWN                                             
+32bit        390                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        391                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        392                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        393                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        394                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        395                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        396                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        397                          0xffffffff810689f8 HOOKED: UNKNOWN                                             
+32bit        398                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        399                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        400                          0xffffffff81068ba0 HOOKED: UNKNOWN                                             
+32bit        401                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        402                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        403                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        404                          0xffffffff81068870 HOOKED: UNKNOWN                                             
+32bit        405                          0xffffffff81068aa8 HOOKED: UNKNOWN                                             
+32bit        406                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        407                          0xffffffff81068870 HOOKED: UNKNOWN                                             
+32bit        408                          0xffffffff81068748 HOOKED: UNKNOWN                                             
+32bit        409                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        410                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        411                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        412                          0xffffffff81068870 HOOKED: UNKNOWN                                             
+32bit        413                          0xffffffff810689f8 HOOKED: UNKNOWN                                             
+32bit        414                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        415                          0xffffffff81068870 HOOKED: UNKNOWN                                             
+32bit        416                          0xffffffff81068718 HOOKED: UNKNOWN                                             
+32bit        417                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        418                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        419                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        420                          0xffffffff81068778 HOOKED: UNKNOWN                                             
+32bit        421                          0xffffffff81068aa8 HOOKED: UNKNOWN                                             
+32bit        422                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        423                          0xffffffff81068778 HOOKED: UNKNOWN                                             
+32bit        424                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        425                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        426                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        427                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        428                          0xffffffff81068778 HOOKED: UNKNOWN                                             
+32bit        429                          0xffffffff810689f8 HOOKED: UNKNOWN                                             
+32bit        430                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        431                          0xffffffff81068778 HOOKED: UNKNOWN                                             
+32bit        432                          0xffffffff81068578 HOOKED: UNKNOWN                                             
+32bit        433                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        434                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        435                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        436                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        437                          0xffffffff81069340 HOOKED: UNKNOWN                                             
+32bit        438                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        439                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        440                          0xffffffff81069330 HOOKED: UNKNOWN                                             
+32bit        441                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        442                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        443                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        444                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        445                          0xffffffff81069380 HOOKED: UNKNOWN                                             
+32bit        446                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        447                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        448                          0xffffffff810691c8 HOOKED: UNKNOWN                                             
+32bit        449                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        450                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        451                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        452                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        453                          0xffffffff81068aa8 HOOKED: UNKNOWN                                             
+32bit        454                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        455                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        456                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        457                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        458                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        459                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        460                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        461                          0xffffffff810689f8 HOOKED: UNKNOWN                                             
+32bit        462                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        463                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        464                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        465                          0xffffffff81068fb0 HOOKED: UNKNOWN                                             
+32bit        466                          0xffffffff81068f20 HOOKED: UNKNOWN                                             
+32bit        467                          0xffffffff81068ed0 HOOKED: UNKNOWN                                             
+32bit        468                          0xffffffff81068e50 HOOKED: UNKNOWN                                             
+32bit        469                          0xffffffff81068aa8 HOOKED: UNKNOWN                                             
+32bit        470                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        471                          0xffffffff81068e50 HOOKED: UNKNOWN                                             
+32bit        472                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        473                          0xffffffff810692f0 HOOKED: UNKNOWN                                             
+32bit        474                          0xffffffff810692d0 HOOKED: UNKNOWN                                             
+32bit        475                          0xffffffff810690a8 HOOKED: UNKNOWN                                             
+32bit        476                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        477                          0xffffffff810689f8 HOOKED: UNKNOWN                                             
+32bit        478                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        479                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        480                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        481                          0xffffffff81069040 HOOKED: UNKNOWN                                             
+32bit        482                          0xffffffff81068d70 HOOKED: UNKNOWN                                             
+32bit        483                          0xffffffff81068ce8 HOOKED: UNKNOWN                                             
+32bit        484                          0xffffffff81068e50 HOOKED: UNKNOWN                                             
+32bit        485                          0xffffffff81068aa8 HOOKED: UNKNOWN                                             
+32bit        486                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        487                          0xffffffff81068e50 HOOKED: UNKNOWN                                             
+32bit        488                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        489                          0xffffffff81068ca0 HOOKED: UNKNOWN                                             
+32bit        490                          0xffffffff81068c80 HOOKED: UNKNOWN                                             
+32bit        491                          0xffffffff81069290 HOOKED: UNKNOWN                                             
+32bit        492                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        493                          0xffffffff810689f8 HOOKED: UNKNOWN                                             
+32bit        494                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        495                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        496                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        497                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        498                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        499                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        500                          0xffffffff81069240 HOOKED: UNKNOWN                                             
+32bit        501                          0xffffffff81069140 HOOKED: UNKNOWN                                             
+32bit        502                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        503                          0xffffffff81069240 HOOKED: UNKNOWN                                             
+32bit        504                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        505                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        506                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        507                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        508                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        509                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        510                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        511                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        512                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        513                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        514                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        515                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        516                          0xffffffff81068778 HOOKED: UNKNOWN                                             
+32bit        517                          0xffffffff810690f0 HOOKED: UNKNOWN                                             
+32bit        518                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        519                          0xffffffff81068778 HOOKED: UNKNOWN                                             
+32bit        520                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        521                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        522                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        523                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        524                          0xffffffff81068778 HOOKED: UNKNOWN                                             
+32bit        525                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        526                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        527                          0xffffffff81068778 HOOKED: UNKNOWN                                             
+32bit        528                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        529                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        530                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        531                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        532                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        533                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        534                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        535                          0xffffffff81068b00 HOOKED: UNKNOWN                                             
+32bit        536                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        537                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        538                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        539                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        540                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        541                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        542                          0xffffffff81069428 HOOKED: UNKNOWN                                             
+32bit        543                          0xffffffff81068938 HOOKED: UNKNOWN                                             
+32bit        544                          0xffffffff81069428 HOOKED: UNKNOWN                                             

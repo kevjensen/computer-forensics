@@ -1,0 +1,8 @@
+This is a relatively new server built on Apache 2 and MySQL. The hardware itself was purchased from a local computer company. The machine was wiped, Linux replaced the Windows 7 OS, and then sold to PAS. The web software is written in PHP. I already know PHP and MySQL have some severe vulnerabilities if used by someone with limited experience. Given the customer recently started to use Linux, PHP, and MySQL, I would make some assumptions that these are vulnerable attack vectors. 
+
+Questions I would ask:
+When did you first notice the issue?
+Are there any additional ports, services, etc that you run on the server? Ie, what would the administrator consider normal?
+Has anyone else had access to the server recently? Repair team? IT team? Anyone at all?
+How does the server connect to the network? Here I'm looking for possible attack vectors or points of entry.
+
