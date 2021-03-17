@@ -1,0 +1,15 @@
+__libc_start_main(0x400b58, 2, 0x7ffcdcac7e98, 0x400d40 <unfinished ...>
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+strlen("127.0.0.1")                              = 9
+fork()                                           = 3025
+exit(0 <no return ...>
++++ exited (status 0) +++

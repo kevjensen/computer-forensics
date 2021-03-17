@@ -1,0 +1,6 @@
+__libc_start_main(0x400a10, 2, 0x7ffc5500cc98, 0x400aa0 <unfinished ...>
+malloc(18)                                       = 0x17a1010
+memset(0x17a1010, '\0', 18)                      = 0x17a1010
+snprintf("sw0rdm4n", 16, "%s", "sw0rdm4n")       = 8
+strcmp("sw0rdm4n", "sw0rdm4n")                   = 0
+dup(1337, 0x400b90, 0, 8)                        = -1
